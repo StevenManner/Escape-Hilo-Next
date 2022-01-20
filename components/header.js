@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import PropTypes from 'prop-types'
 
@@ -16,13 +15,15 @@ const Header = (props) => {
       >
         <header data-role="Header" className="header1">
           <div className="container">
-            <Image
-              src="/playground_assets/logo-1500h.png"
-              loading="eager"
-              className="image"
-              width={59}
-              height={50}
-            />
+            <Link href="/">
+              <a className="link">
+                <img
+                  src="/playground_assets/logo-1500h.png"
+                  loading="eager"
+                  className="image"
+                />
+              </a>
+            </Link>
             <div className="nav">
               <NavigationLinks
                 text3="About"
@@ -33,7 +34,7 @@ const Header = (props) => {
           </div>
           <div className="btn-group">
             <Link href="/book-a-room">
-              <a className="link button">Book Now!</a>
+              <a className="link1 button">Book Now!</a>
             </Link>
           </div>
           <div data-type="BurgerMenu" className="burger-menu">
@@ -115,9 +116,13 @@ const Header = (props) => {
             align-items: center;
             flex-direction: row;
           }
+          .link {
+            display: contents;
+          }
           .image {
             width: 59px;
             height: 50px;
+            text-decoration: none;
           }
           .nav {
             display: flex;
@@ -132,7 +137,7 @@ const Header = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .link {
+          .link1 {
             color: #08cb00;
             text-align: center;
             font-weight: 700;

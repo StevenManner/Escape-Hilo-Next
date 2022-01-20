@@ -149,7 +149,7 @@ const FAQ = () => {
           .container1 {
             width: 100%;
             display: flex;
-            max-width: 1320px;
+            max-width: 100%;
             align-self: center;
             align-items: center;
             flex-direction: column;
@@ -478,11 +478,21 @@ const FAQ = () => {
           }
           @media (max-width: 767px) {
             .section1 {
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
+              padding-left: 0px;
+              padding-right: 0px;
             }
             .container2 {
               width: 100%;
+            }
+            .cards-container {
+              height: 100%;
+            }
+            .cards-container1 {
+              height: 100%;
+            }
+            .cards-container2 {
+              width: 100%;
+              height: 100%;
             }
             .work-with-us {
               margin-top: var(--dl-space-space-tripleunit);
