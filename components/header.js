@@ -274,7 +274,7 @@ const Header = (props) => {
               position: absolute;
             }
             .mobile-menu {
-              display: flex;
+              display: none;
               padding: 16px;
             }
             .image1 {
