@@ -1063,6 +1063,10 @@ const Home = () => {
             .image02 {
               min-width: 100%;
             }
+            .text05 {
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+            }
             .card1 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
