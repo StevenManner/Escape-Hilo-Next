@@ -34,7 +34,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>\n<script>\n",
+                '<script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<script src="https://apps.elfsight.com/p/platform.js" defer></script>\n<script>\n\nvar count=60;\n\nvar counter=setInterval(timer, 1000); //1000 will  run it every 1 second\nfunction timer()\n{\n  count=count-1;\n  if (count <= 0)\n  {\n     clearInterval(counter);\n     return;\n  }\n\n document.getElementById("timer").innerHTML=count + " secs"; // watch for spelling\n}\n\n</script>\n',
             }}
           ></div>
         </body>
