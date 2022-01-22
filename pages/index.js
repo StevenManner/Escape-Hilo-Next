@@ -44,8 +44,8 @@ const Home = () => {
         <div className="container03">
           <div className="container04">
             <img
-              src="/playground_assets/s._hata_building_hilo-1024x755-1500w.jpg"
               alt="image"
+              src="/playground_assets/s._hata_building_hilo-1024x755-1500w.jpg"
               className="image01"
             />
           </div>
@@ -54,8 +54,8 @@ const Home = () => {
               <span>THE BIG ISLAND&apos;S NEWEST ACTIVITY</span>
             </span>
             <img
-              src="/playground_assets/355-1500w.png"
               alt="image"
+              src="/playground_assets/355-1500w.png"
               className="image02"
             />
           </div>
@@ -71,16 +71,19 @@ const Home = () => {
             time runs out.
           </span>
         </span>
+        <span id="time" className="text07">
+          60:00
+        </span>
         <AppComponent rootClassName="rootClassName"></AppComponent>
         <div className="section1">
           <div className="container06">
             <div className="container07">
-              <h6 className="text07">
+              <h6 className="text08">
                 <span>Escape hilo presents...</span>
               </h6>
-              <h3 className="text09 healine">YOUR MISSION: Jungle Mystery</h3>
-              <span className="text10 textXL">
-                <span className="text11">
+              <h3 className="text10 healine">YOUR MISSION: Jungle Mystery</h3>
+              <span className="text11 textXL">
+                <span className="text12">
                   Your group has 1 hour to escape from Hawaii&apos;s jungle
                   themed Escape Room!
                 </span>
@@ -93,8 +96,8 @@ const Home = () => {
                     <path d="M992.262 871.396l-242.552-206.294c-25.074-22.566-51.89-32.926-73.552-31.926 57.256-67.068 91.842-154.078 91.842-249.176 0-212.078-171.922-384-384-384-212.076 0-384 171.922-384 384s171.922 384 384 384c95.098 0 182.108-34.586 249.176-91.844-1 21.662 9.36 48.478 31.926 73.552l206.294 242.552c35.322 39.246 93.022 42.554 128.22 7.356s31.892-92.898-7.354-128.22zM384 640c-141.384 0-256-114.616-256-256s114.616-256 256-256 256 114.616 256 256-114.614 256-256 256z"></path>
                   </svg>
                 </div>
-                <h6 className="text12 textXL">FOLLOW THE CLUES</h6>
-                <span className="text13">
+                <h6 className="text13 textXL">FOLLOW THE CLUES</h6>
+                <span className="text14">
                   There are clues hidden throughout the game room that help
                   guide your next decision
                 </span>
@@ -105,8 +108,8 @@ const Home = () => {
                     <path d="M704 0c-176.73 0-320 143.268-320 320 0 20.026 1.858 39.616 5.376 58.624l-389.376 389.376v192c0 35.346 28.654 64 64 64h64v-64h128v-128h128v-128h128l83.042-83.042c34.010 12.316 70.696 19.042 108.958 19.042 176.73 0 320-143.268 320-320s-143.27-320-320-320zM799.874 320.126c-53.020 0-96-42.98-96-96s42.98-96 96-96 96 42.98 96 96-42.98 96-96 96z"></path>
                   </svg>
                 </div>
-                <h6 className="text14 textXL">FIND THE KEYS</h6>
-                <span className="text15">
+                <h6 className="text15 textXL">FIND THE KEYS</h6>
+                <span className="text16">
                   Keys are used to progress to the next puzzle, can you find
                   them all before time runs out?
                 </span>
@@ -117,8 +120,8 @@ const Home = () => {
                     <path d="M426 726l384-384-60-62-324 324-152-152-60 60zM810 128q36 0 61 25t25 61v596q0 36-25 61t-61 25h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                   </svg>
                 </div>
-                <h6 className="text16 textXL">SOLVE THE MYSTERY</h6>
-                <span className="text17">
+                <h6 className="text17 textXL">SOLVE THE MYSTERY</h6>
+                <span className="text18">
                   Solve your way through the jungle room by using your wits and
                   creativity
                 </span>
@@ -131,8 +134,8 @@ const Home = () => {
                     <path d="M804.571 73.143c0 211.429-101.143 364.571-213.143 438.857 112 74.286 213.143 227.429 213.143 438.857h54.857c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-841.143c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h54.857c0-211.429 101.143-364.571 213.143-438.857-112-74.286-213.143-227.429-213.143-438.857h-54.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h841.143c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-54.857zM499.429 477.714c115.429-43.429 232-196 232-404.571h-585.143c0 208.571 116.571 361.143 232 404.571 14.286 5.143 24 18.857 24 34.286s-9.714 29.143-24 34.286c-49.143 18.286-98.857 57.143-139.429 112h400c-40.571-54.857-90.286-93.714-139.429-112-14.286-5.143-24-18.857-24-34.286s9.714-29.143 24-34.286z"></path>
                   </svg>
                 </div>
-                <h6 className="text18 textXL">60 MINUTE TIME LIMIT</h6>
-                <span className="text19">
+                <h6 className="text19 textXL">60 MINUTE TIME LIMIT</h6>
+                <span className="text20">
                   Can you and your group solve all the puzzles before time runs
                   out?
                 </span>
@@ -141,11 +144,11 @@ const Home = () => {
             <AppComponent></AppComponent>
             <div className="work-with-us">
               <div className="container12">
-                <h3 className="text20 healine">
+                <h3 className="text21 healine">
                   Not convinced? Hear from our previous winners!
                 </h3>
-                <span className="text21">
-                  <span className="text22">
+                <span className="text22">
+                  <span className="text23">
                     Awesome game, awesome time. This was my first time playing
                     and what I had envisioned it to be; it was exactly that. It
                     was exciting, challenging, and completely well thought out.
@@ -159,7 +162,7 @@ const Home = () => {
                   <br></br>
                   <span></span>
                   <br></br>
-                  <span className="text25">
+                  <span className="text26">
                     The experience was amazing. Unlike anything else in Hilo.
                     Definitely would recommend to any locals or anyone visiting
                     the island. - Elias
@@ -193,8 +196,8 @@ const Home = () => {
                   loading="lazy"
                   className="image04"
                 />
-                <h4 className="text31 healine">Five Star Reviews on Google!</h4>
-                <span className="text32">
+                <h4 className="text32 healine">Five Star Reviews on Google!</h4>
+                <span className="text33">
                   <span>
                     With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
@@ -219,13 +222,13 @@ const Home = () => {
                   loading="lazy"
                   className="image06"
                 />
-                <span className="text34">Ramses G.</span>
+                <span className="text35">Ramses G.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
                   className="image07"
                 />
-                <span className="text35">
+                <span className="text36">
                   <span>
                     Escape Hilo provided my sister and I a great experience! Did
                     we escape? No. However, we both had a blast running around,
@@ -247,13 +250,13 @@ const Home = () => {
                   loading="lazy"
                   className="image08"
                 />
-                <span className="text38">Julie R.</span>
+                <span className="text39">Julie R.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
                   className="image09"
                 />
-                <span className="text39">
+                <span className="text40">
                   <span>
                     {' '}
                     Our family had an absolute blast!! The escape room was super
@@ -276,13 +279,13 @@ const Home = () => {
                   loading="lazy"
                   className="image10"
                 />
-                <span className="text41">Brandon Hoffman</span>
+                <span className="text42">Brandon Hoffman</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
                   className="image11"
                 />
-                <span className="text42">
+                <span className="text43">
                   <span>
                     What a cool place. Every escape room has its own uniqueness.
                     This one did not disappoint. The game master is really cool
@@ -298,13 +301,13 @@ const Home = () => {
                   loading="lazy"
                   className="image12"
                 />
-                <span className="text44">Tiffany Plagenza</span>
+                <span className="text45">Tiffany Plagenza</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
                   className="image13"
                 />
-                <span className="text45">
+                <span className="text46">
                   <span>
                     We escaped! This was the most fun we have had with a great
                     challenge. We came to Hilo, Hawaii just to visit this escape
@@ -403,6 +406,7 @@ const Home = () => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
           }
@@ -415,7 +419,7 @@ const Home = () => {
             justify-content: center;
           }
           .image01 {
-            width: 100%;
+            width: 20rem;
             object-fit: cover;
           }
           .container05 {
@@ -431,7 +435,7 @@ const Home = () => {
             font-weight: 700;
           }
           .image02 {
-            width: 100%;
+            width: 20rem;
             object-fit: cover;
           }
           .text05 {
@@ -443,6 +447,11 @@ const Home = () => {
             padding-left: 6rem;
             padding-right: 6rem;
             padding-bottom: var(--dl-space-space-doubleunit);
+          }
+          .text07 {
+            color: #009201;
+            font-size: 2rem;
+            font-weight: 700;
           }
           .section1 {
             flex: 0 0 auto;
@@ -472,23 +481,23 @@ const Home = () => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text07 {
+          .text08 {
             color: #39b300;
             font-size: 0.875em;
             font-style: normal;
             font-weight: 700;
             text-transform: uppercase;
           }
-          .text09 {
+          .text10 {
             color: var(--dl-color-secondary-400);
             text-align: center;
           }
-          .text10 {
+          .text11 {
             color: #000000;
             text-align: center;
             margin-bottom: 0.25rem;
           }
-          .text11 {
+          .text12 {
             display: inline;
             font-weight: 400;
             white-space: normal;
@@ -525,14 +534,14 @@ const Home = () => {
           .icon {
             width: 3rem;
           }
-          .text12 {
+          .text13 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text13 {
+          .text14 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -564,14 +573,14 @@ const Home = () => {
           .icon2 {
             width: 3rem;
           }
-          .text14 {
+          .text15 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text15 {
+          .text16 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -602,14 +611,14 @@ const Home = () => {
           .icon4 {
             width: 3rem;
           }
-          .text16 {
+          .text17 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text17 {
+          .text18 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -651,14 +660,14 @@ const Home = () => {
           .icon6 {
             width: 3rem;
           }
-          .text18 {
+          .text19 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text19 {
+          .text20 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -684,23 +693,23 @@ const Home = () => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text20 {
+          .text21 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .text21 {
+          .text22 {
             color: #000000;
             font-style: italic;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .text22 {
+          .text23 {
             font-weight: 300;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .text25 {
+          .text26 {
             font-weight: 300;
             white-space: normal;
             background-color: rgb(241, 245, 249);
@@ -741,13 +750,13 @@ const Home = () => {
             align-self: center;
             object-fit: cover;
           }
-          .text31 {
+          .text32 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .text32 {
+          .text33 {
             color: #f2f5f9ff;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
@@ -806,7 +815,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text34 {
+          .text35 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -815,7 +824,7 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text35 {
+          .text36 {
             color: #000000;
             text-align: center;
           }
@@ -833,7 +842,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text38 {
+          .text39 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -842,7 +851,7 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text39 {
+          .text40 {
             color: #000000;
             text-align: center;
           }
@@ -860,7 +869,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text41 {
+          .text42 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -869,7 +878,7 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text42 {
+          .text43 {
             color: #000000;
             text-align: center;
           }
@@ -888,7 +897,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text44 {
+          .text45 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -897,7 +906,7 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text45 {
+          .text46 {
             color: #000000;
             text-align: center;
           }
@@ -950,12 +959,12 @@ const Home = () => {
               width: 20rem;
               height: auto;
             }
-            .text31 {
+            .text32 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .text32 {
+            .text33 {
               width: auto;
               align-self: center;
               text-align: center;
@@ -1020,7 +1029,7 @@ const Home = () => {
             .container14 {
               height: 30rem;
             }
-            .text32 {
+            .text33 {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-tripleunit);
             }
@@ -1051,25 +1060,28 @@ const Home = () => {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
+            .image02 {
+              min-width: 100%;
+            }
             .card1 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text13 {
+            .text14 {
               text-align: left;
             }
             .card2 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text15 {
+            .text16 {
               text-align: left;
             }
-            .text17 {
+            .text18 {
               text-align: left;
             }
             .card21 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text19 {
+            .text20 {
               text-align: left;
             }
             .container15 {

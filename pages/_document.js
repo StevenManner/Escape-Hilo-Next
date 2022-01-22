@@ -34,7 +34,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+                "<script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>\n<script>\n",
             }}
           ></div>
         </body>

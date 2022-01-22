@@ -46,16 +46,16 @@ const AppComponent = (props) => {
 }
 
 AppComponent.defaultProps = {
+  rootClassName: '',
   button: 'Click Here to Book Your Escape!',
   link_button:
     'https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&u=84441f3f-1c27-44c8-9146-8ef90bd95998&from-ssl=yes&back=https://www.escapehilo.com/',
-  rootClassName: '',
 }
 
 AppComponent.propTypes = {
+  rootClassName: PropTypes.string,
   button: PropTypes.string,
   link_button: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default AppComponent
