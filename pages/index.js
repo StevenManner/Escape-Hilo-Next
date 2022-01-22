@@ -72,7 +72,7 @@ const Home = () => {
           </span>
         </span>
         <label id="timer" htmlFor="timer" className="text07 textarea">
-          <span>60</span>
+          <span>60:00</span>
         </label>
         <AppComponent rootClassName="rootClassName"></AppComponent>
         <div className="section1">
