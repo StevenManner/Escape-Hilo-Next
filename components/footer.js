@@ -84,25 +84,10 @@ const Footer = (props) => {
             <span className="text06 textSM">
               <span className="text07">Hours of Operation</span>
               <br></br>
-              <span>Monday Closed</span>
+              <span>M</span>
+              <span>onday - Sunday</span>
               <br></br>
-              <span>
-                Tuesday 11:00 AM - 5:00 PM
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <br></br>
-              <span>Wednesday to Thursday 1:00 - 5:00 PM</span>
-              <br></br>
-              <span>Friday 1:00 - 7:00 PM</span>
-              <br></br>
-              <span>Saturday to Sunday 10:30 PM - 7:00 PM</span>
-              <br></br>
-              <span>Email or call to request special booking times</span>
-              <span></span>
+              <span>11:00 AM - 7:00 PM Every Day!</span>
               <span>&amp;#8203;</span>
               <span></span>
               <span></span>
@@ -111,10 +96,10 @@ const Footer = (props) => {
         </div>
         <div className="container13">
           <div className="container14">
-            <span className="text24 textXS">OTHER RESOURCES</span>
-            <span className="text25 textSM">Terms &amp; Conditions</span>
-            <span className="text26 textSM">Privacy Policy</span>
-            <span className="text27 textSM">Contact Us</span>
+            <span className="text16 textXS">OTHER RESOURCES</span>
+            <span className="text17 textSM">Terms &amp; Conditions</span>
+            <span className="text18 textSM">Privacy Policy</span>
+            <span className="text19 textSM">Contact Us</span>
           </div>
         </div>
         <div className="container15">
@@ -122,7 +107,7 @@ const Footer = (props) => {
             <div className="container17"></div>
           </div>
         </div>
-        <span className="text28 textSM">
+        <span className="text20 textSM">
           <span>
             Copyright 2022 Hilo Experience LLC dba Escape Hilo |
             <span
@@ -136,7 +121,7 @@ const Footer = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <span className="text30">Design by Manner Media LLC</span>
+            <span className="text22">Design by Manner Media LLC</span>
           </a>
         </span>
       </div>
@@ -344,23 +329,23 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .text24 {
+          .text16 {
             color: var(--dl-color-secondary-400);
             text-align: center;
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text25 {
+          .text17 {
             color: var(--dl-color-secondary-500);
             text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text26 {
+          .text18 {
             color: var(--dl-color-secondary-500);
             text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text27 {
+          .text19 {
             color: var(--dl-color-secondary-500);
             text-align: center;
           }
@@ -389,12 +374,12 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .text28 {
+          .text20 {
             color: #000000;
             align-self: center;
             padding-top: var(--dl-space-space-twoandhalf);
           }
-          .text30 {
+          .text22 {
             text-decoration: underline;
           }
           .rootClassName {
@@ -467,19 +452,19 @@ const Footer = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .text24 {
+            .text16 {
               text-align: center;
             }
-            .text25 {
+            .text17 {
               text-align: center;
             }
-            .text26 {
+            .text18 {
               text-align: center;
             }
-            .text27 {
+            .text19 {
               text-align: center;
             }
-            .text28 {
+            .text20 {
               width: 100%;
               height: 100%;
               align-self: flex-start;

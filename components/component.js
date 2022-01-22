@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const AppComponent = (props) => {
   return (
     <>
-      <div className="container">
+      <div className={`container ${props.rootClassName} `}>
         <a
           href={props.link_button}
           target="_blank"
@@ -35,6 +35,10 @@ const AppComponent = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             background-color: #227101;
           }
+          .rootClassName {
+            margin-top: var(--dl-space-space-doubleunit);
+            margin-bottom: var(--dl-space-space-doubleunit);
+          }
         `}
       </style>
     </>
@@ -45,11 +49,13 @@ AppComponent.defaultProps = {
   button: 'Click Here to Book Your Escape!',
   link_button:
     'https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&u=84441f3f-1c27-44c8-9146-8ef90bd95998&from-ssl=yes&back=https://www.escapehilo.com/',
+  rootClassName: '',
 }
 
 AppComponent.propTypes = {
   button: PropTypes.string,
   link_button: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default AppComponent
