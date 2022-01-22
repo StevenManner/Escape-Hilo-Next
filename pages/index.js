@@ -71,7 +71,7 @@ const Home = () => {
             time runs out.
           </span>
         </span>
-        <label id="timer" htmlFor="timer" className="text07 textarea">
+        <label id="time" htmlFor="time" className="text07 textarea">
           <span>60:00</span>
         </label>
         <AppComponent rootClassName="rootClassName"></AppComponent>
