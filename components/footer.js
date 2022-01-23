@@ -87,8 +87,7 @@ const Footer = (props) => {
               <span>M</span>
               <span>onday - Sunday</span>
               <br></br>
-              <span>11:00 AM - 7:00 PM Every Day!</span>
-              <span>&amp;#8203;</span>
+              <span>11:00 AM - 7:00 PM Every Day</span>
               <span></span>
               <span></span>
             </span>
@@ -96,10 +95,10 @@ const Footer = (props) => {
         </div>
         <div className="container13">
           <div className="container14">
-            <span className="text16 textXS">OTHER RESOURCES</span>
-            <span className="text17 textSM">Terms &amp; Conditions</span>
-            <span className="text18 textSM">Privacy Policy</span>
-            <span className="text19 textSM">Contact Us</span>
+            <span className="text15 textXS">OTHER RESOURCES</span>
+            <span className="text16 textSM">Terms &amp; Conditions</span>
+            <span className="text17 textSM">Privacy Policy</span>
+            <span className="text18 textSM">Contact Us</span>
           </div>
         </div>
         <div className="container15">
@@ -107,7 +106,7 @@ const Footer = (props) => {
             <div className="container17"></div>
           </div>
         </div>
-        <span className="text20 textSM">
+        <span className="text19 textSM">
           <span>
             Copyright 2022 Hilo Experience LLC dba Escape Hilo |
             <span
@@ -121,7 +120,7 @@ const Footer = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <span className="text22">Design by Manner Media LLC</span>
+            <span className="text21">Design by Manner Media LLC</span>
           </a>
         </span>
       </div>
@@ -329,10 +328,15 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .text16 {
+          .text15 {
             color: var(--dl-color-secondary-400);
             text-align: center;
             font-weight: 600;
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .text16 {
+            color: var(--dl-color-secondary-500);
+            text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text17 {
@@ -341,11 +345,6 @@ const Footer = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text18 {
-            color: var(--dl-color-secondary-500);
-            text-align: center;
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .text19 {
             color: var(--dl-color-secondary-500);
             text-align: center;
           }
@@ -374,12 +373,12 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .text20 {
+          .text19 {
             color: #000000;
             align-self: center;
             padding-top: var(--dl-space-space-twoandhalf);
           }
-          .text22 {
+          .text21 {
             text-decoration: underline;
           }
           .rootClassName {
@@ -452,6 +451,9 @@ const Footer = (props) => {
               align-items: center;
               justify-content: center;
             }
+            .text15 {
+              text-align: center;
+            }
             .text16 {
               text-align: center;
             }
@@ -462,9 +464,6 @@ const Footer = (props) => {
               text-align: center;
             }
             .text19 {
-              text-align: center;
-            }
-            .text20 {
               width: 100%;
               height: 100%;
               align-self: flex-start;
