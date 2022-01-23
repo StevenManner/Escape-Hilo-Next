@@ -21,13 +21,13 @@ const FAQ = () => {
                 <span>FAQ</span>
               </h3>
               <span className="text02">
-                Escape Hilo is Hawaii Islandâs first âEscape Game,â where you
-                enter a room, find clues, and solve puzzles to accomplish a
-                mission within 60 minutes. Depending upon the game, participants
-                may be transported back in time or taken on a journey into a
-                mythical land. Escape games are not computer games or
-                simulations â everything is real but high tech gadgetry is
-                sometimes woven into the game making things really fun
+                Escape Hilo is Hawaii Island&apos;s first &quot;Escape
+                Game&quot; where you enter a room, find clues, and solve puzzles
+                to accomplish a mission within 60 minutes. Depending upon the
+                game, participants may be transported back in time or taken on a
+                journey into a mythical land. Escape games are not computer
+                games or simulations. Everything is real but high tech gadgetry
+                is sometimes woven into the game making things really fun.
               </span>
             </div>
             <div className="cards-container">
@@ -66,7 +66,7 @@ const FAQ = () => {
                 </h6>
                 <span className="text11">
                   The puzzles and challenges in the game are designed for
-                  participants 12 and older. Participants 14 years of age and
+                  participants 12 and older. Participants 17 years of age and
                   under must be accompanied by an adult.
                 </span>
               </div>
@@ -189,6 +189,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
@@ -215,6 +216,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
@@ -242,6 +244,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
@@ -280,6 +283,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
@@ -307,6 +311,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
@@ -334,6 +339,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
@@ -369,6 +375,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
@@ -396,6 +403,7 @@ const FAQ = () => {
             width: 30%;
             display: flex;
             padding: var(--dl-space-space-unit);
+            align-self: center;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             align-items: center;
