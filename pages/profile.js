@@ -115,7 +115,6 @@ const Profile = () => {
             right: auto;
             width: 100%;
             bottom: -1px;
-            z-index: 97;
             position: absolute;
             object-fit: cover;
           }
@@ -138,7 +137,7 @@ const Profile = () => {
             flex: 0 0 auto;
             width: 90%;
             display: flex;
-            z-index: 98;
+            z-index: 2;
             max-width: 1320px;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
               0 10px 10px -5px rgba(0, 0, 0, 0.04);
