@@ -288,6 +288,7 @@ const Header = (props) => {
               height: 10vh;
               display: none;
               padding: 16px;
+              z-index: 999999;
             }
             .image1 {
               width: auto;
