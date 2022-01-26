@@ -98,7 +98,6 @@ const Footer = (props) => {
             <span className="text15 textXS">OTHER RESOURCES</span>
             <span className="text16 textSM">Terms &amp; Conditions</span>
             <span className="text17 textSM">Privacy Policy</span>
-            <span className="text18 textSM">Contact Us</span>
           </div>
         </div>
         <div className="container15">
@@ -106,7 +105,7 @@ const Footer = (props) => {
             <div className="container17"></div>
           </div>
         </div>
-        <span className="text19 textSM">
+        <span className="text18 textSM">
           <span>
             Copyright 2022 Hilo Experience LLC dba Escape Hilo |
             <span
@@ -120,7 +119,7 @@ const Footer = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <span className="text21">Design by Manner Media LLC</span>
+            <span className="text20">Design by Manner Media LLC</span>
           </a>
         </span>
       </div>
@@ -344,10 +343,6 @@ const Footer = (props) => {
             text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text18 {
-            color: var(--dl-color-secondary-500);
-            text-align: center;
-          }
           .container15 {
             flex: 0 0 auto;
             width: auto;
@@ -373,12 +368,12 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .text19 {
+          .text18 {
             color: #000000;
             align-self: center;
             padding-top: var(--dl-space-space-twoandhalf);
           }
-          .text21 {
+          .text20 {
             text-decoration: underline;
           }
           .rootClassName {
@@ -461,9 +456,6 @@ const Footer = (props) => {
               text-align: center;
             }
             .text18 {
-              text-align: center;
-            }
-            .text19 {
               width: 100%;
               height: 100%;
               align-self: flex-start;
