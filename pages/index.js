@@ -33,7 +33,7 @@ const Home = () => {
                 </span>
               </span>
             </div>
-            <AppComponent></AppComponent>
+            <AppComponent link_button="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;flow=6078"></AppComponent>
             <img
               alt="image"
               src="/playground_assets/white-vector.svg"
