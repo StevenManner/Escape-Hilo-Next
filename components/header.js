@@ -168,7 +168,7 @@ const Header = (props) => {
             height: 100vh;
             display: none;
             padding: 32px;
-            z-index: 100;
+            z-index: 1000;
             position: absolute;
             flex-direction: column;
             justify-content: space-between;

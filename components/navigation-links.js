@@ -53,6 +53,7 @@ const NavigationLinks = (props) => {
           }
           .link3 {
             color: #000000;
+            visibility: hidden;
             font-weight: 700;
             margin-left: 32px;
             text-decoration: none;
