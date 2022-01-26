@@ -83,15 +83,6 @@ const Header = (props) => {
                 </svg>
               </a>
             </div>
-            <Link href="/">
-              <a>
-                <img
-                  alt={props.image_alt}
-                  src={props.image_src}
-                  className="image2"
-                />
-              </a>
-            </Link>
           </div>
         </header>
       </header>
@@ -218,11 +209,6 @@ const Header = (props) => {
             height: 16px;
             text-decoration: none;
           }
-          .image2 {
-            width: 100px;
-            object-fit: cover;
-            text-decoration: none;
-          }
           .rootClassName {
             margin-bottom: 0px;
           }
@@ -290,7 +276,7 @@ const Header = (props) => {
               position: absolute;
             }
             .mobile-menu {
-              height: 40vh;
+              height: 100vh;
               display: none;
               padding: 16px;
               z-index: 999999;
@@ -312,15 +298,11 @@ const Header = (props) => {
 
 Header.defaultProps = {
   rootClassName: '',
-  image_alt: 'image',
-  image_src: '1068269c-8330-4f00-a691-fc1cc21e4a88',
   heading1: 'ESCAPE HILO',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
-  image_alt: PropTypes.string,
-  image_src: PropTypes.string,
   heading1: PropTypes.string,
 }
 
