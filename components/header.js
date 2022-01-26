@@ -33,9 +33,14 @@ const Header = (props) => {
             </div>
           </div>
           <div className="btn-group">
-            <Link href="/book-a-room">
-              <a className="link1 button">Book Now!</a>
-            </Link>
+            <a
+              href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;flow=6078"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="link1 button"
+            >
+              Book Now!
+            </a>
           </div>
           <div data-type="BurgerMenu" className="burger-menu">
             <svg viewBox="0 0 1024 1024" className="icon">
@@ -285,7 +290,7 @@ const Header = (props) => {
               position: absolute;
             }
             .mobile-menu {
-              height: 10vh;
+              height: 40vh;
               display: none;
               padding: 16px;
               z-index: 999999;
