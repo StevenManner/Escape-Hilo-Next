@@ -9,8 +9,19 @@ const Contact = () => {
     <>
       <div className="container">
         <Head>
-          <title>Contact - Escape Hilo</title>
-          <meta property="og:title" content="Contact - Escape Hilo" />
+          <title>Contact - Discover | Think | Solve</title>
+          <meta
+            name="description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
+          <meta
+            property="og:title"
+            content="Contact - Discover | Think | Solve"
+          />
+          <meta
+            property="og:description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
         </Head>
         <div className="section1">
           <Header rootClassName="rootClassName4"></Header>

@@ -11,7 +11,15 @@ const Home = () => {
       <div className="container">
         <Head>
           <title>Escape Hilo</title>
+          <meta
+            name="description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
           <meta property="og:title" content="Escape Hilo" />
+          <meta
+            property="og:description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
         </Head>
         <div className="hero">
           <div className="bg"></div>
@@ -1057,6 +1065,7 @@ const Home = () => {
           }
           @media (max-width: 479px) {
             .container02 {
+              z-index: 100;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }

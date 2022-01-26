@@ -101,6 +101,9 @@ const NavigationLinks = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .nav {
+              z-index: 999;
+            }
             .link3 {
               visibility: visible;
             }

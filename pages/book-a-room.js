@@ -9,8 +9,19 @@ const BookARoom = () => {
     <>
       <div className="container">
         <Head>
-          <title>Book A Room - Escape Hilo</title>
-          <meta property="og:title" content="Book A Room - Escape Hilo" />
+          <title>Book A Room - Discover | Think | Solve</title>
+          <meta
+            name="description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
+          <meta
+            property="og:title"
+            content="Book A Room - Discover | Think | Solve"
+          />
+          <meta
+            property="og:description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
         </Head>
         <Header rootClassName="rootClassName2"></Header>
         <div className="section1">

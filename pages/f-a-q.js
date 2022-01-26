@@ -10,8 +10,16 @@ const FAQ = () => {
     <>
       <div className="container">
         <Head>
-          <title>FAQ - Escape Hilo</title>
-          <meta property="og:title" content="FAQ - Escape Hilo" />
+          <title>FAQ - Discover | Think | Solve</title>
+          <meta
+            name="description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
+          <meta property="og:title" content="FAQ - Discover | Think | Solve" />
+          <meta
+            property="og:description"
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+          />
         </Head>
         <div className="section1">
           <Header rootClassName="rootClassName1"></Header>
