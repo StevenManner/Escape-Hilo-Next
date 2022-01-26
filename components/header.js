@@ -277,7 +277,7 @@ const Header = (props) => {
             }
             .mobile-menu {
               height: 60vh;
-              display: flex;
+              display: none;
               padding: 16px;
               z-index: 999999;
             }
