@@ -5,23 +5,30 @@ import Header from '../components/header'
 import AppComponent from '../components/component'
 import Footer from '../components/footer'
 
-const FrequentlyAskedQuestions = () => {
+const FrequentlyAskedQuestions = (props) => {
   return (
     <>
       <div className="container">
         <Head>
-          <title>Frequently Asked Questions - Discover | Think | Solve</title>
+          <title>
+            Frequently Asked Questions - Hawaii's Jungle Escape Room | Expert
+            Difficulty
+          </title>
           <meta
             name="description"
             content='Escape Hilo is Hawaii Island&apos;s first "Escape Game" where you enter a room, find clues, and solve puzzles to accomplish a mission within 60 minutes.'
           />
           <meta
             property="og:title"
-            content="Frequently Asked Questions - Discover | Think | Solve"
+            content="Frequently Asked Questions - Hawaii's Jungle Escape Room | Expert Difficulty"
           />
           <meta
             property="og:description"
-            content='Escape Hilo is Hawaii Island&apos;s first "Escape Game" where you enter a room, find clues, and solve puzzles to accomplish a mission within 60 minutes.'
+            content="Experience our Jungle Mystery room filled with many family-friendly puzzles perfect for every occasion! With 60 minutes on the clock, can you solve all the puzzles before time runs out?"
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
           />
         </Head>
         <div className="section1">

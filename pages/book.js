@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const BookARoom = () => {
+const BookARoom = (props) => {
   return (
     <>
       <div className="container">
@@ -18,6 +18,10 @@ const BookARoom = () => {
           <meta
             property="og:description"
             content="Book A Room for the Jungle Mystery, with over 100 Five Star Reviews on Google Maps, Escape Hilo continues to serve the best puzzle solving experience to all!"
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
           />
         </Head>
         <Header rootClassName="rootClassName2"></Header>

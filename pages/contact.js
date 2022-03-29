@@ -4,23 +4,29 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const Contact = () => {
+const Contact = (props) => {
   return (
     <>
       <div className="container">
         <Head>
-          <title>Contact - Discover | Think | Solve</title>
+          <title>
+            Contact - Hawaii's Jungle Escape Room | Expert Difficulty
+          </title>
           <meta
             name="description"
             content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
           />
           <meta
             property="og:title"
-            content="Contact - Discover | Think | Solve"
+            content="Contact - Hawaii's Jungle Escape Room | Expert Difficulty"
           />
           <meta
             property="og:description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+            content="Experience our Jungle Mystery room filled with many family-friendly puzzles perfect for every occasion! With 60 minutes on the clock, can you solve all the puzzles before time runs out?"
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
           />
         </Head>
         <div className="section1">

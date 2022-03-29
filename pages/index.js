@@ -5,7 +5,7 @@ import Header from '../components/header'
 import AppComponent from '../components/component'
 import Footer from '../components/footer'
 
-const Home = () => {
+const Home = (props) => {
   return (
     <>
       <div className="container">
@@ -18,7 +18,11 @@ const Home = () => {
           <meta property="og:title" content="Escape Hilo" />
           <meta
             property="og:description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+            content="Experience our Jungle Mystery room filled with many family-friendly puzzles perfect for every occasion! With 60 minutes on the clock, can you solve all the puzzles before time runs out?"
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
           />
         </Head>
         <div className="hero">
@@ -297,7 +301,7 @@ const Home = () => {
                   <span>
                     What a cool place. Every escape room has its own uniqueness.
                     This one did not disappoint. The game master is really cool
-                    and exciting. The theme is great. Canât give away any
+                    and exciting. The theme is great. Can’t give away any
                     details or it will ruin the fun. Definitely recommend.
                   </span>
                 </span>

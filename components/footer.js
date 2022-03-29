@@ -472,7 +472,7 @@ const Footer = (props) => {
 Footer.defaultProps = {
   text1: '308 Kamehameha Avenue, Suite 200',
   image_alt21: 'image',
-  image_src1: '/playground_assets/Phone%20Icon1-200h.png',
+  image_src1: '/playground_assets/phone%20icon1-200h.png',
   image_src2: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
   text21: 'Hours of Operation',
   rootClassName: '',

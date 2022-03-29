@@ -7,7 +7,7 @@ import PrimaryButton from '../components/primary-button'
 import SecondaryButton from '../components/secondary-button'
 import Footer from '../components/footer'
 
-const About = () => {
+const About = (props) => {
   return (
     <>
       <div className="container">
@@ -21,6 +21,10 @@ const About = () => {
           <meta
             property="og:description"
             content="Ryan Neal has been running Escape Hilo since 2017 delivering escape room experiences to hundreds of families cooperatively solving puzzles before time runs out"
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
           />
         </Head>
         <div className="image">
