@@ -10,19 +10,22 @@ const Home = (props) => {
     <>
       <div className="container">
         <Head>
-          <title>Escape Hilo</title>
+          <title>Hawaii's Jungle Escape Room | EXPERT Difficulty</title>
           <meta
             name="description"
             content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo. "
           />
-          <meta property="og:title" content="Escape Hilo" />
+          <meta
+            property="og:title"
+            content="Hawaii's Jungle Escape Room | EXPERT Difficulty"
+          />
           <meta
             property="og:description"
             content="Experience our Jungle Mystery room filled with many family-friendly puzzles perfect for every occasion! With 60 minutes on the clock, can you solve all the puzzles before time runs out?"
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/4a8d5692-3868-49ea-b5a2-112185011fcd?org_if_sml=1"
           />
         </Head>
         <div className="hero">
