@@ -10,15 +10,15 @@ const Contact = (props) => {
       <div className="container">
         <Head>
           <title>
-            Contact - Hawaii's Jungle Escape Room | Expert Difficulty
+            Contact - Hawaii's Jungle Escape Room | EXPERT Difficulty
           </title>
           <meta
             name="description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo. "
           />
           <meta
             property="og:title"
-            content="Contact - Hawaii's Jungle Escape Room | Expert Difficulty"
+            content="Contact - Hawaii's Jungle Escape Room | EXPERT Difficulty"
           />
           <meta
             property="og:description"

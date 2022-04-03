@@ -11,7 +11,7 @@ const FrequentlyAskedQuestions = (props) => {
       <div className="container">
         <Head>
           <title>
-            Frequently Asked Questions - Hawaii's Jungle Escape Room | Expert
+            Frequently Asked Questions - Hawaii's Jungle Escape Room | EXPERT
             Difficulty
           </title>
           <meta
@@ -20,7 +20,7 @@ const FrequentlyAskedQuestions = (props) => {
           />
           <meta
             property="og:title"
-            content="Frequently Asked Questions - Hawaii's Jungle Escape Room | Expert Difficulty"
+            content="Frequently Asked Questions - Hawaii's Jungle Escape Room | EXPERT Difficulty"
           />
           <meta
             property="og:description"

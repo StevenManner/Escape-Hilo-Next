@@ -13,7 +13,7 @@ const Home = (props) => {
           <title>Escape Hilo</title>
           <meta
             name="description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo. "
           />
           <meta property="og:title" content="Escape Hilo" />
           <meta
@@ -366,14 +366,18 @@ const Home = (props) => {
             background-image: url('/playground_assets/junglebg-1500h.jpg');
           }
           .bg {
+            top: 0px;
             flex: 0 0 auto;
+            left: 0px;
             width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100%;
             display: flex;
             opacity: 0.7;
             position: absolute;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
+            justify-content: flex-end;
             background-color: var(--dl-color-gray-black);
           }
           .container01 {
@@ -398,6 +402,7 @@ const Home = (props) => {
           }
           .text {
             color: var(--dl-color-gray-white);
+            z-index: 100;
             text-align: center;
           }
           .text01 {
