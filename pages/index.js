@@ -1160,12 +1160,19 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .container {
+              flex-wrap: wrap;
+            }
             .container02 {
               z-index: 100;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
+            .container03 {
+              flex-wrap: wrap;
+            }
             .image02 {
+              width: auto;
               min-width: 100%;
             }
             .text05 {
