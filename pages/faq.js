@@ -11,8 +11,8 @@ const FrequentlyAskedQuestions = (props) => {
       <div className="container">
         <Head>
           <title>
-            Frequently Asked Questions - Hawaii's Jungle Escape Room | EXPERT
-            Difficulty
+            Frequently Asked Questions - Hawaii's Jungle Mystery Escape Room |
+            Top-Rated Escape room in Hilo!
           </title>
           <meta
             name="description"
@@ -20,11 +20,11 @@ const FrequentlyAskedQuestions = (props) => {
           />
           <meta
             property="og:title"
-            content="Frequently Asked Questions - Hawaii's Jungle Escape Room | EXPERT Difficulty"
+            content="Frequently Asked Questions - Hawaii's Jungle Mystery Escape Room | Top-Rated Escape room in Hilo!"
           />
           <meta
             property="og:description"
-            content="Experience our Jungle Mystery room filled with many family-friendly puzzles perfect for every occasion! With 60 minutes on the clock, can you solve all the puzzles before time runs out?"
+            content="You have 60 minutes to escape from our live-action jungle mystery escape room! Crack the codes, solve the puzzles, and escape! ✔ 100+ ⭐5 reviews on Google ✔ 20+ ⭐5 reviews on Tripadvisor. "
           />
           <meta
             property="og:image"

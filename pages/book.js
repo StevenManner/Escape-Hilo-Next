@@ -36,6 +36,66 @@ const BookARoom = (props) => {
               ></iframe>
             </div>
           </div>
+          <div className="banner">
+            <h1 className="text01 montserratTitles">
+              <span>Why should you book with Escape Hilo?</span>
+              <span></span>
+            </h1>
+            <span className="text04">
+              <span>
+                Escape Hilo is not only Big Island&apos;s top rated Escape Room,
+                and close to being one of Hawaii&apos;s best escape rooms, it is
+                one of Hilo&apos;s finest experiences. Hilo Hawai&apos;i is a
+                small town with a population of roughly 45,000+
+              </span>
+              <br></br>
+              <span></span>
+              <br></br>
+              <span>
+                known for its vast island storefronts, bars, and art, downtown
+                Hilo is often one of the many stops across the island to
+                experience it&apos;s natural beauty. Hikes, ziplines,
+                waterfalls, caves, diving spots, lava flows, you name it.
+              </span>
+              <br></br>
+              <span></span>
+              <br></br>
+              <span>
+                Do you know what
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="text14">else</span>
+              <span> there is to explore?</span>
+              <br></br>
+              <span></span>
+              <span></span>
+              <br></br>
+              <span>
+                One of the most unique Escape Room&apos;s you will ever
+                experience, operated by one of the most unique people you will
+                ever meet. With over 5+ years operating strong with themes like
+                our famous ( old room ) Christmas Mystery and newly launched
+                Jungle Mystery themed Escape Room.
+              </span>
+              <br></br>
+              <span></span>
+              <br></br>
+              <span>
+                It&apos;s easy to reach from Hilo
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="text25">and</span>
+              <span> Kona with parking almost always available out front.</span>
+            </span>
+          </div>
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
@@ -98,6 +158,29 @@ const BookARoom = (props) => {
             width: 100%;
             height: 1200px;
           }
+          .banner {
+            width: 100%;
+            display: flex;
+            padding: 48px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .text01 {
+            text-align: center;
+          }
+          .text04 {
+            max-width: 1400px;
+            margin-top: 32px;
+            text-align: center;
+            margin-bottom: 32px;
+          }
+          .text14 {
+            font-style: italic;
+          }
+          .text25 {
+            font-style: italic;
+          }
           .image {
             top: auto;
             left: auto;
@@ -126,6 +209,20 @@ const BookARoom = (props) => {
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
+          @media (max-width: 991px) {
+            .banner {
+              height: 477px;
+              margin-bottom: 0px;
+              padding-bottom: 0x;
+            }
+            .text01 {
+              color: #000000;
+            }
+            .text04 {
+              color: #000000;
+              max-width: 100%;
+            }
+          }
           @media (max-width: 767px) {
             .section1 {
               padding-left: var(--dl-space-space-doubleunit);
@@ -133,6 +230,22 @@ const BookARoom = (props) => {
             }
             .container2 {
               width: 100%;
+            }
+            .banner {
+              padding-left: 32px;
+              padding-right: 32px;
+            }
+            .text04 {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
+          }
+          @media (max-width: 479px) {
+            .banner {
+              padding-top: 32px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 32px;
             }
           }
         `}

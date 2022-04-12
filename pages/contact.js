@@ -10,19 +10,20 @@ const Contact = (props) => {
       <div className="container">
         <Head>
           <title>
-            Contact - Hawaii's Jungle Escape Room | EXPERT Difficulty
+            Contact - Hawaii's Jungle Mystery Escape Room | Top-Rated Escape
+            room in Hilo!
           </title>
           <meta
             name="description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo. "
+            content="You have 60 minutes to escape from our live-action jungle mystery escape room! Crack the codes, solve the puzzles, and escape! 100+ 5⭐ reviews on Google"
           />
           <meta
             property="og:title"
-            content="Contact - Hawaii's Jungle Escape Room | EXPERT Difficulty"
+            content="Contact - Hawaii's Jungle Mystery Escape Room | Top-Rated Escape room in Hilo!"
           />
           <meta
             property="og:description"
-            content="Experience our Jungle Mystery room filled with many family-friendly puzzles perfect for every occasion! With 60 minutes on the clock, can you solve all the puzzles before time runs out?"
+            content="You have 60 minutes to escape from our live-action jungle mystery escape room! Crack the codes, solve the puzzles, and escape! ✔ 100+ ⭐5 reviews on Google ✔ 20+ ⭐5 reviews on Tripadvisor. "
           />
           <meta
             property="og:image"

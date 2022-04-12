@@ -13,7 +13,7 @@ const Home = (props) => {
           <title>Hawaii's Jungle Escape Room | EXPERT Difficulty</title>
           <meta
             name="description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo. "
+            content="You have 60 minutes to escape from our live-action jungle mystery escape room! Crack the codes, solve the puzzles, and escape! 100+ 5⭐ reviews on Google"
           />
           <meta
             property="og:title"
@@ -21,7 +21,7 @@ const Home = (props) => {
           />
           <meta
             property="og:description"
-            content="Experience our Jungle Mystery room filled with many family-friendly puzzles perfect for every occasion! With 60 minutes on the clock, can you solve all the puzzles before time runs out?"
+            content="You have 60 minutes to escape from our live-action jungle mystery escape room! Crack the codes, solve the puzzles, and escape! ✔ 100+ ⭐5 reviews on Google ✔ 20+ ⭐5 reviews on Tripadvisor. "
           />
           <meta
             property="og:image"
@@ -119,7 +119,7 @@ const Home = (props) => {
               </div>
               <div className="card2">
                 <div className="container09">
-                  <svg viewBox="0 0 1024 1024" className="icon2">
+                  <svg viewBox="0 0 1024 1024" className="icon02">
                     <path d="M704 0c-176.73 0-320 143.268-320 320 0 20.026 1.858 39.616 5.376 58.624l-389.376 389.376v192c0 35.346 28.654 64 64 64h64v-64h128v-128h128v-128h128l83.042-83.042c34.010 12.316 70.696 19.042 108.958 19.042 176.73 0 320-143.268 320-320s-143.27-320-320-320zM799.874 320.126c-53.020 0-96-42.98-96-96s42.98-96 96-96 96 42.98 96 96-42.98 96-96 96z"></path>
                   </svg>
                 </div>
@@ -131,7 +131,7 @@ const Home = (props) => {
               </div>
               <div className="card3">
                 <div className="container10">
-                  <svg viewBox="0 0 1024 1024" className="icon4">
+                  <svg viewBox="0 0 1024 1024" className="icon04">
                     <path d="M426 726l384-384-60-62-324 324-152-152-60 60zM810 128q36 0 61 25t25 61v596q0 36-25 61t-61 25h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                   </svg>
                 </div>
@@ -145,7 +145,7 @@ const Home = (props) => {
             <div className="cards-container1">
               <div className="card21">
                 <div className="container11">
-                  <svg viewBox="0 0 877.7142857142857 1024" className="icon6">
+                  <svg viewBox="0 0 877.7142857142857 1024" className="icon06">
                     <path d="M804.571 73.143c0 211.429-101.143 364.571-213.143 438.857 112 74.286 213.143 227.429 213.143 438.857h54.857c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-841.143c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h54.857c0-211.429 101.143-364.571 213.143-438.857-112-74.286-213.143-227.429-213.143-438.857h-54.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h841.143c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-54.857zM499.429 477.714c115.429-43.429 232-196 232-404.571h-585.143c0 208.571 116.571 361.143 232 404.571 14.286 5.143 24 18.857 24 34.286s-9.714 29.143-24 34.286c-49.143 18.286-98.857 57.143-139.429 112h400c-40.571-54.857-90.286-93.714-139.429-112-14.286-5.143-24-18.857-24-34.286s9.714-29.143 24-34.286z"></path>
                   </svg>
                 </div>
@@ -159,10 +159,10 @@ const Home = (props) => {
             <AppComponent></AppComponent>
             <div className="work-with-us">
               <div className="container12">
-                <h3 className="text22 healine">
+                <h3 className="text22">
                   Not convinced? Hear from our previous winners!
                 </h3>
-                <span className="text23">
+                <span className="text23 blinkerParagraphs">
                   <span className="text24">
                     Awesome game, awesome time. This was my first time playing
                     and what I had envisioned it to be; it was exactly that. It
@@ -174,26 +174,23 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <br></br>
-                  <span></span>
-                  <br></br>
+                  <br className="text25"></br>
+                  <span className="text26"></span>
+                  <br className="br"></br>
                   <span className="text27">
                     The experience was amazing. Unlike anything else in Hilo.
                     Definitely would recommend to any locals or anyone visiting
                     the island. - Elias
                   </span>
-                  <br></br>
-                  <span></span>
-                  <br></br>
-                  <span>
+                  <br className="text28"></br>
+                  <span className="text29"></span>
+                  <br className="text30"></br>
+                  <span className="text31">
                     We have done a couple of escape rooms before and this one
-                    was really ingenious, and c
+                    was really ingenious, and challenging enough to be fun but
+                    not too hard. A great way to spend an hour in Hilo! - Jim
                   </span>
-                  <span>
-                    hallenging enough to be fun but not too hard. A great way to
-                    spend an hour in Hilo! - Jim
-                  </span>
-                  <br></br>
+                  <br className="br1"></br>
                 </span>
               </div>
               <div className="container13">
@@ -211,8 +208,8 @@ const Home = (props) => {
                   loading="lazy"
                   className="image04"
                 />
-                <h4 className="text33 healine">Five Star Reviews on Google!</h4>
-                <span className="text34">
+                <h4 className="text32 healine">Five Star Reviews on Google!</h4>
+                <span className="text33">
                   <span>
                     With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
@@ -227,37 +224,42 @@ const Home = (props) => {
             className="image05"
           />
         </div>
+        <div className="testimonial-card">
+          <svg viewBox="0 0 950.8571428571428 1024" className="icon08">
+            <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
+          </svg>
+          <span className="text35 blinkerParagraphs">
+            <span>
+              Escape Hilo provided my sister and I a great experience! Did we
+              escape? No. However, we both had a blast running around, solving
+              clues, and jump scared by the animatronics. Our host Ryan is
+              fantastic at his job too. His exuberant attitude made our visit
+              worthwhile portraying what excellent local hospitality is. His
+              personality is a vibe. We both highly recommend that anyone who is
+              either tourist or local to come escape.
+            </span>
+            <br></br>
+            <span>Good luck!</span>
+          </span>
+          <div className="testimonial">
+            <span className="text38 montserratTitles">Ramses G.</span>
+            <img
+              alt="image"
+              src="/playground_assets/ryan_2-200h.png"
+              loading="lazy"
+              className="image06"
+            />
+          </div>
+          <img
+            alt="image"
+            src="/playground_assets/5stars-200h.png"
+            className="image07"
+          />
+        </div>
         <div className="section2">
           <div className="team">
             <div className="container15">
-              <div className="container16">
-                <img
-                  alt="image"
-                  src="/playground_assets/ryan_2-200h.png"
-                  loading="lazy"
-                  className="image06"
-                />
-                <span className="text36">Ramses G.</span>
-                <img
-                  alt="image"
-                  src="/playground_assets/5stars-200h.png"
-                  className="image07"
-                />
-                <span className="text37">
-                  <span>
-                    Escape Hilo provided my sister and I a great experience! Did
-                    we escape? No. However, we both had a blast running around,
-                    solving clues, and jump scared by the animatronics. Our host
-                    Ryan is fantastic at his job too. His exuberant attitude
-                    made our visit worthwhile portraying what excellent local
-                    hospitality is. His personality is a vibe. We both highly
-                    recommend that anyone who is either tourist or local to come
-                    escape.
-                  </span>
-                  <br></br>
-                  <span>Good luck!</span>
-                </span>
-              </div>
+              <div className="container16"></div>
               <div className="container17">
                 <img
                   alt="image"
@@ -265,14 +267,14 @@ const Home = (props) => {
                   loading="lazy"
                   className="image08"
                 />
-                <span className="text40">Julie R.</span>
+                <span className="text39 montserratTitles">Julie R.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
                   className="image09"
                 />
-                <span className="text41">
-                  <span>
+                <span className="text40 blinkerParagraphs">
+                  <span className="text41">
                     {' '}
                     Our family had an absolute blast!! The escape room was super
                     well done, a perfect mix of challenges &amp; fun. The owner
@@ -287,42 +289,23 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="container18">
-                <img
-                  alt="image"
-                  src="/playground_assets/ryan_4-200h.png"
-                  loading="lazy"
-                  className="image10"
-                />
-                <span className="text43">Brandon Hoffman</span>
-                <img
-                  alt="image"
-                  src="/playground_assets/5stars-200h.png"
-                  className="image11"
-                />
-                <span className="text44">
-                  <span>
-                    What a cool place. Every escape room has its own uniqueness.
-                    This one did not disappoint. The game master is really cool
-                    and exciting. The theme is great. Can’t give away any
-                    details or it will ruin the fun. Definitely recommend.
-                  </span>
-                </span>
-              </div>
+              <div className="container18"></div>
               <div className="container19">
                 <img
                   alt="image"
                   src="/playground_assets/ryan_5-200h.png"
                   loading="lazy"
-                  className="image12"
+                  className="image10"
                 />
-                <span className="text46">Tiffany Plagenza</span>
+                <span className="text42 montserratTitles">
+                  Tiffany Plagenza
+                </span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image13"
+                  className="image11"
                 />
-                <span className="text47">
+                <span className="text43 blinkerParagraphs">
                   <span>
                     We escaped! This was the most fun we have had with a great
                     challenge. We came to Hilo, Hawaii just to visit this escape
@@ -333,6 +316,33 @@ const Home = (props) => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="testimonial-card1">
+          <svg viewBox="0 0 950.8571428571428 1024" className="icon10">
+            <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
+          </svg>
+          <div className="testimonial1">
+            <span className="text45 blinkerParagraphs">
+              <span>
+                What a cool place. Every escape room has its own uniqueness.
+                This one did not disappoint. The game master is really cool and
+                exciting. The theme is great. Can’t give away any details or it
+                will ruin the fun. Definitely recommend.
+              </span>
+            </span>
+            <span className="text47 montserratTitles">Brandon Hoffman</span>
+            <img
+              alt="image"
+              src="/playground_assets/ryan_4-200h.png"
+              loading="lazy"
+              className="image12"
+            />
+          </div>
+          <img
+            alt="image"
+            src="/playground_assets/5stars-200h.png"
+            className="image13"
+          />
         </div>
         <a
           href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"
@@ -351,7 +361,6 @@ const Home = (props) => {
             height: auto;
             display: flex;
             position: inherit;
-            flex-wrap: wrap;
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
@@ -366,7 +375,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
             background-size: cover;
-            background-image: url('/playground_assets/junglebg-1500h.jpg');
+            background-image: url("/playground_assets/escapehilo-bigisland-hilohawaii-hawaii's%20finest%20escape%20room-1500h.jpg");
           }
           .bg {
             top: 0px;
@@ -426,7 +435,6 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
           }
@@ -590,7 +598,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .icon2 {
+          .icon02 {
             width: 3rem;
           }
           .text16 {
@@ -628,7 +636,7 @@ const Home = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .icon4 {
+          .icon04 {
             width: 3rem;
           }
           .text18 {
@@ -677,7 +685,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .icon6 {
+          .icon06 {
             width: 3rem;
           }
           .text20 {
@@ -714,9 +722,14 @@ const Home = (props) => {
             flex-direction: column;
           }
           .text22 {
-            color: var(--dl-color-secondary-400);
-            font-weight: 600;
+            color: #000000;
+            font-size: 1.5rem;
+            font-family: Montserrat;
+            font-weight: 700;
+            line-height: 2;
             margin-bottom: var(--dl-space-space-halfunit);
+            text-transform: none;
+            text-decoration: none;
           }
           .text23 {
             color: #000000;
@@ -725,14 +738,38 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .text24 {
-            font-weight: 300;
+            font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
+          .text25 {
+            font-weight: 400;
+          }
+          .text26 {
+            font-weight: 400;
+          }
+          .br {
+            font-weight: 400;
+          }
           .text27 {
-            font-weight: 300;
+            font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
+          }
+          .text28 {
+            font-weight: 400;
+          }
+          .text29 {
+            font-weight: 400;
+          }
+          .text30 {
+            font-weight: 400;
+          }
+          .text31 {
+            font-weight: 400;
+          }
+          .br1 {
+            font-weight: 400;
           }
           .container13 {
             flex: 0 0 auto;
@@ -770,13 +807,13 @@ const Home = (props) => {
             align-self: center;
             object-fit: cover;
           }
-          .text33 {
+          .text32 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .text34 {
+          .text33 {
             color: #f2f5f9ff;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
@@ -794,6 +831,44 @@ const Home = (props) => {
             width: 100%;
             bottom: -1px;
             position: absolute;
+            object-fit: cover;
+          }
+          .testimonial-card {
+            display: flex;
+            padding: 32px;
+            max-width: 1400px;
+            background: #fff;
+            box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .icon08 {
+            width: 2rem;
+            margin-bottom: 32px;
+          }
+          .text35 {
+            color: #000000;
+            width: 80%;
+            text-align: center;
+          }
+          .testimonial {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .text38 {
+            color: #000000;
+            text-align: center;
+          }
+          .image06 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+          }
+          .image07 {
+            width: 100px;
             object-fit: cover;
           }
           .section2 {
@@ -822,6 +897,7 @@ const Home = (props) => {
             flex-direction: row;
           }
           .container16 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
             border-color: #000000;
@@ -830,30 +906,9 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .image06 {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
-          .text36 {
-            color: #000000;
-            text-align: center;
-            font-weight: 700;
-          }
-          .image07 {
-            width: 100px;
-            object-fit: cover;
-          }
-          .text37 {
-            color: #000000;
-            text-align: center;
-          }
           .container17 {
             display: flex;
             align-items: center;
-            border-color: #000000;
-            border-style: inset;
-            border-width: 1px;
             flex-direction: column;
             justify-content: center;
           }
@@ -862,25 +917,36 @@ const Home = (props) => {
             height: 50px;
             object-fit: cover;
           }
-          .text40 {
+          .text39 {
             color: #000000;
             text-align: center;
-            font-weight: 700;
           }
           .image09 {
             width: 100px;
             object-fit: cover;
           }
-          .text41 {
+          .text40 {
             color: #000000;
+            width: 75%;
             text-align: center;
           }
+          .text41 {
+            font-weight: 400;
+          }
           .container18 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
             border-color: #000000;
             border-style: inset;
             border-width: 1px;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .container19 {
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
             flex-direction: column;
             justify-content: center;
           }
@@ -889,46 +955,56 @@ const Home = (props) => {
             height: 50px;
             object-fit: cover;
           }
-          .text43 {
+          .text42 {
             color: #000000;
             text-align: center;
-            font-weight: 700;
           }
           .image11 {
             width: 100px;
             object-fit: cover;
           }
-          .text44 {
+          .text43 {
             color: #000000;
+            width: 75%;
             text-align: center;
           }
-          .container19 {
+          .testimonial-card1 {
             display: flex;
-            align-self: flex-start;
+            padding: 32px;
+            max-width: 1400px;
+            background: #fff;
+            box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             align-items: center;
-            border-color: #000000;
-            border-style: inset;
-            border-width: 1px;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
+          }
+          .icon10 {
+            width: 2rem;
+            margin-bottom: 32px;
+          }
+          .testimonial1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .text45 {
+            color: #000000;
+            width: 80%;
+            text-align: center;
+          }
+          .text47 {
+            color: #000000;
+            text-align: center;
           }
           .image12 {
             width: 50px;
             height: 50px;
             object-fit: cover;
           }
-          .text46 {
-            color: #000000;
-            text-align: center;
-            font-weight: 700;
-          }
           .image13 {
             width: 100px;
             object-fit: cover;
-          }
-          .text47 {
-            color: #000000;
-            text-align: center;
           }
           .link {
             color: #ffffff;
@@ -979,12 +1055,12 @@ const Home = (props) => {
               width: 20rem;
               height: auto;
             }
-            .text33 {
+            .text32 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .text34 {
+            .text33 {
               width: auto;
               align-self: center;
               text-align: center;
@@ -1049,9 +1125,13 @@ const Home = (props) => {
             .container14 {
               height: 30rem;
             }
-            .text34 {
+            .text33 {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .testimonial-card {
+              padding-left: 32px;
+              padding-right: 32px;
             }
             .container15 {
               flex-wrap: wrap;
@@ -1073,6 +1153,10 @@ const Home = (props) => {
             .container19 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .testimonial-card1 {
+              padding-left: 32px;
+              padding-right: 32px;
             }
           }
           @media (max-width: 479px) {
@@ -1109,6 +1193,15 @@ const Home = (props) => {
             .text21 {
               text-align: left;
             }
+            .testimonial-card {
+              padding-top: 32px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 32px;
+            }
+            .icon08 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
             .container15 {
               align-items: center;
               flex-direction: column;
@@ -1124,6 +1217,15 @@ const Home = (props) => {
             }
             .container19 {
               width: 100%;
+            }
+            .testimonial-card1 {
+              padding-top: 32px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 32px;
+            }
+            .icon10 {
+              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}
