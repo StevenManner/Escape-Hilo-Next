@@ -5,24 +5,24 @@ import PropTypes from 'prop-types'
 const Counter = (props) => {
   return (
     <>
-      <div className="container">
-        <h1 className="text textXL">{props.number}</h1>
-        <span className="text1 textSM">{props.type}</span>
+      <div className="counter-container">
+        <h1 className="counter-text textXL">{props.number}</h1>
+        <span className="counter-text1 textSM">{props.type}</span>
       </div>
       <style jsx>
         {`
-          .container {
+          .counter-container {
             flex: 0 0 auto;
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: center;
             flex-direction: column;
           }
-          .text {
+          .counter-text {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
           }
-          .text1 {
+          .counter-text1 {
             color: var(--dl-color-secondary-500);
           }
         `}

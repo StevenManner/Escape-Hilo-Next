@@ -5,12 +5,12 @@ import PropTypes from 'prop-types'
 const Footer = (props) => {
   return (
     <>
-      <div className={`container ${props.rootClassName} `}>
-        <div className="container01">
-          <div className="container02">
-            <div className="container03">
-              <span className="text">
-                <span className="text01">
+      <div className={`footer-container ${props.rootClassName} `}>
+        <div className="footer-container01">
+          <div className="footer-container02">
+            <div className="footer-container03">
+              <span className="footer-text">
+                <span className="footer-text01">
                   Find us on these platforms! Or click the telephone icon to
                   call us.
                   <span
@@ -20,22 +20,24 @@ const Footer = (props) => {
                   />
                 </span>
                 <br></br>
-                <span className="text03"></span>
-                <span className="text04">Click on the GPS icon for direc</span>
-                <span className="text05">tions!</span>
+                <span className="footer-text03"></span>
+                <span className="footer-text04">
+                  Click on the GPS icon for direc
+                </span>
+                <span className="footer-text05">tions!</span>
               </span>
-              <div className="container04">
-                <div className="container05">
+              <div className="footer-container04">
+                <div className="footer-container05">
                   <a
                     href="https://goo.gl/maps/iHxK17FhxFr4WQYq8"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="link"
+                    className="footer-link"
                   >
-                    <div className="container06">
+                    <div className="footer-container06">
                       <img
                         src="/playground_assets/gmapspin-200h.png"
-                        className="image"
+                        className="footer-image"
                       />
                     </div>
                   </a>
@@ -43,12 +45,12 @@ const Footer = (props) => {
                     href="https://www.instagram.com/escapehilo/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="link1"
+                    className="footer-link1"
                   >
-                    <div className="container07">
+                    <div className="footer-container07">
                       <img
                         src="/playground_assets/ig-200h.webp"
-                        className="image1"
+                        className="footer-image1"
                       />
                     </div>
                   </a>
@@ -56,20 +58,20 @@ const Footer = (props) => {
                     href="https://www.facebook.com/EscapeHiloHawaii"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="link2"
+                    className="footer-link2"
                   >
-                    <div className="container08">
-                      <svg viewBox="0 0 1024 1024" className="icon">
+                    <div className="footer-container08">
+                      <svg viewBox="0 0 1024 1024" className="footer-icon">
                         <path d="M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h416v-448h-128v-128h128v-64c0-105.8 86.2-192 192-192h128v128h-128c-35.2 0-64 28.8-64 64v64h192l-32 128h-160v448h288c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96z"></path>
                       </svg>
                     </div>
                   </a>
-                  <a href="tel:+18089699696" className="link3">
-                    <div className="container09">
+                  <a href="tel:+18089699696" className="footer-link3">
+                    <div className="footer-container09">
                       <img
                         alt={props.image_alt1}
                         src={props.image_src1}
-                        className="image2"
+                        className="footer-image2"
                       />
                     </div>
                   </a>
@@ -78,11 +80,11 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <div className="container10"></div>
-        <div className="container11">
-          <div className="container12">
-            <span className="text06 textSM">
-              <span className="text07">Hours of Operation</span>
+        <div className="footer-container10"></div>
+        <div className="footer-container11">
+          <div className="footer-container12">
+            <span className="footer-text06 textSM">
+              <span className="footer-text07">Hours of Operation</span>
               <br></br>
               <span>M</span>
               <span>onday - Sunday</span>
@@ -93,19 +95,19 @@ const Footer = (props) => {
             </span>
           </div>
         </div>
-        <div className="container13">
-          <div className="container14">
-            <span className="text15 textXS">OTHER RESOURCES</span>
-            <span className="text16 textSM">Terms &amp; Conditions</span>
-            <span className="text17 textSM">Privacy Policy</span>
+        <div className="footer-container13">
+          <div className="footer-container14">
+            <span className="footer-text15 textXS">OTHER RESOURCES</span>
+            <span className="footer-text16 textSM">Terms &amp; Conditions</span>
+            <span className="footer-text17 textSM">Privacy Policy</span>
           </div>
         </div>
-        <div className="container15">
-          <div className="container16">
-            <div className="container17"></div>
+        <div className="footer-container15">
+          <div className="footer-container16">
+            <div className="footer-container17"></div>
           </div>
         </div>
-        <span className="text18 textSM">
+        <span className="footer-text18 textSM">
           <span>
             Copyright 2022 Hilo Experience LLC dba Escape Hilo |
             <span
@@ -119,13 +121,13 @@ const Footer = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <span className="text20">Design by Manner Media LLC</span>
+            <span className="footer-text20">Design by Manner Media LLC</span>
           </a>
         </span>
       </div>
       <style jsx>
         {`
-          .container {
+          .footer-container {
             width: 100%;
             height: 450px;
             display: flex;
@@ -134,7 +136,7 @@ const Footer = (props) => {
             justify-content: center;
             background-color: var(--dl-color-pimary-900);
           }
-          .container01 {
+          .footer-container01 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -142,7 +144,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .container02 {
+          .footer-container02 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -150,7 +152,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .container03 {
+          .footer-container03 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -158,44 +160,44 @@ const Footer = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .text {
+          .footer-text {
             color: #000000;
             width: 100%;
             align-self: center;
             text-align: center;
             font-weight: 700;
           }
-          .text01 {
+          .footer-text01 {
             text-align: center;
             font-weight: 700;
           }
-          .text03 {
+          .footer-text03 {
             text-align: center;
           }
-          .text04 {
+          .footer-text04 {
             text-align: center;
             font-weight: 700;
           }
-          .text05 {
+          .footer-text05 {
             font-weight: 700;
           }
-          .container04 {
+          .footer-container04 {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .container05 {
+          .footer-container05 {
             display: flex;
             margin-top: var(--dl-space-space-unitandhalf);
             align-items: flex-start;
             flex-direction: row;
           }
-          .link {
+          .footer-link {
             display: contents;
           }
-          .container06 {
+          .footer-container06 {
             flex: 0 0 auto;
             width: 2.5rem;
             height: 2.5rem;
@@ -208,15 +210,15 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-white);
           }
-          .image {
+          .footer-image {
             width: 25px;
             height: 25px;
             object-fit: cover;
           }
-          .link1 {
+          .footer-link1 {
             display: contents;
           }
-          .container07 {
+          .footer-container07 {
             flex: 0 0 auto;
             width: 2.5rem;
             height: 2.5rem;
@@ -229,15 +231,15 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-white);
           }
-          .image1 {
+          .footer-image1 {
             width: 25px;
             height: 25px;
             object-fit: cover;
           }
-          .link2 {
+          .footer-link2 {
             display: contents;
           }
-          .container08 {
+          .footer-container08 {
             flex: 0 0 auto;
             width: 2.5rem;
             height: 2.5rem;
@@ -250,15 +252,15 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-white);
           }
-          .icon {
+          .footer-icon {
             fill: #4267B2;
             width: 25px;
             height: 25px;
           }
-          .link3 {
+          .footer-link3 {
             display: contents;
           }
-          .container09 {
+          .footer-container09 {
             flex: 0 0 auto;
             width: 2.5rem;
             height: 2.5rem;
@@ -271,12 +273,12 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-white);
           }
-          .image2 {
+          .footer-image2 {
             width: 25px;
             height: 25px;
             object-fit: cover;
           }
-          .container10 {
+          .footer-container10 {
             flex: 0 0 auto;
             width: auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -285,7 +287,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .container11 {
+          .footer-container11 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -293,7 +295,7 @@ const Footer = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: center;
           }
-          .container12 {
+          .footer-container12 {
             flex: 0 0 auto;
             width: 33%;
             height: 100px;
@@ -303,23 +305,23 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .text06 {
+          .footer-text06 {
             color: #000000;
             font-style: normal;
             text-align: center;
           }
-          .text07 {
+          .footer-text07 {
             font-style: normal;
             font-weight: 700;
           }
-          .container13 {
+          .footer-container13 {
             flex: 0 0 auto;
             height: auto;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .container14 {
+          .footer-container14 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -327,23 +329,23 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .text15 {
+          .footer-text15 {
             color: var(--dl-color-secondary-400);
             text-align: center;
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text16 {
+          .footer-text16 {
             color: var(--dl-color-secondary-500);
             text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text17 {
+          .footer-text17 {
             color: var(--dl-color-secondary-500);
             text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .container15 {
+          .footer-container15 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -351,7 +353,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .container16 {
+          .footer-container16 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -359,7 +361,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .container17 {
+          .footer-container17 {
             flex: 0 0 auto;
             width: auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -368,94 +370,94 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .text18 {
+          .footer-text18 {
             color: #000000;
             align-self: center;
             padding-top: var(--dl-space-space-twoandhalf);
           }
-          .text20 {
+          .footer-text20 {
             text-decoration: underline;
           }
-          .rootClassName {
+          .footer-root-class-name {
             height: 100%;
           }
           @media (max-width: 991px) {
-            .text {
+            .footer-text {
               font-size: small;
             }
-            .container04 {
+            .footer-container04 {
               align-items: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .container14 {
+            .footer-container14 {
               align-items: center;
             }
           }
           @media (max-width: 767px) {
-            .container {
+            .footer-container {
               height: 475px;
             }
-            .text {
+            .footer-text {
               text-align: center;
             }
-            .container04 {
+            .footer-container04 {
               width: 597px;
             }
-            .container11 {
+            .footer-container11 {
               width: 100%;
               align-items: stretch;
             }
-            .container12 {
+            .footer-container12 {
               width: 33%;
             }
-            .text06 {
+            .footer-text06 {
               align-self: flex-start;
               margin-right: var(--dl-space-space-unit);
             }
-            .container14 {
+            .footer-container14 {
               width: 33%;
               align-items: center;
             }
           }
           @media (max-width: 479px) {
-            .container {
+            .footer-container {
               height: 100%;
             }
-            .container03 {
+            .footer-container03 {
               width: 100%;
             }
-            .text {
+            .footer-text {
               width: 100%;
               height: auto;
             }
-            .container04 {
+            .footer-container04 {
               width: auto;
             }
-            .container11 {
+            .footer-container11 {
               width: 100%;
             }
-            .container12 {
+            .footer-container12 {
               width: auto;
               height: auto;
             }
-            .text06 {
+            .footer-text06 {
               width: auto;
               text-align: center;
             }
-            .container13 {
+            .footer-container13 {
               align-items: center;
               justify-content: center;
             }
-            .text15 {
+            .footer-text15 {
               text-align: center;
             }
-            .text16 {
+            .footer-text16 {
               text-align: center;
             }
-            .text17 {
+            .footer-text17 {
               text-align: center;
             }
-            .text18 {
+            .footer-text18 {
               width: 100%;
               height: 100%;
               align-self: flex-start;

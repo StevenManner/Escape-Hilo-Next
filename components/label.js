@@ -5,16 +5,16 @@ import PropTypes from 'prop-types'
 const Label = (props) => {
   return (
     <>
-      <div className="container">
-        <h6 className="text">{props.text}</h6>
+      <div className="label-container">
+        <h6 className="label-text">{props.text}</h6>
       </div>
       <style jsx>
         {`
-          .container {
+          .label-container {
             display: flex;
             position: relative;
           }
-          .text {
+          .label-text {
             color: var(--dl-color-pimary-500);
             font-style: normal;
             font-weight: 700;

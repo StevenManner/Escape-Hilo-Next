@@ -4,48 +4,111 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const BookARoom = () => {
+const BookARoom = (props) => {
   return (
     <>
-      <div className="container">
+      <div className="book-a-room-container">
         <Head>
-          <title>Book A Room - Discover | Think | Solve</title>
+          <title>Book A Room - Escape Hilo</title>
           <meta
             name="description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+            content="Book A Room for Escape Hilo's Jungle Mystery, with over 100 five star reviews on Google Maps, we serve the best puzzle experience to all visiting the big island"
           />
-          <meta
-            property="og:title"
-            content="Book A Room - Discover | Think | Solve"
-          />
+          <meta property="og:title" content="Book A Room - Escape Hilo" />
           <meta
             property="og:description"
-            content="Escape Hilo is Hilo's #1 Escape Room! Experience our Jungle Mystery today. Located near S.Hata building in downtown Hilo."
+            content="Book A Room for Escape Hilo's Jungle Mystery, with over 100 five star reviews on Google Maps, we serve the best puzzle experience to all visiting the big island"
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
           />
         </Head>
-        <Header rootClassName="rootClassName2"></Header>
-        <div className="section1">
-          <div className="container1">
-            <div className="container2">
-              <span className="text text2XL">MAKE A RESERVATION</span>
+        <Header rootClassName="header-root-class-name2"></Header>
+        <div className="book-a-room-section1">
+          <div className="book-a-room-container1">
+            <div className="book-a-room-container2">
+              <span className="book-a-room-text text2XL">
+                MAKE A RESERVATION
+              </span>
               <iframe
                 src="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"
                 allowFullScreen="true"
-                className="iframe"
+                className="book-a-room-iframe"
               ></iframe>
             </div>
+          </div>
+          <div className="book-a-room-banner">
+            <h1 className="book-a-room-text01 montserratTitles">
+              <span>Why should you book with Escape Hilo?</span>
+              <span></span>
+            </h1>
+            <span className="book-a-room-text04">
+              <span>
+                Escape Hilo is not only Big Island&apos;s top rated Escape Room,
+                and close to being one of Hawaii&apos;s best escape rooms, it is
+                one of Hilo&apos;s finest experiences. Hilo Hawai&apos;i is a
+                small town with a population of roughly 45,000+
+              </span>
+              <br></br>
+              <span></span>
+              <br></br>
+              <span>
+                known for its vast island storefronts, bars, and art, downtown
+                Hilo is often one of the many stops across the island to
+                experience it&apos;s natural beauty. Hikes, ziplines,
+                waterfalls, caves, diving spots, lava flows, you name it.
+              </span>
+              <br></br>
+              <span></span>
+              <br></br>
+              <span>
+                Do you know what
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="book-a-room-text14">else</span>
+              <span> there is to explore?</span>
+              <br></br>
+              <span></span>
+              <span></span>
+              <br></br>
+              <span>
+                One of the most unique Escape Room&apos;s you will ever
+                experience, operated by one of the most unique people you will
+                ever meet. With over 5+ years operating strong with themes like
+                our famous ( old room ) Christmas Mystery and newly launched
+                Jungle Mystery themed Escape Room.
+              </span>
+              <br></br>
+              <span></span>
+              <br></br>
+              <span>
+                It&apos;s easy to reach from Hilo
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="book-a-room-text25">and</span>
+              <span> Kona with parking almost always available out front.</span>
+            </span>
           </div>
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image"
+            className="book-a-room-image"
           />
         </div>
         <a
           href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link button"
+          className="book-a-room-link button"
         >
           Book Your Jungle Mystery Today!
         </a>
@@ -53,7 +116,7 @@ const BookARoom = () => {
       </div>
       <style jsx>
         {`
-          .container {
+          .book-a-room-container {
             width: 100%;
             height: auto;
             display: flex;
@@ -61,7 +124,7 @@ const BookARoom = () => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .section1 {
+          .book-a-room-section1 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -74,7 +137,7 @@ const BookARoom = () => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-pimary-900);
           }
-          .container1 {
+          .book-a-room-container1 {
             width: 100%;
             display: flex;
             max-width: 1320px;
@@ -82,7 +145,7 @@ const BookARoom = () => {
             align-items: center;
             flex-direction: column;
           }
-          .container2 {
+          .book-a-room-container2 {
             width: 100%;
             display: flex;
             align-items: center;
@@ -90,14 +153,37 @@ const BookARoom = () => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text {
+          .book-a-room-text {
             color: #000000;
           }
-          .iframe {
+          .book-a-room-iframe {
             width: 100%;
             height: 1200px;
           }
-          .image {
+          .book-a-room-banner {
+            width: 100%;
+            display: flex;
+            padding: 48px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .book-a-room-text01 {
+            text-align: center;
+          }
+          .book-a-room-text04 {
+            max-width: 1400px;
+            margin-top: 32px;
+            text-align: center;
+            margin-bottom: 32px;
+          }
+          .book-a-room-text14 {
+            font-style: italic;
+          }
+          .book-a-room-text25 {
+            font-style: italic;
+          }
+          .book-a-room-image {
             top: auto;
             left: auto;
             right: 0px;
@@ -106,7 +192,7 @@ const BookARoom = () => {
             position: absolute;
             object-fit: cover;
           }
-          .link {
+          .book-a-room-link {
             color: #ffffff;
             width: 100%;
             align-self: center;
@@ -121,17 +207,47 @@ const BookARoom = () => {
             text-decoration: none;
             background-color: #39b300;
           }
-          .link:hover {
+          .book-a-room-link:hover {
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
+          @media (max-width: 991px) {
+            .book-a-room-banner {
+              height: 477px;
+              margin-bottom: 0px;
+              padding-bottom: 0x;
+            }
+            .book-a-room-text01 {
+              color: #000000;
+            }
+            .book-a-room-text04 {
+              color: #000000;
+              max-width: 100%;
+            }
+          }
           @media (max-width: 767px) {
-            .section1 {
+            .book-a-room-section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .container2 {
+            .book-a-room-container2 {
               width: 100%;
+            }
+            .book-a-room-banner {
+              padding-left: 32px;
+              padding-right: 32px;
+            }
+            .book-a-room-text04 {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
+          }
+          @media (max-width: 479px) {
+            .book-a-room-banner {
+              padding-top: 32px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 32px;
             }
           }
         `}

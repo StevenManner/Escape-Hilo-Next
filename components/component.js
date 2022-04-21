@@ -5,23 +5,23 @@ import PropTypes from 'prop-types'
 const AppComponent = (props) => {
   return (
     <>
-      <div className={`container ${props.rootClassName} `}>
+      <div className={`component-container ${props.rootClassName} `}>
         <a
           href={props.link_button}
           target="_blank"
           rel="noreferrer noopener"
-          className="link button"
+          className="component-link button"
         >
           {props.button}
         </a>
       </div>
       <style jsx>
         {`
-          .container {
+          .component-container {
             display: flex;
             position: relative;
           }
-          .link {
+          .component-link {
             color: #ffffff;
             font-style: normal;
             transition: 0.3s;
@@ -30,12 +30,12 @@ const AppComponent = (props) => {
             text-decoration: none;
             background-color: #39b300;
           }
-          .link:hover {
+          .component-link:hover {
             padding-top: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-unit);
             background-color: #227101;
           }
-          .rootClassName {
+          .component-root-class-name {
             margin-top: var(--dl-space-space-doubleunit);
             margin-bottom: var(--dl-space-space-doubleunit);
           }

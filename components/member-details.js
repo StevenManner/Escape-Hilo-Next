@@ -5,32 +5,36 @@ import PropTypes from 'prop-types'
 const MemberDetails = (props) => {
   return (
     <>
-      <div className="container">
-        <img alt={props.image_alt} src={props.image_src} className="image" />
-        <h1 className="text textXL">{props.heading1}</h1>
-        <h1 className="text1 textSM">{props.heading11}</h1>
+      <div className="member-details-container">
+        <img
+          alt={props.image_alt}
+          src={props.image_src}
+          className="member-details-image"
+        />
+        <h1 className="member-details-text textXL">{props.heading1}</h1>
+        <h1 className="member-details-text1 textSM">{props.heading11}</h1>
       </div>
       <style jsx>
         {`
-          .container {
+          .member-details-container {
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .image {
+          .member-details-image {
             width: 100px;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
               0 4px 6px -2px rgba(0, 0, 0, 0.05);
             object-fit: cover;
             border-radius: var(--dl-radius-radius-round);
           }
-          .text {
+          .member-details-text {
             color: var(--dl-color-secondary-100);
             text-align: center;
             padding-top: var(--dl-space-space-unitandhalf);
           }
-          .text1 {
+          .member-details-text1 {
             color: var(--dl-color-secondary-700);
             text-align: center;
             text-transform: uppercase;

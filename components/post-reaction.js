@@ -5,31 +5,35 @@ import PropTypes from 'prop-types'
 const PostReaction = (props) => {
   return (
     <>
-      <div className="container">
-        <div className="container1">
-          <img alt={props.image_alt} src={props.image_src} className="image" />
-          <div className="container2">
-            <span className="text textLG">{props.name}</span>
-            <span className="text1 textMD">{props.text}</span>
-            <div className="container3">
-              <svg viewBox="0 0 1024 1024" className="icon">
+      <div className="post-reaction-container">
+        <div className="post-reaction-container1">
+          <img
+            alt={props.image_alt}
+            src={props.image_src}
+            className="post-reaction-image"
+          />
+          <div className="post-reaction-container2">
+            <span className="post-reaction-text textLG">{props.name}</span>
+            <span className="post-reaction-text1 textMD">{props.text}</span>
+            <div className="post-reaction-container3">
+              <svg viewBox="0 0 1024 1024" className="post-reaction-icon">
                 <path d="M982 426v86q0 16-6 32l-130 300q-20 52-78 52h-384q-34 0-60-26t-26-60v-426q0-34 26-60l280-282 46 46q18 18 18 44v14l-42 196h270q34 0 60 25t26 59zM42 896v-512h172v512h-172z"></path>
               </svg>
-              <span className="text2 textXS">{props.likes}</span>
-              <span className="text3 textXS">likes</span>
-              <svg viewBox="0 0 1024 1024" className="icon2">
+              <span className="post-reaction-text2 textXS">{props.likes}</span>
+              <span className="post-reaction-text3 textXS">likes</span>
+              <svg viewBox="0 0 1024 1024" className="post-reaction-icon2">
                 <path d="M1024 365.714c0 9.714-4 18.857-10.857 25.714l-292.571 292.571c-6.857 6.857-16 10.857-25.714 10.857-20 0-36.571-16.571-36.571-36.571v-146.286h-128c-246.286 0-408 47.429-408 320 0 23.429 1.143 46.857 2.857 70.286 0.571 9.143 2.857 19.429 2.857 28.571 0 10.857-6.857 20-18.286 20-8 0-12-4-16-9.714-8.571-12-14.857-30.286-21.143-43.429-32.571-73.143-72.571-177.714-72.571-257.714 0-64 6.286-129.714 30.286-190.286 79.429-197.143 312.571-230.286 500-230.286h128v-146.286c0-20 16.571-36.571 36.571-36.571 9.714 0 18.857 4 25.714 10.857l292.571 292.571c6.857 6.857 10.857 16 10.857 25.714z"></path>
               </svg>
-              <span className="text4 textXS">{props.shares}</span>
-              <span className="text5 textXS">shares</span>
+              <span className="post-reaction-text4 textXS">{props.shares}</span>
+              <span className="post-reaction-text5 textXS">shares</span>
             </div>
           </div>
         </div>
-        <div className="divider"></div>
+        <div className="post-reaction-divider"></div>
       </div>
       <style jsx>
         {`
-          .container {
+          .post-reaction-container {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -38,69 +42,69 @@ const PostReaction = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unitandhalf);
           }
-          .container1 {
+          .post-reaction-container1 {
             display: flex;
             align-items: flex-start;
             flex-direction: row;
           }
-          .image {
+          .post-reaction-image {
             width: 40px;
             object-fit: cover;
             margin-right: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-round);
           }
-          .container2 {
+          .post-reaction-container2 {
             flex: 1;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .text {
+          .post-reaction-text {
             color: var(--dl-color-secondary-400);
             font-weight: 700;
             line-height: 40px;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .text1 {
+          .post-reaction-text1 {
             color: rgba(100, 116, 139, 1);
             font-weight: 300;
             line-height: 1.625;
           }
-          .container3 {
+          .post-reaction-container3 {
             flex: 0 0 auto;
             display: flex;
             margin-top: var(--dl-space-space-halfunit);
             align-items: center;
             flex-direction: row;
           }
-          .icon {
+          .post-reaction-icon {
             fill: var(--dl-color-secondary-500);
             width: 14px;
             height: 100%;
           }
-          .text2 {
+          .post-reaction-text2 {
             color: var(--dl-color-secondary-500);
             margin-left: 0.25rem;
           }
-          .text3 {
+          .post-reaction-text3 {
             color: var(--dl-color-secondary-500);
             margin-left: 0.25rem;
           }
-          .icon2 {
+          .post-reaction-icon2 {
             fill: var(--dl-color-secondary-500);
             width: 14px;
             margin-top: 2px;
             margin-left: var(--dl-space-space-unit);
           }
-          .text4 {
+          .post-reaction-text4 {
             color: var(--dl-color-secondary-500);
             margin-left: 0.25rem;
           }
-          .text5 {
+          .post-reaction-text5 {
             color: var(--dl-color-secondary-500);
             margin-left: 0.25rem;
           }
-          .divider {
+          .post-reaction-divider {
             flex: 0 0 auto;
             width: 100%;
             height: 0.5px;

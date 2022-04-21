@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 const Home = (props) => {
   return (
     <>
-      <div className="container">
+      <div className="home-container">
         <Head>
           <title>Hawaii's Jungle Escape Room | EXPERT Difficulty</title>
           <meta
@@ -28,12 +28,12 @@ const Home = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/4a8d5692-3868-49ea-b5a2-112185011fcd?org_if_sml=1"
           />
         </Head>
-        <div className="hero">
-          <div className="bg"></div>
-          <Header rootClassName="rootClassName3"></Header>
-          <div className="container01">
-            <div className="container02">
-              <h1 className="text">
+        <div className="home-hero">
+          <div className="home-bg"></div>
+          <Header rootClassName="header-root-class-name3"></Header>
+          <div className="home-container01">
+            <div className="home-container02">
+              <h1 className="home-text">
                 Jungle Mystery
                 <span
                   dangerouslySetInnerHTML={{
@@ -41,7 +41,7 @@ const Home = (props) => {
                   }}
                 />
               </h1>
-              <span className="text01">
+              <span className="home-text01">
                 <span>
                   Recover a lost family heirloom before your time expires. You
                   have 60 minutes to solve your way out
@@ -52,30 +52,28 @@ const Home = (props) => {
             <img
               alt="image"
               src="/playground_assets/white-vector.svg"
-              className="image"
+              className="home-image"
             />
           </div>
         </div>
-        <div className="container03">
-          <div className="container04">
+        <p htmlFor="header">Text</p>
+        <div className="home-container03">
+          <div className="home-container04">
             <img
               alt="image"
               src="/playground_assets/s._hata_building_hilo-1024x755-1500w.jpg"
-              className="image01"
+              className="home-image01"
             />
           </div>
-          <div className="container05">
-            <span className="text03">
-              <span>THE BIG ISLAND&apos;S NEWEST ACTIVITY</span>
-            </span>
+          <div className="home-container05">
             <img
               alt="image"
-              src="/playground_assets/355-1500w.png"
-              className="image02"
+              src="/playground_assets/355-1400w.png"
+              className="home-image02"
             />
           </div>
         </div>
-        <span className="text05">
+        <span className="home-text04">
           <span>
             Come and experience the popular physical adventure game right here
             in Downtown Hilo at the historic S.Hata Building! Escape Hilo is a
@@ -86,84 +84,87 @@ const Home = (props) => {
             time runs out.
           </span>
         </span>
-        <label id="time" htmlFor="time" className="text07 textarea">
+        <label id="time" htmlFor="time" className="home-text06 textarea">
           <span>60:00</span>
         </label>
-        <AppComponent rootClassName="rootClassName"></AppComponent>
-        <div className="section1">
-          <div className="container06">
-            <div className="container07">
-              <h6 className="text09">
+        <AppComponent rootClassName="app-component-root-class-name"></AppComponent>
+        <div className="home-section1">
+          <div className="home-container06">
+            <div className="home-container07">
+              <h6 className="home-text08">
                 <span>Escape hilo presents...</span>
               </h6>
-              <h3 className="text11 healine">YOUR MISSION: Jungle Mystery</h3>
-              <span className="text12 textXL">
-                <span className="text13">
-                  Your group has 1 hour to escape from Hawaii&apos;s jungle
-                  themed Escape Room!
+              <h3 className="home-text10">YOUR MISSION: Jungle Mystery</h3>
+              <span className="home-text11 textXL">
+                <span className="home-text12">
+                  Your group has 1 hour to escape from Escape Hilo&apos;s Hawaii
+                  jungle themed Escape Room!
                 </span>
               </span>
             </div>
-            <div className="cards-container">
-              <div className="card1">
-                <div className="container08">
-                  <svg viewBox="0 0 1024 1024" className="icon">
+            <div className="home-cards-container">
+              <div className="home-card1">
+                <div className="home-container08">
+                  <svg viewBox="0 0 1024 1024" className="home-icon">
                     <path d="M992.262 871.396l-242.552-206.294c-25.074-22.566-51.89-32.926-73.552-31.926 57.256-67.068 91.842-154.078 91.842-249.176 0-212.078-171.922-384-384-384-212.076 0-384 171.922-384 384s171.922 384 384 384c95.098 0 182.108-34.586 249.176-91.844-1 21.662 9.36 48.478 31.926 73.552l206.294 242.552c35.322 39.246 93.022 42.554 128.22 7.356s31.892-92.898-7.354-128.22zM384 640c-141.384 0-256-114.616-256-256s114.616-256 256-256 256 114.616 256 256-114.614 256-256 256z"></path>
                   </svg>
                 </div>
-                <h6 className="text14 textXL">FOLLOW THE CLUES</h6>
-                <span className="text15">
+                <h6 className="home-text13 textXL">FOLLOW THE CLUES</h6>
+                <span className="home-text14">
                   There are clues hidden throughout the game room that help
                   guide your next decision
                 </span>
               </div>
-              <div className="card2">
-                <div className="container09">
-                  <svg viewBox="0 0 1024 1024" className="icon02">
+              <div className="home-card2">
+                <div className="home-container09">
+                  <svg viewBox="0 0 1024 1024" className="home-icon02">
                     <path d="M704 0c-176.73 0-320 143.268-320 320 0 20.026 1.858 39.616 5.376 58.624l-389.376 389.376v192c0 35.346 28.654 64 64 64h64v-64h128v-128h128v-128h128l83.042-83.042c34.010 12.316 70.696 19.042 108.958 19.042 176.73 0 320-143.268 320-320s-143.27-320-320-320zM799.874 320.126c-53.020 0-96-42.98-96-96s42.98-96 96-96 96 42.98 96 96-42.98 96-96 96z"></path>
                   </svg>
                 </div>
-                <h6 className="text16 textXL">FIND THE KEYS</h6>
-                <span className="text17">
+                <h6 className="home-text15 textXL">FIND THE KEYS</h6>
+                <span className="home-text16">
                   Keys are used to progress to the next puzzle, can you find
                   them all before time runs out?
                 </span>
               </div>
-              <div className="card3">
-                <div className="container10">
-                  <svg viewBox="0 0 1024 1024" className="icon04">
+              <div className="home-card3">
+                <div className="home-container10">
+                  <svg viewBox="0 0 1024 1024" className="home-icon04">
                     <path d="M426 726l384-384-60-62-324 324-152-152-60 60zM810 128q36 0 61 25t25 61v596q0 36-25 61t-61 25h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                   </svg>
                 </div>
-                <h6 className="text18 textXL">SOLVE THE MYSTERY</h6>
-                <span className="text19">
+                <h6 className="home-text17 textXL">SOLVE THE MYSTERY</h6>
+                <span className="home-text18">
                   Solve your way through the jungle room by using your wits and
                   creativity
                 </span>
               </div>
             </div>
-            <div className="cards-container1">
-              <div className="card21">
-                <div className="container11">
-                  <svg viewBox="0 0 877.7142857142857 1024" className="icon06">
+            <div className="home-cards-container1">
+              <div className="home-card21">
+                <div className="home-container11">
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    className="home-icon06"
+                  >
                     <path d="M804.571 73.143c0 211.429-101.143 364.571-213.143 438.857 112 74.286 213.143 227.429 213.143 438.857h54.857c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-841.143c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h54.857c0-211.429 101.143-364.571 213.143-438.857-112-74.286-213.143-227.429-213.143-438.857h-54.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h841.143c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-54.857zM499.429 477.714c115.429-43.429 232-196 232-404.571h-585.143c0 208.571 116.571 361.143 232 404.571 14.286 5.143 24 18.857 24 34.286s-9.714 29.143-24 34.286c-49.143 18.286-98.857 57.143-139.429 112h400c-40.571-54.857-90.286-93.714-139.429-112-14.286-5.143-24-18.857-24-34.286s9.714-29.143 24-34.286z"></path>
                   </svg>
                 </div>
-                <h6 className="text20 textXL">60 MINUTE TIME LIMIT</h6>
-                <span className="text21">
+                <h6 className="home-text19 textXL">60 MINUTE TIME LIMIT</h6>
+                <span className="home-text20">
                   Can you and your group solve all the puzzles before time runs
                   out?
                 </span>
               </div>
             </div>
             <AppComponent></AppComponent>
-            <div className="work-with-us">
-              <div className="container12">
-                <h3 className="text22">
+            <div className="home-work-with-us">
+              <div className="home-container12">
+                <h3 className="home-text21">
                   Not convinced? Hear from our previous winners!
                 </h3>
-                <span className="text23 blinkerParagraphs">
-                  <span className="text24">
+                <span className="home-text22 blinkerParagraphs">
+                  <span className="home-text23">
                     Awesome game, awesome time. This was my first time playing
                     and what I had envisioned it to be; it was exactly that. It
                     was exciting, challenging, and completely well thought out.
@@ -174,42 +175,44 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <br className="text25"></br>
-                  <span className="text26"></span>
-                  <br className="br"></br>
-                  <span className="text27">
+                  <br className="home-text24"></br>
+                  <span className="home-text25"></span>
+                  <br className="home-br"></br>
+                  <span className="home-text26">
                     The experience was amazing. Unlike anything else in Hilo.
                     Definitely would recommend to any locals or anyone visiting
                     the island. - Elias
                   </span>
-                  <br className="text28"></br>
-                  <span className="text29"></span>
-                  <br className="text30"></br>
-                  <span className="text31">
+                  <br className="home-text27"></br>
+                  <span className="home-text28"></span>
+                  <br className="home-text29"></br>
+                  <span className="home-text30">
                     We have done a couple of escape rooms before and this one
                     was really ingenious, and challenging enough to be fun but
                     not too hard. A great way to spend an hour in Hilo! - Jim
                   </span>
-                  <br className="br1"></br>
+                  <br className="home-br1"></br>
                 </span>
               </div>
-              <div className="container13">
-                <div className="container14">
+              <div className="home-container13">
+                <div className="home-container14">
                   <img
                     alt="image"
                     src="/playground_assets/2-1500h.jpg"
                     loading="lazy"
-                    className="image03"
+                    className="home-image03"
                   />
                 </div>
                 <img
                   alt="stars"
                   src="/playground_assets/5stars-200h.png"
                   loading="lazy"
-                  className="image04"
+                  className="home-image04"
                 />
-                <h4 className="text32 healine">Five Star Reviews on Google!</h4>
-                <span className="text33">
+                <h4 className="home-text31 healine">
+                  Five Star Reviews on Google!
+                </h4>
+                <span className="home-text32 blinkerParagraphs">
                   <span>
                     With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
@@ -221,14 +224,14 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image05"
+            className="home-image05"
           />
         </div>
-        <div className="testimonial-card">
-          <svg viewBox="0 0 950.8571428571428 1024" className="icon08">
+        <div className="home-testimonial-card">
+          <svg viewBox="0 0 950.8571428571428 1024" className="home-icon08">
             <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
           </svg>
-          <span className="text35 blinkerParagraphs">
+          <span className="home-text34 blinkerParagraphs">
             <span>
               Escape Hilo provided my sister and I a great experience! Did we
               escape? No. However, we both had a blast running around, solving
@@ -241,40 +244,40 @@ const Home = (props) => {
             <br></br>
             <span>Good luck!</span>
           </span>
-          <div className="testimonial">
-            <span className="text38 montserratTitles">Ramses G.</span>
+          <div className="home-testimonial">
+            <span className="home-text37 montserratTitles">Ramses G.</span>
             <img
               alt="image"
               src="/playground_assets/ryan_2-200h.png"
               loading="lazy"
-              className="image06"
+              className="home-image06"
             />
           </div>
           <img
             alt="image"
             src="/playground_assets/5stars-200h.png"
-            className="image07"
+            className="home-image07"
           />
         </div>
-        <div className="section2">
-          <div className="team">
-            <div className="container15">
-              <div className="container16"></div>
-              <div className="container17">
+        <div className="home-section2">
+          <div className="home-team">
+            <div className="home-container15">
+              <div className="home-container16"></div>
+              <div className="home-container17">
                 <img
                   alt="image"
                   src="/playground_assets/ryan_3-200h.png"
                   loading="lazy"
-                  className="image08"
+                  className="home-image08"
                 />
-                <span className="text39 montserratTitles">Julie R.</span>
+                <span className="home-text38 montserratTitles">Julie R.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image09"
+                  className="home-image09"
                 />
-                <span className="text40 blinkerParagraphs">
-                  <span className="text41">
+                <span className="home-text39 blinkerParagraphs">
+                  <span className="home-text40">
                     {' '}
                     Our family had an absolute blast!! The escape room was super
                     well done, a perfect mix of challenges &amp; fun. The owner
@@ -289,23 +292,23 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="container18"></div>
-              <div className="container19">
+              <div className="home-container18"></div>
+              <div className="home-container19">
                 <img
                   alt="image"
                   src="/playground_assets/ryan_5-200h.png"
                   loading="lazy"
-                  className="image10"
+                  className="home-image10"
                 />
-                <span className="text42 montserratTitles">
+                <span className="home-text41 montserratTitles">
                   Tiffany Plagenza
                 </span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image11"
+                  className="home-image11"
                 />
-                <span className="text43 blinkerParagraphs">
+                <span className="home-text42 blinkerParagraphs">
                   <span>
                     We escaped! This was the most fun we have had with a great
                     challenge. We came to Hilo, Hawaii just to visit this escape
@@ -317,12 +320,12 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="testimonial-card1">
-          <svg viewBox="0 0 950.8571428571428 1024" className="icon10">
+        <div className="home-testimonial-card1">
+          <svg viewBox="0 0 950.8571428571428 1024" className="home-icon10">
             <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
           </svg>
-          <div className="testimonial1">
-            <span className="text45 blinkerParagraphs">
+          <div className="home-testimonial1">
+            <span className="home-text44 blinkerParagraphs">
               <span>
                 What a cool place. Every escape room has its own uniqueness.
                 This one did not disappoint. The game master is really cool and
@@ -330,25 +333,27 @@ const Home = (props) => {
                 will ruin the fun. Definitely recommend.
               </span>
             </span>
-            <span className="text47 montserratTitles">Brandon Hoffman</span>
+            <span className="home-text46 montserratTitles">
+              Brandon Hoffman
+            </span>
             <img
               alt="image"
               src="/playground_assets/ryan_4-200h.png"
               loading="lazy"
-              className="image12"
+              className="home-image12"
             />
           </div>
           <img
             alt="image"
             src="/playground_assets/5stars-200h.png"
-            className="image13"
+            className="home-image13"
           />
         </div>
         <a
           href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link button"
+          className="home-link button"
         >
           Book Your Jungle Mystery Today!
         </a>
@@ -356,7 +361,7 @@ const Home = (props) => {
       </div>
       <style jsx>
         {`
-          .container {
+          .home-container {
             width: 100%;
             height: auto;
             display: flex;
@@ -366,7 +371,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .hero {
+          .home-hero {
             flex: 0 0 auto;
             width: 100%;
             height: 80vh;
@@ -377,7 +382,7 @@ const Home = (props) => {
             background-size: cover;
             background-image: url("/playground_assets/escapehilo-bigisland-hilohawaii-hawaii's%20finest%20escape%20room-1500h.jpg");
           }
-          .bg {
+          .home-bg {
             top: 0px;
             flex: 0 0 auto;
             left: 0px;
@@ -392,7 +397,7 @@ const Home = (props) => {
             justify-content: flex-end;
             background-color: var(--dl-color-gray-black);
           }
-          .container01 {
+          .home-container01 {
             top: auto;
             width: 100%;
             bottom: 0px;
@@ -403,7 +408,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .container02 {
+          .home-container02 {
             display: flex;
             z-index: 100;
             align-items: center;
@@ -412,17 +417,17 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .text {
+          .home-text {
             color: var(--dl-color-gray-white);
             z-index: 100;
             text-align: center;
           }
-          .text01 {
+          .home-text01 {
             color: #ffffff;
             max-width: 600px;
             text-align: center;
           }
-          .image {
+          .home-image {
             left: auto;
             right: 0px;
             width: 100%;
@@ -431,14 +436,14 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .container03 {
+          .home-container03 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
           }
-          .container04 {
+          .home-container04 {
             flex: 0 0 auto;
             width: 20rem;
             display: flex;
@@ -446,11 +451,11 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .image01 {
+          .home-image01 {
             width: 20rem;
             object-fit: cover;
           }
-          .container05 {
+          .home-container05 {
             flex: 0 0 auto;
             width: 20rem;
             display: flex;
@@ -458,15 +463,11 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .text03 {
-            color: #000000;
-            font-weight: 700;
-          }
-          .image02 {
+          .home-image02 {
             width: 20rem;
             object-fit: cover;
           }
-          .text05 {
+          .home-text04 {
             color: #000000;
             font-style: normal;
             text-align: center;
@@ -476,12 +477,12 @@ const Home = (props) => {
             padding-right: 6rem;
             padding-bottom: var(--dl-space-space-doubleunit);
           }
-          .text07 {
+          .home-text06 {
             color: #009201;
             font-size: 2rem;
             font-weight: 700;
           }
-          .section1 {
+          .home-section1 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -494,14 +495,14 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-pimary-900);
           }
-          .container06 {
+          .home-container06 {
             width: 100%;
             display: flex;
             max-width: 1320px;
             align-items: center;
             flex-direction: column;
           }
-          .container07 {
+          .home-container07 {
             width: 66%;
             display: flex;
             align-items: center;
@@ -509,29 +510,35 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text09 {
+          .home-text08 {
             color: #39b300;
             font-size: 0.875em;
             font-style: normal;
             font-weight: 700;
             text-transform: uppercase;
           }
-          .text11 {
+          .home-text10 {
             color: var(--dl-color-secondary-400);
+            font-size: 1.12rem;
             text-align: center;
+            font-family: Montserrat;
+            font-weight: 700;
+            line-height: 1.75;
+            text-transform: none;
+            text-decoration: none;
           }
-          .text12 {
+          .home-text11 {
             color: #000000;
             text-align: center;
             margin-bottom: 0.25rem;
           }
-          .text13 {
+          .home-text12 {
             display: inline;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .cards-container {
+          .home-cards-container {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-doubleunit);
@@ -539,7 +546,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .card1 {
+          .home-card1 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -551,7 +558,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container08 {
+          .home-container08 {
             flex: 0 0 auto;
             width: auto;
             height: 3rem;
@@ -559,17 +566,17 @@ const Home = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .icon {
+          .home-icon {
             width: 3rem;
           }
-          .text14 {
+          .home-text13 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text15 {
+          .home-text14 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -577,7 +584,7 @@ const Home = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .card2 {
+          .home-card2 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -589,7 +596,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container09 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 3rem;
             height: 3rem;
@@ -598,17 +605,17 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .icon02 {
+          .home-icon02 {
             width: 3rem;
           }
-          .text16 {
+          .home-text15 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text17 {
+          .home-text16 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -616,7 +623,7 @@ const Home = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .card3 {
+          .home-card3 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -628,7 +635,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container10 {
+          .home-container10 {
             flex: 0 0 auto;
             width: auto;
             height: 3rem;
@@ -636,17 +643,17 @@ const Home = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .icon04 {
+          .home-icon04 {
             width: 3rem;
           }
-          .text18 {
+          .home-text17 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text19 {
+          .home-text18 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -654,7 +661,7 @@ const Home = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .cards-container1 {
+          .home-cards-container1 {
             height: 323px;
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
@@ -665,7 +672,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .card21 {
+          .home-card21 {
             width: 420px;
             display: flex;
             padding: var(--dl-space-space-unit);
@@ -675,7 +682,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container11 {
+          .home-container11 {
             flex: 0 0 auto;
             width: 86px;
             height: 87px;
@@ -685,17 +692,17 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .icon06 {
+          .home-icon06 {
             width: 3rem;
           }
-          .text20 {
+          .home-text19 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text21 {
+          .home-text20 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -703,14 +710,14 @@ const Home = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .work-with-us {
+          .home-work-with-us {
             display: flex;
             margin-top: var(--dl-space-space-tripleunit);
             align-items: center;
             margin-bottom: var(--dl-space-space-tripleunit);
             flex-direction: row;
           }
-          .container12 {
+          .home-container12 {
             flex: 0 0 auto;
             width: 41%;
             display: flex;
@@ -721,7 +728,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text22 {
+          .home-text21 {
             color: #000000;
             font-size: 1.5rem;
             font-family: Montserrat;
@@ -731,47 +738,56 @@ const Home = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .text23 {
+          .home-text22 {
             color: #000000;
-            font-style: italic;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .text24 {
+          .home-text23 {
+            font-style: normal;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .text25 {
+          .home-text24 {
+            font-style: normal;
             font-weight: 400;
           }
-          .text26 {
+          .home-text25 {
+            font-style: normal;
             font-weight: 400;
           }
-          .br {
+          .home-br {
+            font-style: normal;
             font-weight: 400;
           }
-          .text27 {
+          .home-text26 {
+            font-style: normal;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .text28 {
+          .home-text27 {
+            font-style: normal;
             font-weight: 400;
           }
-          .text29 {
+          .home-text28 {
+            font-style: normal;
             font-weight: 400;
           }
-          .text30 {
+          .home-text29 {
+            font-style: normal;
             font-weight: 400;
           }
-          .text31 {
+          .home-text30 {
+            font-style: normal;
             font-weight: 400;
           }
-          .br1 {
+          .home-br1 {
+            font-style: normal;
             font-weight: 400;
           }
-          .container13 {
+          .home-container13 {
             flex: 0 0 auto;
             width: 33%;
             height: 32rem;
@@ -786,7 +802,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: #09A6E9;
           }
-          .container14 {
+          .home-container14 {
             width: 100%;
             height: 243px;
             display: flex;
@@ -795,36 +811,34 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .image03 {
+          .home-image03 {
             width: 100%;
             height: 100%;
             object-fit: cover;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .image04 {
+          .home-image04 {
             width: 200px;
             height: 50px;
             align-self: center;
             object-fit: cover;
           }
-          .text32 {
+          .home-text31 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .text33 {
+          .home-text32 {
             color: #f2f5f9ff;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             text-align: center;
-            font-weight: 400;
-            line-height: 2;
             margin-left: var(--dl-space-space-unit);
             margin-right: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .image05 {
+          .home-image05 {
             top: auto;
             left: auto;
             right: 0px;
@@ -833,7 +847,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .testimonial-card {
+          .home-testimonial-card {
             display: flex;
             padding: 32px;
             max-width: 1400px;
@@ -843,35 +857,35 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .icon08 {
+          .home-icon08 {
             width: 2rem;
             margin-bottom: 32px;
           }
-          .text35 {
+          .home-text34 {
             color: #000000;
             width: 80%;
             text-align: center;
           }
-          .testimonial {
+          .home-testimonial {
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: space-between;
           }
-          .text38 {
+          .home-text37 {
             color: #000000;
             text-align: center;
           }
-          .image06 {
+          .home-image06 {
             width: 50px;
             height: 50px;
             object-fit: cover;
           }
-          .image07 {
+          .home-image07 {
             width: 100px;
             object-fit: cover;
           }
-          .section2 {
+          .home-section2 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -881,7 +895,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-doubleunit);
           }
-          .team {
+          .home-team {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -889,14 +903,14 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .container15 {
+          .home-container15 {
             width: 100%;
             display: flex;
             max-width: 100%;
             align-items: flex-start;
             flex-direction: row;
           }
-          .container16 {
+          .home-container16 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
@@ -906,34 +920,34 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .container17 {
+          .home-container17 {
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .image08 {
+          .home-image08 {
             width: 50px;
             height: 50px;
             object-fit: cover;
           }
-          .text39 {
+          .home-text38 {
             color: #000000;
             text-align: center;
           }
-          .image09 {
+          .home-image09 {
             width: 100px;
             object-fit: cover;
           }
-          .text40 {
+          .home-text39 {
             color: #000000;
             width: 75%;
             text-align: center;
           }
-          .text41 {
+          .home-text40 {
             font-weight: 400;
           }
-          .container18 {
+          .home-container18 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
@@ -943,32 +957,32 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .container19 {
+          .home-container19 {
             display: flex;
             align-self: flex-start;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .image10 {
+          .home-image10 {
             width: 50px;
             height: 50px;
             object-fit: cover;
           }
-          .text42 {
+          .home-text41 {
             color: #000000;
             text-align: center;
           }
-          .image11 {
+          .home-image11 {
             width: 100px;
             object-fit: cover;
           }
-          .text43 {
+          .home-text42 {
             color: #000000;
             width: 75%;
             text-align: center;
           }
-          .testimonial-card1 {
+          .home-testimonial-card1 {
             display: flex;
             padding: 32px;
             max-width: 1400px;
@@ -978,35 +992,35 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .icon10 {
+          .home-icon10 {
             width: 2rem;
             margin-bottom: 32px;
           }
-          .testimonial1 {
+          .home-testimonial1 {
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: space-between;
           }
-          .text45 {
+          .home-text44 {
             color: #000000;
             width: 80%;
             text-align: center;
           }
-          .text47 {
+          .home-text46 {
             color: #000000;
             text-align: center;
           }
-          .image12 {
+          .home-image12 {
             width: 50px;
             height: 50px;
             object-fit: cover;
           }
-          .image13 {
+          .home-image13 {
             width: 100px;
             object-fit: cover;
           }
-          .link {
+          .home-link {
             color: #ffffff;
             width: 100%;
             align-self: center;
@@ -1021,217 +1035,227 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #39b300;
           }
-          .link:hover {
+          .home-link:hover {
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 991px) {
-            .cards-container {
+            .home-cards-container {
               align-items: center;
               padding-top: var(--dl-space-space-halfunit);
               flex-direction: column;
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .card1 {
+            .home-card1 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .card2 {
+            .home-card2 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .card3 {
+            .home-card3 {
               width: 90%;
             }
-            .cards-container1 {
+            .home-cards-container1 {
               align-items: center;
               flex-direction: column;
             }
-            .card21 {
+            .home-card21 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .container13 {
+            .home-container13 {
               width: 20rem;
               height: auto;
             }
-            .text32 {
+            .home-text31 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .text33 {
+            .home-text32 {
               width: auto;
               align-self: center;
               text-align: center;
             }
-            .section2 {
+            .home-section2 {
               padding-top: var(--dl-space-space-doubleunit);
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
               padding-bottom: var(--dl-space-space-doubleunit);
               justify-content: center;
             }
-            .team {
+            .home-team {
               position: relative;
             }
-            .container15 {
+            .home-container15 {
               width: 100%;
               max-width: auto;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .container16 {
+            .home-container16 {
               width: auto;
             }
-            .container17 {
+            .home-container17 {
               margin-right: var(--dl-space-space-unit);
             }
-            .container18 {
+            .home-container18 {
               margin-right: var(--dl-space-space-unit);
             }
-            .container19 {
+            .home-container19 {
               margin: var(--dl-space-space-halfunit);
             }
           }
           @media (max-width: 767px) {
-            .container02 {
+            .home-container02 {
               z-index: 100;
             }
-            .text {
+            .home-text {
               color: #ffffff;
             }
-            .section1 {
+            .home-section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .container06 {
+            .home-container06 {
               max-width: 100%;
             }
-            .container07 {
+            .home-container07 {
               width: 100%;
             }
-            .work-with-us {
+            .home-work-with-us {
               margin-top: var(--dl-space-space-tripleunit);
               flex-direction: column;
             }
-            .container12 {
+            .home-container12 {
               width: 100%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container13 {
+            .home-container13 {
               width: 100%;
             }
-            .container14 {
+            .home-container14 {
               height: 30rem;
             }
-            .text33 {
+            .home-text32 {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .testimonial-card {
+            .home-testimonial-card {
               padding-left: 32px;
               padding-right: 32px;
             }
-            .container15 {
+            .home-container15 {
               flex-wrap: wrap;
               flex-direction: row;
               justify-content: center;
             }
-            .container16 {
+            .home-container16 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container17 {
+            .home-container17 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container18 {
+            .home-container18 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container19 {
+            .home-container19 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .testimonial-card1 {
+            .home-testimonial-card1 {
               padding-left: 32px;
               padding-right: 32px;
             }
           }
           @media (max-width: 479px) {
-            .container {
+            .home-container {
               flex-wrap: wrap;
             }
-            .container02 {
+            .home-container02 {
               z-index: 100;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .container03 {
+            .home-image {
+              display: flex;
+            }
+            .home-container03 {
               flex-wrap: wrap;
             }
-            .image02 {
-              width: auto;
-              min-width: 100%;
+            .home-image02 {
+              max-width: 90%;
+              min-width: 80%;
             }
-            .text05 {
+            .home-text04 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .card1 {
+            .home-text10 {
+              color: #000000;
+              font-size: 1.5rem;
+            }
+            .home-card1 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text15 {
+            .home-text14 {
               text-align: left;
             }
-            .card2 {
+            .home-card2 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text17 {
+            .home-text16 {
               text-align: left;
             }
-            .text19 {
+            .home-text18 {
               text-align: left;
             }
-            .card21 {
+            .home-card21 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text21 {
+            .home-text20 {
               text-align: left;
             }
-            .testimonial-card {
+            .home-text22 {
+              font-style: italic;
+            }
+            .home-testimonial-card {
               padding-top: 32px;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
-            .icon08 {
+            .home-icon08 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .container15 {
+            .home-container15 {
               align-items: center;
               flex-direction: column;
             }
-            .container16 {
+            .home-container16 {
               width: 100%;
             }
-            .container17 {
+            .home-container17 {
               width: 100%;
             }
-            .container18 {
+            .home-container18 {
               width: 100%;
             }
-            .container19 {
+            .home-container19 {
               width: 100%;
             }
-            .testimonial-card1 {
+            .home-testimonial-card1 {
               padding-top: 32px;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
-            .icon10 {
+            .home-icon10 {
               margin-bottom: var(--dl-space-space-unit);
             }
           }

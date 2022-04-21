@@ -6,106 +6,106 @@ import PropTypes from 'prop-types'
 const NavigationLinks = (props) => {
   return (
     <>
-      <nav className={`nav ${props.rootClassName} `}>
+      <nav className={`navigation-links-nav ${props.rootClassName} `}>
         <Link href="/">
-          <a className="link">{props.text}</a>
+          <a className="navigation-links-link">{props.text}</a>
         </Link>
         <Link href="/about">
-          <a className="link1">{props.text1}</a>
+          <a className="navigation-links-link1">{props.text1}</a>
         </Link>
-        <Link href="/faq">
-          <a className="link2">{props.text2}</a>
+        <Link href="/frequently-asked-questions">
+          <a className="navigation-links-link2">{props.text2}</a>
         </Link>
         <a
           href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;flow=6078"
           target="_blank"
           rel="noreferrer noopener"
-          className="link3"
+          className="navigation-links-link3"
         >
           {props.text21}
         </a>
-        <span className="text"></span>
+        <span className="navigation-links-text"></span>
       </nav>
       <style jsx>
         {`
-          .nav {
+          .navigation-links-nav {
             flex: 0 0 auto;
             display: flex;
             align-items: center;
             flex-direction: row;
           }
-          .link {
+          .navigation-links-link {
             color: #000000;
             font-weight: 700;
             text-decoration: none;
           }
-          .link1 {
-            color: #000000;
-            font-weight: 700;
-            margin-left: 32px;
-            text-decoration: none;
-          }
-          .link2 {
+          .navigation-links-link1 {
             color: #000000;
             font-weight: 700;
             margin-left: 32px;
             text-decoration: none;
           }
-          .link3 {
+          .navigation-links-link2 {
+            color: #000000;
+            font-weight: 700;
+            margin-left: 32px;
+            text-decoration: none;
+          }
+          .navigation-links-link3 {
             color: #000000;
             visibility: hidden;
             font-weight: 700;
             margin-left: 32px;
             text-decoration: none;
           }
-          .text {
+          .navigation-links-text {
             color: #000000;
             margin-left: 32px;
           }
 
-          .rootClassName8 {
+          .navigation-links-root-class-name8 {
             margin-right: var(--dl-space-space-doubleunit);
           }
 
-          .rootClassName12 {
+          .navigation-links-root-class-name12 {
             margin-right: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 991px) {
-            .link3 {
+            .navigation-links-link3 {
               visibility: hidden;
             }
           }
           @media (max-width: 767px) {
-            .nav {
+            .navigation-links-nav {
               align-items: flex-start;
               flex-direction: column;
             }
-            .link {
+            .navigation-links-link {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .link1 {
+            .navigation-links-link1 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .link2 {
+            .navigation-links-link2 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .link3 {
+            .navigation-links-link3 {
               visibility: hidden;
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .text {
+            .navigation-links-text {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 479px) {
-            .nav {
+            .navigation-links-nav {
               z-index: 999;
             }
-            .link3 {
+            .navigation-links-link3 {
               visibility: visible;
             }
           }

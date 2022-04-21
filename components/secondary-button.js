@@ -5,16 +5,18 @@ import PropTypes from 'prop-types'
 const SecondaryButton = (props) => {
   return (
     <>
-      <div className={`container ${props.rootClassName} `}>
-        <button className="button textXS">{props.button}</button>
+      <div className={`secondary-button-container ${props.rootClassName} `}>
+        <button className="secondary-button-button textXS button">
+          {props.button}
+        </button>
       </div>
       <style jsx>
         {`
-          .container {
+          .secondary-button-container {
             display: flex;
             position: relative;
           }
-          .button {
+          .secondary-button-button {
             color: var(--dl-color-gray-white);
             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
               0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -28,14 +30,14 @@ const SecondaryButton = (props) => {
             text-transform: uppercase;
             background-color: var(--dl-color-secondary-300);
           }
-          .button:hover {
+          .secondary-button-button:hover {
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
               0 2px 4px -1px rgba(0, 0, 0, 0.06);
           }
-          .button:active {
+          .secondary-button-button:active {
             background-color: var(--dl-color-secondary-100);
           }
-          .rootClassName {
+          .secondary-button-root-class-name {
             margin-top: var(--dl-space-space-unitandhalf);
           }
         `}
