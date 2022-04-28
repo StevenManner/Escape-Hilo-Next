@@ -15,7 +15,7 @@ const Contact = (props) => {
           </title>
           <meta
             name="description"
-            content="You have 60 minutes to escape from our Jungle Mystery Escape Room! Crack the codes, solve the puzzles, and escape! 100+ 5⭐ reviews on Google"
+            content="Escape Hilo has over 100+ 5⭐ reviews on Google and over 1000+ satisfied escapees, experience our Jungle Mystery Room today! 60 minutes from Kona, 10 from Hilo!"
           />
           <meta property="og:title" content="Contact - Escape Hilo" />
           <meta

@@ -12,7 +12,7 @@ const BookARoom = (props) => {
           <title>Book A Room - Escape Hilo</title>
           <meta
             name="description"
-            content="Book A Room for Escape Hilo's Jungle Mystery, with over 100 five star reviews on Google Maps, we serve the best puzzle experience to all visiting the big island"
+            content="Escape Hilo has over 100+ 5⭐ reviews on Google and over 1000+ satisfied escapees, experience our Jungle Mystery Room today! 60 minutes from Kona, 10 from Hilo!"
           />
           <meta property="og:title" content="Book A Room - Escape Hilo" />
           <meta

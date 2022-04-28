@@ -25,10 +25,10 @@ const Sandbox = (props) => {
         <div className="sandbox-hero">
           <div className="sandbox-bg">
             <video
+              src="https://www.youtube.com/watch?v=zWKYufGwSs4"
+              loop
               muted
               autoPlay
-              loop
-              src="https://www.youtube.com/watch?v=zWKYufGwSs4"
               className="sandbox-video"
             ></video>
           </div>
