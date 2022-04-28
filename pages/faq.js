@@ -5,40 +5,34 @@ import Header from '../components/header'
 import AppComponent from '../components/component'
 import Footer from '../components/footer'
 
-const FrequentlyAskedQuestions = (props) => {
+const FAQ = (props) => {
   return (
     <>
-      <div className="container">
+      <div className="f-a-q-container">
         <Head>
-          <title>
-            Frequently Asked Questions - Hawaii's Jungle Mystery Escape Room |
-            Top-Rated Escape room in Hilo!
-          </title>
+          <title>FAQ</title>
           <meta
             name="description"
             content='Escape Hilo is Hawaii Island&apos;s first "Escape Game" where you enter a room, find clues, and solve puzzles to accomplish a mission within 60 minutes.'
           />
-          <meta
-            property="og:title"
-            content="Frequently Asked Questions - Hawaii's Jungle Mystery Escape Room | Top-Rated Escape room in Hilo!"
-          />
+          <meta property="og:title" content="Frequently Asked Questions" />
           <meta
             property="og:description"
-            content="You have 60 minutes to escape from our live-action jungle mystery escape room! Crack the codes, solve the puzzles, and escape! ✔ 100+ ⭐5 reviews on Google ✔ 20+ ⭐5 reviews on Tripadvisor. "
+            content='Escape Hilo is Hawaii Island&apos;s first "Escape Game" where you enter a room, find clues, and solve puzzles to accomplish a mission within 60 minutes.'
           />
           <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d8a275fd-b49f-4d98-9aa9-bca55fe93fce/6ef73341-1155-4669-964b-c4bcaeb5b3a6?org_if_sml=1"
           />
         </Head>
-        <div className="section1">
-          <Header rootClassName="rootClassName1"></Header>
-          <div className="container1">
-            <div className="container2">
-              <h3 className="text healine">
-                <span>FAQ</span>
+        <div className="f-a-q-section1">
+          <Header rootClassName="header-root-class-name1"></Header>
+          <div className="f-a-q-container1">
+            <div className="f-a-q-container2">
+              <h3 className="f-a-q-text healine">
+                <span>Frequently Asked Questions</span>
               </h3>
-              <span className="text02">
+              <span className="f-a-q-text02">
                 Escape Hilo is Hawaii Island&apos;s first &quot;Escape
                 Game&quot; where you enter a room, find clues, and solve puzzles
                 to accomplish a mission within 60 minutes. Depending upon the
@@ -48,20 +42,22 @@ const FrequentlyAskedQuestions = (props) => {
                 is sometimes woven into the game making things really fun.
               </span>
             </div>
-            <div className="cards-container">
-              <div className="card2">
-                <h6 className="text03 textXL">How many players can play?</h6>
-                <span className="text04">
+            <div className="f-a-q-cards-container">
+              <div className="f-a-q-card2">
+                <h6 className="f-a-q-text03 textXL">
+                  How many players can play?
+                </h6>
+                <span className="f-a-q-text04">
                   <span>
                     The rooms are designed to accommodate between 2-8 people.
                   </span>
                 </span>
               </div>
-              <div className="card1">
-                <h6 className="text06 textXL">
+              <div className="f-a-q-card1">
+                <h6 className="f-a-q-text06 textXL">
                   What makes Escape Hilo different?
                 </h6>
-                <span className="text07">
+                <span className="f-a-q-text07">
                   What makes Escape Hilo different from other escape games is
                   that our themes are very specific to the island of Hawaii and
                   are designed so that players learn a little bit while they are
@@ -77,41 +73,41 @@ const FrequentlyAskedQuestions = (props) => {
                   />
                 </span>
               </div>
-              <div className="card3">
-                <h6 className="text08 textXL">
+              <div className="f-a-q-card3">
+                <h6 className="f-a-q-text08 textXL">
                   <span>How old do you need to be to play the game?</span>
                   <span></span>
                 </h6>
-                <span className="text11">
+                <span className="f-a-q-text11">
                   The puzzles and challenges in the game are designed for
                   participants 12 and older. Participants 17 years of age and
                   under must be accompanied by an adult.
                 </span>
               </div>
             </div>
-            <div className="cards-container1">
-              <div className="card11">
-                <h6 className="text12 textXL">
+            <div className="f-a-q-cards-container1">
+              <div className="f-a-q-card11">
+                <h6 className="f-a-q-text12 textXL">
                   Are you available for team building or other special events?
                 </h6>
-                <span className="text13">
+                <span className="f-a-q-text13">
                   Yes. Please email us for more information.
                 </span>
               </div>
-              <div className="card21">
-                <h6 className="text14 textXL">
+              <div className="f-a-q-card21">
+                <h6 className="f-a-q-text14 textXL">
                   How early should I arrive for my game?
                 </h6>
-                <span className="text15">
+                <span className="f-a-q-text15">
                   Arrive at least 15 minutes prior to your game. Games will
                   begin at their start time.
                 </span>
               </div>
-              <div className="card31">
-                <h6 className="text16 textXL">
+              <div className="f-a-q-card31">
+                <h6 className="f-a-q-text16 textXL">
                   Will you physically be locked in a room?
                 </h6>
-                <span className="text17">
+                <span className="f-a-q-text17">
                   Our current themes do not involve locking participants in any
                   of the rooms. Participants can exit a room at any time but
                   once you exit you cannot re-enter unless by special permission
@@ -119,31 +115,31 @@ const FrequentlyAskedQuestions = (props) => {
                 </span>
               </div>
             </div>
-            <div className="cards-container2">
-              <div className="card12">
-                <h6 className="text18 textXL">Do you offer refunds?</h6>
-                <span className="text19">
+            <div className="f-a-q-cards-container2">
+              <div className="f-a-q-card12">
+                <h6 className="f-a-q-text18 textXL">Do you offer refunds?</h6>
+                <span className="f-a-q-text19">
                   All of our games are non-refundable but we do allow you to
                   reschedule a game if you give us at least 24 hours notice.
                 </span>
               </div>
-              <div className="card22">
-                <h6 className="text20 textXL">How do I pay?</h6>
-                <span className="text21">
+              <div className="f-a-q-card22">
+                <h6 className="f-a-q-text20 textXL">How do I pay?</h6>
+                <span className="f-a-q-text21">
                   All games are booked ahead of time online with a credit card.
                   No cash payments are accepted.
                 </span>
               </div>
             </div>
             <AppComponent></AppComponent>
-            <div className="work-with-us"></div>
+            <div className="f-a-q-work-with-us"></div>
           </div>
-          <Footer rootClassName="rootClassName"></Footer>
+          <Footer rootClassName="footer-root-class-name"></Footer>
         </div>
       </div>
       <style jsx>
         {`
-          .container {
+          .f-a-q-container {
             width: 100%;
             height: auto;
             display: flex;
@@ -151,7 +147,7 @@ const FrequentlyAskedQuestions = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .section1 {
+          .f-a-q-section1 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -164,7 +160,7 @@ const FrequentlyAskedQuestions = (props) => {
             background-size: cover;
             background-image: url('/playground_assets/junglebg-1500w.jpg');
           }
-          .container1 {
+          .f-a-q-container1 {
             width: 100%;
             display: flex;
             max-width: 100%;
@@ -174,7 +170,7 @@ const FrequentlyAskedQuestions = (props) => {
             justify-content: center;
             background-color: rgba(0, 0, 0, 0.69);
           }
-          .container2 {
+          .f-a-q-container2 {
             width: 66%;
             display: flex;
             align-items: center;
@@ -183,15 +179,15 @@ const FrequentlyAskedQuestions = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text {
+          .f-a-q-text {
             color: #ffffff;
             text-align: center;
           }
-          .text02 {
+          .f-a-q-text02 {
             color: #ffffff;
             text-align: center;
           }
-          .cards-container {
+          .f-a-q-cards-container {
             height: 90%;
             display: flex;
             align-items: flex-start;
@@ -202,7 +198,7 @@ const FrequentlyAskedQuestions = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .card2 {
+          .f-a-q-card2 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -215,21 +211,21 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .text03 {
+          .f-a-q-text03 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text04 {
+          .f-a-q-text04 {
             color: #000000;
             font-size: 1rem;
             text-align: center;
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .card1 {
+          .f-a-q-card1 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -242,42 +238,14 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .text06 {
+          .f-a-q-text06 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text07 {
-            color: #000000;
-            font-size: 1rem;
-            margin-top: var(--dl-space-space-halfunit);
-            text-align: center;
-            font-family: Open Sans;
-            line-height: 1.625rem;
-          }
-          .card3 {
-            flex: 0 0 auto;
-            width: 30%;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            align-self: center;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            align-items: center;
-            border-radius: var(--dl-radius-radius-radius50);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-white);
-          }
-          .text08 {
-            color: var(--dl-color-secondary-100);
-            margin-top: var(--dl-space-space-unit);
-            text-align: center;
-            font-family: Open Sans;
-            font-weight: 700;
-          }
-          .text11 {
+          .f-a-q-text07 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -285,7 +253,35 @@ const FrequentlyAskedQuestions = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .cards-container1 {
+          .f-a-q-card3 {
+            flex: 0 0 auto;
+            width: 30%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-self: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            align-items: center;
+            border-radius: var(--dl-radius-radius-radius50);
+            flex-direction: column;
+            background-color: var(--dl-color-gray-white);
+          }
+          .f-a-q-text08 {
+            color: var(--dl-color-secondary-100);
+            margin-top: var(--dl-space-space-unit);
+            text-align: center;
+            font-family: Open Sans;
+            font-weight: 700;
+          }
+          .f-a-q-text11 {
+            color: #000000;
+            font-size: 1rem;
+            margin-top: var(--dl-space-space-halfunit);
+            text-align: center;
+            font-family: Open Sans;
+            line-height: 1.625rem;
+          }
+          .f-a-q-cards-container1 {
             height: 413px;
             display: flex;
             align-items: flex-start;
@@ -296,7 +292,7 @@ const FrequentlyAskedQuestions = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .card11 {
+          .f-a-q-card11 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -309,14 +305,14 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .text12 {
+          .f-a-q-text12 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text13 {
+          .f-a-q-text13 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -324,7 +320,7 @@ const FrequentlyAskedQuestions = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .card21 {
+          .f-a-q-card21 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -337,14 +333,14 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .text14 {
+          .f-a-q-text14 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text15 {
+          .f-a-q-text15 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -352,7 +348,7 @@ const FrequentlyAskedQuestions = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .card31 {
+          .f-a-q-card31 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -365,14 +361,14 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .text16 {
+          .f-a-q-text16 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text17 {
+          .f-a-q-text17 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -380,7 +376,7 @@ const FrequentlyAskedQuestions = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .cards-container2 {
+          .f-a-q-cards-container2 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -388,7 +384,7 @@ const FrequentlyAskedQuestions = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .card12 {
+          .f-a-q-card12 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -401,14 +397,14 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .text18 {
+          .f-a-q-text18 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text19 {
+          .f-a-q-text19 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -416,7 +412,7 @@ const FrequentlyAskedQuestions = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .card22 {
+          .f-a-q-card22 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -429,14 +425,14 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .text20 {
+          .f-a-q-text20 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text21 {
+          .f-a-q-text21 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -444,7 +440,7 @@ const FrequentlyAskedQuestions = (props) => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .work-with-us {
+          .f-a-q-work-with-us {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             margin-top: var(--dl-space-space-tripleunit);
@@ -453,119 +449,119 @@ const FrequentlyAskedQuestions = (props) => {
             flex-direction: row;
           }
           @media (max-width: 991px) {
-            .cards-container {
+            .f-a-q-cards-container {
               align-items: center;
               padding-top: var(--dl-space-space-halfunit);
               flex-direction: column;
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .card2 {
+            .f-a-q-card2 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .card1 {
+            .f-a-q-card1 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .card3 {
+            .f-a-q-card3 {
               width: 90%;
             }
-            .cards-container1 {
+            .f-a-q-cards-container1 {
               align-items: center;
               padding-top: var(--dl-space-space-halfunit);
               flex-direction: column;
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .card11 {
+            .f-a-q-card11 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .card21 {
+            .f-a-q-card21 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .card31 {
+            .f-a-q-card31 {
               width: 90%;
             }
-            .cards-container2 {
+            .f-a-q-cards-container2 {
               align-items: center;
               padding-top: var(--dl-space-space-halfunit);
               flex-direction: column;
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .card12 {
+            .f-a-q-card12 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .card22 {
+            .f-a-q-card22 {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
           }
           @media (max-width: 767px) {
-            .section1 {
+            .f-a-q-section1 {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .container2 {
+            .f-a-q-container2 {
               width: 100%;
             }
-            .cards-container {
+            .f-a-q-cards-container {
               height: 100%;
             }
-            .cards-container1 {
+            .f-a-q-cards-container1 {
               height: 100%;
             }
-            .cards-container2 {
+            .f-a-q-cards-container2 {
               width: 100%;
               height: 100%;
             }
-            .work-with-us {
+            .f-a-q-work-with-us {
               margin-top: var(--dl-space-space-tripleunit);
               flex-direction: column;
             }
           }
           @media (max-width: 479px) {
-            .card2 {
+            .f-a-q-card2 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text04 {
+            .f-a-q-text04 {
               text-align: left;
             }
-            .card1 {
+            .f-a-q-card1 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text07 {
+            .f-a-q-text07 {
               text-align: left;
             }
-            .text11 {
+            .f-a-q-text11 {
               text-align: left;
             }
-            .card11 {
+            .f-a-q-card11 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text13 {
+            .f-a-q-text13 {
               text-align: left;
             }
-            .card21 {
+            .f-a-q-card21 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text15 {
+            .f-a-q-text15 {
               text-align: left;
             }
-            .text17 {
+            .f-a-q-text17 {
               text-align: left;
             }
-            .card12 {
+            .f-a-q-card12 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text19 {
+            .f-a-q-text19 {
               text-align: left;
             }
-            .card22 {
+            .f-a-q-card22 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text21 {
+            .f-a-q-text21 {
               text-align: left;
             }
           }
@@ -575,4 +571,4 @@ const FrequentlyAskedQuestions = (props) => {
   )
 }
 
-export default FrequentlyAskedQuestions
+export default FAQ

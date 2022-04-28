@@ -9,10 +9,13 @@ const Contact = (props) => {
     <>
       <div className="contact-container">
         <Head>
-          <title>Contact - Escape Hilo</title>
+          <title>
+            Contact - Hawaii's Jungle Mystery Escape Room | Fun for friends,
+            family, groups!
+          </title>
           <meta
             name="description"
-            content="Escape Hilo, located in downtown Hilo, south of Kona, on the Big Island is home to the island's best puzzle escape room!"
+            content="You have 60 minutes to escape from our Jungle Mystery Escape Room! Crack the codes, solve the puzzles, and escape! 100+ 5⭐ reviews on Google"
           />
           <meta property="og:title" content="Contact - Escape Hilo" />
           <meta

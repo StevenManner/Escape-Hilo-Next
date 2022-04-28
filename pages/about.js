@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Counter from '../components/counter'
 import PrimaryButton from '../components/primary-button'
-import SecondaryButton from '../components/secondary-button'
 import Footer from '../components/footer'
 
 const About = (props) => {
@@ -51,17 +50,6 @@ const About = (props) => {
               <div className="about-container5">
                 <PrimaryButton button="connect"></PrimaryButton>
               </div>
-              <a
-                href="https://www.facebook.com/EscapeHiloHawaii"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="about-link"
-              >
-                <SecondaryButton
-                  button="message"
-                  className="about-component4"
-                ></SecondaryButton>
-              </a>
             </div>
           </div>
           <div className="about-container6">
@@ -204,12 +192,6 @@ const About = (props) => {
             margin-right: var(--dl-space-space-unit);
             flex-direction: row;
             justify-content: center;
-          }
-          .about-link {
-            display: contents;
-          }
-          .about-component4 {
-            text-decoration: none;
           }
           .about-container6 {
             flex: 0 0 auto;

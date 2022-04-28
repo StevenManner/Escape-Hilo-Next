@@ -16,10 +16,7 @@ const NavigationLinks = (props) => {
         >
           {props.ABOUTESCAPEHILO}
         </a>
-        <Link
-          href="/frequently-asked-questions"
-          id="faq - frequently asked questions"
-        >
+        <Link href="/faq" id="faq - frequently asked questions">
           <a className="navigation-links-link2">{props.FAQ}</a>
         </Link>
         <a
