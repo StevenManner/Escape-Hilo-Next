@@ -240,6 +240,9 @@ const Header = (props) => {
             align-self: center;
           }
 
+          .header-root-class-name5 {
+            align-self: center;
+          }
           @media (max-width: 991px) {
             .header-header {
               max-width: 100%;
@@ -299,6 +302,10 @@ const Header = (props) => {
               height: 4rem;
             }
             .header-root-class-name3 {
+              width: 100%;
+              align-self: center;
+            }
+            .header-root-class-name5 {
               width: 100%;
               align-self: center;
             }

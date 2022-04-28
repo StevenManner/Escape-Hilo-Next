@@ -39,6 +39,10 @@ const AppComponent = (props) => {
             margin-top: var(--dl-space-space-doubleunit);
             margin-bottom: var(--dl-space-space-doubleunit);
           }
+          .component-root-class-name1 {
+            margin-top: var(--dl-space-space-doubleunit);
+            margin-bottom: var(--dl-space-space-doubleunit);
+          }
         `}
       </style>
     </>
