@@ -23,7 +23,15 @@ const Sandbox = (props) => {
           />
         </Head>
         <div className="sandbox-hero">
-          <div className="sandbox-bg"></div>
+          <div className="sandbox-bg">
+            <video
+              muted
+              autoPlay
+              loop
+              src="https://www.youtube.com/watch?v=zWKYufGwSs4"
+              className="sandbox-video"
+            ></video>
+          </div>
           <Header rootClassName="header-root-class-name5"></Header>
           <div className="sandbox-container01">
             <div className="sandbox-container02">
@@ -382,15 +390,18 @@ const Sandbox = (props) => {
             flex: 0 0 auto;
             left: 0px;
             width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100%;
             display: flex;
             opacity: 0.7;
             position: absolute;
             align-items: center;
             flex-direction: column;
-            justify-content: flex-start;
+            justify-content: center;
             background-color: var(--dl-color-gray-black);
+          }
+          .sandbox-video {
+            width: 100%;
+            height: 100%;
           }
           .sandbox-container01 {
             top: auto;
@@ -449,6 +460,8 @@ const Sandbox = (props) => {
           .sandbox-image01 {
             width: 20rem;
             object-fit: cover;
+            border-color: #003394;
+            border-width: 2px;
           }
           .sandbox-container05 {
             flex: 0 0 auto;
