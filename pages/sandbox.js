@@ -42,7 +42,7 @@ const Sandbox = (props) => {
                 </span>
               </span>
               <video
-                src="https://www.youtube.com/watch?v=zWKYufGwSs4"
+                src="https://youtu.be/zWKYufGwSs4"
                 poster="https://www.youtube.com/watch?v=zWKYufGwSs4"
                 className="sandbox-video"
               ></video>
@@ -463,9 +463,11 @@ const Sandbox = (props) => {
             display: flex;
             z-index: 100;
             align-items: center;
+            padding-top: var(--dl-space-space-triplequarter);
             padding-left: var(--dl-space-space-tripleunit);
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-triplequarter);
             justify-content: center;
           }
           .sandbox-text {
