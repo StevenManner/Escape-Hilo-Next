@@ -56,7 +56,6 @@ const Home = (props) => {
             />
           </div>
         </div>
-        <p htmlFor="header">Text</p>
         <div className="home-container03">
           <div className="home-container04">
             <img
@@ -73,7 +72,7 @@ const Home = (props) => {
             />
           </div>
         </div>
-        <span className="home-text04">
+        <span className="home-text03">
           <span>
             Come and experience the popular physical adventure game right here
             in Downtown Hilo at the historic S.Hata Building! Escape Hilo is a
@@ -84,19 +83,19 @@ const Home = (props) => {
             time runs out.
           </span>
         </span>
-        <label id="time" htmlFor="time" className="home-text06 textarea">
+        <label id="time" htmlFor="time" className="home-text05 textarea">
           <span>60:00</span>
         </label>
         <AppComponent rootClassName="app-component-root-class-name"></AppComponent>
         <div className="home-section1">
           <div className="home-container06">
             <div className="home-container07">
-              <h6 className="home-text08">
+              <h6 className="home-text07">
                 <span>Escape hilo presents...</span>
               </h6>
-              <h3 className="home-text10">YOUR MISSION: Jungle Mystery</h3>
-              <span className="home-text11 textXL">
-                <span className="home-text12">
+              <h3 className="home-text09">YOUR MISSION: Jungle Mystery</h3>
+              <span className="home-text10 textXL">
+                <span className="home-text11">
                   Your group has 1 hour to escape from Escape Hilo&apos;s Hawaii
                   jungle themed Escape Room!
                 </span>
@@ -109,8 +108,8 @@ const Home = (props) => {
                     <path d="M992.262 871.396l-242.552-206.294c-25.074-22.566-51.89-32.926-73.552-31.926 57.256-67.068 91.842-154.078 91.842-249.176 0-212.078-171.922-384-384-384-212.076 0-384 171.922-384 384s171.922 384 384 384c95.098 0 182.108-34.586 249.176-91.844-1 21.662 9.36 48.478 31.926 73.552l206.294 242.552c35.322 39.246 93.022 42.554 128.22 7.356s31.892-92.898-7.354-128.22zM384 640c-141.384 0-256-114.616-256-256s114.616-256 256-256 256 114.616 256 256-114.614 256-256 256z"></path>
                   </svg>
                 </div>
-                <h6 className="home-text13 textXL">FOLLOW THE CLUES</h6>
-                <span className="home-text14">
+                <h6 className="home-text12 textXL">FOLLOW THE CLUES</h6>
+                <span className="home-text13">
                   There are clues hidden throughout the game room that help
                   guide your next decision
                 </span>
@@ -121,8 +120,8 @@ const Home = (props) => {
                     <path d="M704 0c-176.73 0-320 143.268-320 320 0 20.026 1.858 39.616 5.376 58.624l-389.376 389.376v192c0 35.346 28.654 64 64 64h64v-64h128v-128h128v-128h128l83.042-83.042c34.010 12.316 70.696 19.042 108.958 19.042 176.73 0 320-143.268 320-320s-143.27-320-320-320zM799.874 320.126c-53.020 0-96-42.98-96-96s42.98-96 96-96 96 42.98 96 96-42.98 96-96 96z"></path>
                   </svg>
                 </div>
-                <h6 className="home-text15 textXL">FIND THE KEYS</h6>
-                <span className="home-text16">
+                <h6 className="home-text14 textXL">FIND THE KEYS</h6>
+                <span className="home-text15">
                   Keys are used to progress to the next puzzle, can you find
                   them all before time runs out?
                 </span>
@@ -133,8 +132,8 @@ const Home = (props) => {
                     <path d="M426 726l384-384-60-62-324 324-152-152-60 60zM810 128q36 0 61 25t25 61v596q0 36-25 61t-61 25h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                   </svg>
                 </div>
-                <h6 className="home-text17 textXL">SOLVE THE MYSTERY</h6>
-                <span className="home-text18">
+                <h6 className="home-text16 textXL">SOLVE THE MYSTERY</h6>
+                <span className="home-text17">
                   Solve your way through the jungle room by using your wits and
                   creativity
                 </span>
@@ -150,8 +149,8 @@ const Home = (props) => {
                     <path d="M804.571 73.143c0 211.429-101.143 364.571-213.143 438.857 112 74.286 213.143 227.429 213.143 438.857h54.857c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-841.143c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h54.857c0-211.429 101.143-364.571 213.143-438.857-112-74.286-213.143-227.429-213.143-438.857h-54.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h841.143c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-54.857zM499.429 477.714c115.429-43.429 232-196 232-404.571h-585.143c0 208.571 116.571 361.143 232 404.571 14.286 5.143 24 18.857 24 34.286s-9.714 29.143-24 34.286c-49.143 18.286-98.857 57.143-139.429 112h400c-40.571-54.857-90.286-93.714-139.429-112-14.286-5.143-24-18.857-24-34.286s9.714-29.143 24-34.286z"></path>
                   </svg>
                 </div>
-                <h6 className="home-text19 textXL">60 MINUTE TIME LIMIT</h6>
-                <span className="home-text20">
+                <h6 className="home-text18 textXL">60 MINUTE TIME LIMIT</h6>
+                <span className="home-text19">
                   Can you and your group solve all the puzzles before time runs
                   out?
                 </span>
@@ -160,11 +159,11 @@ const Home = (props) => {
             <AppComponent></AppComponent>
             <div className="home-work-with-us">
               <div className="home-container12">
-                <h3 className="home-text21">
+                <h3 className="home-text20">
                   Not convinced? Hear from our previous winners!
                 </h3>
-                <span className="home-text22 blinkerParagraphs">
-                  <span className="home-text23">
+                <span className="home-text21 blinkerParagraphs">
+                  <span className="home-text22">
                     Awesome game, awesome time. This was my first time playing
                     and what I had envisioned it to be; it was exactly that. It
                     was exciting, challenging, and completely well thought out.
@@ -175,18 +174,18 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <br className="home-text24"></br>
-                  <span className="home-text25"></span>
+                  <br className="home-text23"></br>
+                  <span className="home-text24"></span>
                   <br className="home-br"></br>
-                  <span className="home-text26">
+                  <span className="home-text25">
                     The experience was amazing. Unlike anything else in Hilo.
                     Definitely would recommend to any locals or anyone visiting
                     the island. - Elias
                   </span>
-                  <br className="home-text27"></br>
-                  <span className="home-text28"></span>
-                  <br className="home-text29"></br>
-                  <span className="home-text30">
+                  <br className="home-text26"></br>
+                  <span className="home-text27"></span>
+                  <br className="home-text28"></br>
+                  <span className="home-text29">
                     We have done a couple of escape rooms before and this one
                     was really ingenious, and challenging enough to be fun but
                     not too hard. A great way to spend an hour in Hilo! - Jim
@@ -209,10 +208,10 @@ const Home = (props) => {
                   loading="lazy"
                   className="home-image04"
                 />
-                <h4 className="home-text31 healine">
+                <h4 className="home-text30 healine">
                   Five Star Reviews on Google!
                 </h4>
-                <span className="home-text32 blinkerParagraphs">
+                <span className="home-text31 blinkerParagraphs">
                   <span>
                     With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
@@ -231,7 +230,7 @@ const Home = (props) => {
           <svg viewBox="0 0 950.8571428571428 1024" className="home-icon08">
             <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
           </svg>
-          <span className="home-text34 blinkerParagraphs">
+          <span className="home-text33 blinkerParagraphs">
             <span>
               Escape Hilo provided my sister and I a great experience! Did we
               escape? No. However, we both had a blast running around, solving
@@ -245,7 +244,7 @@ const Home = (props) => {
             <span>Good luck!</span>
           </span>
           <div className="home-testimonial">
-            <span className="home-text37 montserratTitles">Ramses G.</span>
+            <span className="home-text36 montserratTitles">Ramses G.</span>
             <img
               alt="image"
               src="/playground_assets/ryan_2-200h.png"
@@ -270,14 +269,14 @@ const Home = (props) => {
                   loading="lazy"
                   className="home-image08"
                 />
-                <span className="home-text38 montserratTitles">Julie R.</span>
+                <span className="home-text37 montserratTitles">Julie R.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
                   className="home-image09"
                 />
-                <span className="home-text39 blinkerParagraphs">
-                  <span className="home-text40">
+                <span className="home-text38 blinkerParagraphs">
+                  <span className="home-text39">
                     {' '}
                     Our family had an absolute blast!! The escape room was super
                     well done, a perfect mix of challenges &amp; fun. The owner
@@ -300,7 +299,7 @@ const Home = (props) => {
                   loading="lazy"
                   className="home-image10"
                 />
-                <span className="home-text41 montserratTitles">
+                <span className="home-text40 montserratTitles">
                   Tiffany Plagenza
                 </span>
                 <img
@@ -308,7 +307,7 @@ const Home = (props) => {
                   src="/playground_assets/5stars-200h.png"
                   className="home-image11"
                 />
-                <span className="home-text42 blinkerParagraphs">
+                <span className="home-text41 blinkerParagraphs">
                   <span>
                     We escaped! This was the most fun we have had with a great
                     challenge. We came to Hilo, Hawaii just to visit this escape
@@ -325,7 +324,7 @@ const Home = (props) => {
             <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
           </svg>
           <div className="home-testimonial1">
-            <span className="home-text44 blinkerParagraphs">
+            <span className="home-text43 blinkerParagraphs">
               <span>
                 What a cool place. Every escape room has its own uniqueness.
                 This one did not disappoint. The game master is really cool and
@@ -333,7 +332,7 @@ const Home = (props) => {
                 will ruin the fun. Definitely recommend.
               </span>
             </span>
-            <span className="home-text46 montserratTitles">
+            <span className="home-text45 montserratTitles">
               Brandon Hoffman
             </span>
             <img
@@ -467,7 +466,7 @@ const Home = (props) => {
             width: 20rem;
             object-fit: cover;
           }
-          .home-text04 {
+          .home-text03 {
             color: #000000;
             font-style: normal;
             text-align: center;
@@ -477,7 +476,7 @@ const Home = (props) => {
             padding-right: 6rem;
             padding-bottom: var(--dl-space-space-doubleunit);
           }
-          .home-text06 {
+          .home-text05 {
             color: #009201;
             font-size: 2rem;
             font-weight: 700;
@@ -510,14 +509,14 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-text08 {
+          .home-text07 {
             color: #39b300;
             font-size: 0.875em;
             font-style: normal;
             font-weight: 700;
             text-transform: uppercase;
           }
-          .home-text10 {
+          .home-text09 {
             color: var(--dl-color-secondary-400);
             font-size: 1.12rem;
             text-align: center;
@@ -527,12 +526,12 @@ const Home = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .home-text11 {
+          .home-text10 {
             color: #000000;
             text-align: center;
             margin-bottom: 0.25rem;
           }
-          .home-text12 {
+          .home-text11 {
             display: inline;
             font-weight: 400;
             white-space: normal;
@@ -569,14 +568,14 @@ const Home = (props) => {
           .home-icon {
             width: 3rem;
           }
-          .home-text13 {
+          .home-text12 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .home-text14 {
+          .home-text13 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -608,14 +607,14 @@ const Home = (props) => {
           .home-icon02 {
             width: 3rem;
           }
-          .home-text15 {
+          .home-text14 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .home-text16 {
+          .home-text15 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -646,14 +645,14 @@ const Home = (props) => {
           .home-icon04 {
             width: 3rem;
           }
-          .home-text17 {
+          .home-text16 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .home-text18 {
+          .home-text17 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -695,14 +694,14 @@ const Home = (props) => {
           .home-icon06 {
             width: 3rem;
           }
-          .home-text19 {
+          .home-text18 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .home-text20 {
+          .home-text19 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -728,7 +727,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-text21 {
+          .home-text20 {
             color: #000000;
             font-size: 1.5rem;
             font-family: Montserrat;
@@ -738,22 +737,22 @@ const Home = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .home-text22 {
+          .home-text21 {
             color: #000000;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text23 {
+          .home-text22 {
             font-style: normal;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .home-text24 {
+          .home-text23 {
             font-style: normal;
             font-weight: 400;
           }
-          .home-text25 {
+          .home-text24 {
             font-style: normal;
             font-weight: 400;
           }
@@ -761,11 +760,15 @@ const Home = (props) => {
             font-style: normal;
             font-weight: 400;
           }
-          .home-text26 {
+          .home-text25 {
             font-style: normal;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
+          }
+          .home-text26 {
+            font-style: normal;
+            font-weight: 400;
           }
           .home-text27 {
             font-style: normal;
@@ -776,10 +779,6 @@ const Home = (props) => {
             font-weight: 400;
           }
           .home-text29 {
-            font-style: normal;
-            font-weight: 400;
-          }
-          .home-text30 {
             font-style: normal;
             font-weight: 400;
           }
@@ -823,13 +822,13 @@ const Home = (props) => {
             align-self: center;
             object-fit: cover;
           }
-          .home-text31 {
+          .home-text30 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .home-text32 {
+          .home-text31 {
             color: #f2f5f9ff;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
@@ -861,7 +860,7 @@ const Home = (props) => {
             width: 2rem;
             margin-bottom: 32px;
           }
-          .home-text34 {
+          .home-text33 {
             color: #000000;
             width: 80%;
             text-align: center;
@@ -872,7 +871,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text37 {
+          .home-text36 {
             color: #000000;
             text-align: center;
           }
@@ -931,7 +930,7 @@ const Home = (props) => {
             height: 50px;
             object-fit: cover;
           }
-          .home-text38 {
+          .home-text37 {
             color: #000000;
             text-align: center;
           }
@@ -939,12 +938,12 @@ const Home = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .home-text39 {
+          .home-text38 {
             color: #000000;
             width: 75%;
             text-align: center;
           }
-          .home-text40 {
+          .home-text39 {
             font-weight: 400;
           }
           .home-container18 {
@@ -969,7 +968,7 @@ const Home = (props) => {
             height: 50px;
             object-fit: cover;
           }
-          .home-text41 {
+          .home-text40 {
             color: #000000;
             text-align: center;
           }
@@ -977,7 +976,7 @@ const Home = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .home-text42 {
+          .home-text41 {
             color: #000000;
             width: 75%;
             text-align: center;
@@ -1002,12 +1001,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text44 {
+          .home-text43 {
             color: #000000;
             width: 80%;
             text-align: center;
           }
-          .home-text46 {
+          .home-text45 {
             color: #000000;
             text-align: center;
           }
@@ -1069,12 +1068,12 @@ const Home = (props) => {
               width: 20rem;
               height: auto;
             }
-            .home-text31 {
+            .home-text30 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .home-text32 {
+            .home-text31 {
               width: auto;
               align-self: center;
               text-align: center;
@@ -1139,7 +1138,7 @@ const Home = (props) => {
             .home-container14 {
               height: 30rem;
             }
-            .home-text32 {
+            .home-text31 {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-tripleunit);
             }
@@ -1192,36 +1191,36 @@ const Home = (props) => {
               max-width: 90%;
               min-width: 80%;
             }
-            .home-text04 {
+            .home-text03 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text10 {
+            .home-text09 {
               color: #000000;
               font-size: 1.5rem;
             }
             .home-card1 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .home-text14 {
+            .home-text13 {
               text-align: left;
             }
             .home-card2 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .home-text16 {
+            .home-text15 {
               text-align: left;
             }
-            .home-text18 {
+            .home-text17 {
               text-align: left;
             }
             .home-card21 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .home-text20 {
+            .home-text19 {
               text-align: left;
             }
-            .home-text22 {
+            .home-text21 {
               font-style: italic;
             }
             .home-testimonial-card {

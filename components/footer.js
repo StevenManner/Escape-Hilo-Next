@@ -97,17 +97,61 @@ const Footer = (props) => {
         </div>
         <div className="footer-container13">
           <div className="footer-container14">
-            <span className="footer-text15 textXS">OTHER RESOURCES</span>
-            <span className="footer-text16 textSM">Terms &amp; Conditions</span>
-            <span className="footer-text17 textSM">Privacy Policy</span>
+            <div className="footer-container15">
+              <div className="footer-container16"></div>
+            </div>
+          </div>
+          <div className="footer-container17">
+            <div className="footer-container18">
+              <div className="footer-container19">
+                <span className="footer-text15 textXS">OTHER RESOURCES</span>
+                <span className="footer-text16 textSM">
+                  Terms &amp; Conditions
+                </span>
+                <span className="footer-text17 textSM">Privacy Policy</span>
+              </div>
+            </div>
+            <div className="footer-container20">
+              <div className="footer-container21">
+                <span className="footer-text18 textXS">MENU</span>
+                <a
+                  href="https://escapehilo.com/book-a-room"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="footer-link4 textSM"
+                >
+                  BOOK A ROOM
+                </a>
+                <a
+                  href="https://escapehilo.com/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="footer-link5 textSM"
+                >
+                  <span>HOME</span>
+                </a>
+                <a
+                  href="https://escapehilo.com/about"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="footer-link6 textSM"
+                >
+                  ABOUT
+                </a>
+                <a
+                  href="https://escapehilo.com/frequently-asked-questions"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="footer-link7 textSM"
+                >
+                  <span>FAQ</span>
+                </a>
+              </div>
+            </div>
+            <div className="footer-container22"></div>
           </div>
         </div>
-        <div className="footer-container15">
-          <div className="footer-container16">
-            <div className="footer-container17"></div>
-          </div>
-        </div>
-        <span className="footer-text18 textSM">
+        <span className="footer-text21 textSM">
           <span>
             Copyright 2022 Hilo Experience LLC dba Escape Hilo |
             <span
@@ -121,7 +165,7 @@ const Footer = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <span className="footer-text20">Design by Manner Media LLC</span>
+            <span className="footer-text23">Design by Manner Media LLC</span>
           </a>
         </span>
       </div>
@@ -316,12 +360,53 @@ const Footer = (props) => {
           }
           .footer-container13 {
             flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .footer-container14 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .footer-container15 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .footer-container16 {
+            flex: 0 0 auto;
+            width: auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .footer-container17 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .footer-container18 {
+            flex: 0 0 auto;
             height: auto;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .footer-container14 {
+          .footer-container19 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -345,37 +430,65 @@ const Footer = (props) => {
             text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-container15 {
+          .footer-container20 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
             display: flex;
-            align-items: flex-start;
-            justify-content: center;
+            align-items: center;
+            flex-direction: column;
           }
-          .footer-container16 {
+          .footer-container21 {
             flex: 0 0 auto;
-            width: auto;
-            height: auto;
             display: flex;
-            align-items: flex-start;
-            justify-content: center;
-          }
-          .footer-container17 {
-            flex: 0 0 auto;
-            width: auto;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: auto;
-            display: flex;
-            align-items: flex-start;
+            align-self: center;
+            align-items: stretch;
+            flex-direction: column;
             justify-content: center;
           }
           .footer-text18 {
+            color: var(--dl-color-secondary-400);
+            text-align: center;
+            font-weight: 600;
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .footer-link4 {
+            color: var(--dl-color-secondary-500);
+            text-align: center;
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .footer-link5 {
+            color: var(--dl-color-secondary-500);
+            text-align: center;
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .footer-link6 {
+            color: var(--dl-color-secondary-500);
+            text-align: center;
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .footer-link7 {
+            color: var(--dl-color-secondary-500);
+            text-align: center;
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .footer-container22 {
+            flex: 0 0 auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .footer-text21 {
             color: #000000;
             align-self: center;
-            padding-top: var(--dl-space-space-twoandhalf);
           }
-          .footer-text20 {
+          .footer-text23 {
             text-decoration: underline;
           }
           .footer-root-class-name {
@@ -389,7 +502,10 @@ const Footer = (props) => {
               align-items: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .footer-container14 {
+            .footer-container19 {
+              align-items: center;
+            }
+            .footer-container21 {
               align-items: center;
             }
           }
@@ -414,7 +530,11 @@ const Footer = (props) => {
               align-self: flex-start;
               margin-right: var(--dl-space-space-unit);
             }
-            .footer-container14 {
+            .footer-container19 {
+              width: 33%;
+              align-items: center;
+            }
+            .footer-container21 {
               width: 33%;
               align-items: center;
             }
@@ -444,7 +564,7 @@ const Footer = (props) => {
               width: auto;
               text-align: center;
             }
-            .footer-container13 {
+            .footer-container18 {
               align-items: center;
               justify-content: center;
             }
@@ -458,6 +578,25 @@ const Footer = (props) => {
               text-align: center;
             }
             .footer-text18 {
+              text-align: center;
+            }
+            .footer-link4 {
+              text-align: center;
+            }
+            .footer-link5 {
+              text-align: center;
+            }
+            .footer-link6 {
+              text-align: center;
+            }
+            .footer-link7 {
+              text-align: center;
+            }
+            .footer-container22 {
+              align-items: center;
+              justify-content: center;
+            }
+            .footer-text21 {
               width: 100%;
               height: 100%;
               align-self: flex-start;
