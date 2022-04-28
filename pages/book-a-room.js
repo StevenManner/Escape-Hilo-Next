@@ -45,14 +45,16 @@ const BookARoom = (props) => {
             </h1>
             <span className="book-a-room-text04">
               <span>
-                Escape Hilo is not only Big Island&apos;s top rated Escape Room,
+                Escape Hilo is not only the number #1 Big Island Escape Room,
                 and close to being one of Hawaii&apos;s best escape rooms, it is
-                one of Hilo&apos;s finest experiences. Hilo Hawai&apos;i is a
-                small town with a population of roughly 45,000+
+                one of Hilo&apos;s best adventures. Hilo Hawai&apos;i is a small
+                town with a population of roughly 45,000+
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
-              <br></br>
-              <span></span>
-              <br></br>
               <span>
                 known for its vast island storefronts, bars, and art, downtown
                 Hilo is often one of the many stops across the island to
@@ -70,7 +72,7 @@ const BookARoom = (props) => {
                   }}
                 />
               </span>
-              <span className="book-a-room-text14">else</span>
+              <span className="book-a-room-text11">else</span>
               <span> there is to explore?</span>
               <br></br>
               <span></span>
@@ -94,7 +96,7 @@ const BookARoom = (props) => {
                   }}
                 />
               </span>
-              <span className="book-a-room-text25">and</span>
+              <span className="book-a-room-text22">and</span>
               <span> Kona with parking almost always available out front.</span>
             </span>
           </div>
@@ -177,10 +179,10 @@ const BookARoom = (props) => {
             text-align: center;
             margin-bottom: 32px;
           }
-          .book-a-room-text14 {
+          .book-a-room-text11 {
             font-style: italic;
           }
-          .book-a-room-text25 {
+          .book-a-room-text22 {
             font-style: italic;
           }
           .book-a-room-image {

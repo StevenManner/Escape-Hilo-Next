@@ -35,6 +35,7 @@ const Header = (props) => {
           <div className="header-btn-group">
             <a
               href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;flow=6078"
+              name="Book For Escape Hilo "
               target="_blank"
               rel="noreferrer noopener"
               className="header-link1 button"
@@ -131,8 +132,11 @@ const Header = (props) => {
           .header-container {
             flex: 0 0 auto;
             display: flex;
+            position: relative;
             align-items: center;
+            margin-left: var(--dl-space-space-unit);
             flex-direction: row;
+            justify-content: center;
           }
           .header-link {
             display: contents;

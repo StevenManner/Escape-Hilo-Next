@@ -7,24 +7,30 @@ const NavigationLinks = (props) => {
   return (
     <>
       <nav className={`navigation-links-nav ${props.rootClassName} `}>
-        <Link href="/">
-          <a className="navigation-links-link">{props.text}</a>
-        </Link>
-        <Link href="/about">
-          <a className="navigation-links-link1">{props.text1}</a>
-        </Link>
-        <Link href="/frequently-asked-questions">
-          <a className="navigation-links-link2">{props.text2}</a>
+        <a href="https://escapehilo.com" className="navigation-links-link">
+          {props.HOMEPAGE}
+        </a>
+        <a
+          href="https://escapehilo.com/about"
+          className="navigation-links-link1"
+        >
+          {props.ABOUTESCAPEHILO}
+        </a>
+        <Link
+          href="/frequently-asked-questions"
+          id="faq - frequently asked questions"
+        >
+          <a className="navigation-links-link2">{props.FAQ}</a>
         </Link>
         <a
-          href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;flow=6078"
+          href="https://escapehilo.com/book-a-room"
+          id="book a room"
           target="_blank"
           rel="noreferrer noopener"
           className="navigation-links-link3"
         >
-          {props.text21}
+          {props.BOOK_NOW}
         </a>
-        <span className="navigation-links-text"></span>
       </nav>
       <style jsx>
         {`
@@ -55,16 +61,7 @@ const NavigationLinks = (props) => {
             color: #000000;
             visibility: hidden;
             font-weight: 700;
-            margin-left: 32px;
             text-decoration: none;
-          }
-          .navigation-links-text {
-            color: #000000;
-            margin-left: 32px;
-          }
-
-          .navigation-links-root-class-name8 {
-            margin-right: var(--dl-space-space-doubleunit);
           }
 
           .navigation-links-root-class-name12 {
@@ -96,10 +93,6 @@ const NavigationLinks = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links-text {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .navigation-links-nav {
@@ -116,18 +109,18 @@ const NavigationLinks = (props) => {
 }
 
 NavigationLinks.defaultProps = {
-  text21: 'BOOK NOW',
-  text: 'HOME',
-  text1: 'ABOUT',
-  text2: 'FAQ',
+  BOOK_NOW: 'BOOK NOW',
+  HOMEPAGE: 'HOME',
+  ABOUTESCAPEHILO: 'ABOUT',
+  FAQ: 'FAQ',
   rootClassName: '',
 }
 
 NavigationLinks.propTypes = {
-  text21: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
+  BOOK_NOW: PropTypes.string,
+  HOMEPAGE: PropTypes.string,
+  ABOUTESCAPEHILO: PropTypes.string,
+  FAQ: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
