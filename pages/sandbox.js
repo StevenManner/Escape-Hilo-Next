@@ -23,7 +23,6 @@ const Sandbox = (props) => {
           />
         </Head>
         <div className="sandbox-hero">
-          <div className="sandbox-bg"></div>
           <Header rootClassName="header-root-class-name5"></Header>
           <div className="sandbox-container01">
             <div className="sandbox-container02">
@@ -35,31 +34,27 @@ const Sandbox = (props) => {
                   }}
                 />
               </h1>
+              <iframe
+                src="https://www.youtube.com/embed/zWKYufGwSs4?controls=0"
+                className="sandbox-iframe"
+              ></iframe>
               <span className="sandbox-text01">
                 <span>
                   Recover a lost family heirloom before your time expires. You
                   have 60 minutes to solve your way out
                 </span>
               </span>
-              <video
-                id="https://www.youtube.com/watch?v=zwkyufgwss4"
-                src="https://www.youtube.com/watch?v=zWKYufGwSs4"
-                autoPlay
-                className="sandbox-video"
-              ></video>
-              <video
-                src="https://www.youtube.com/watch?v=zWKYufGwSs4"
-                poster="https://play.teleporthq.io/static/svg/videoposter.svg"
-                autoPlay
-                className="sandbox-video1"
-              ></video>
+              <AppComponent
+                link_button="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;flow=6078"
+                rootClassName="app-component-root-class-name2"
+              ></AppComponent>
             </div>
-            <AppComponent link_button="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;flow=6078"></AppComponent>
             <img
               alt="image"
               src="/playground_assets/white-vector.svg"
               className="sandbox-image"
             />
+            <div className="sandbox-bg"></div>
           </div>
         </div>
         <div className="sandbox-container03">
@@ -373,6 +368,7 @@ const Sandbox = (props) => {
             height: auto;
             display: flex;
             position: inherit;
+            flex-wrap: wrap;
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
@@ -384,25 +380,12 @@ const Sandbox = (props) => {
             height: 80vh;
             display: flex;
             position: relative;
-            align-items: center;
+            flex-wrap: wrap;
+            align-items: stretch;
             flex-direction: column;
             background-size: cover;
+            justify-content: space-between;
             background-image: url("/playground_assets/escapehilo-bigisland-hilohawaii-hawaii's%20finest%20escape%20room-1500h.jpg");
-          }
-          .sandbox-bg {
-            top: 0px;
-            flex: 0 0 auto;
-            left: 0px;
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 100%;
-            display: flex;
-            opacity: 0.7;
-            position: absolute;
-            align-items: center;
-            flex-direction: column;
-            justify-content: flex-end;
-            background-color: var(--dl-color-gray-black);
           }
           .sandbox-container01 {
             top: auto;
@@ -411,13 +394,15 @@ const Sandbox = (props) => {
             height: 100%;
             margin: auto;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
           }
           .sandbox-container02 {
             display: flex;
             z-index: 100;
+            flex-wrap: wrap;
             align-items: center;
             padding-top: var(--dl-space-space-triplequarter);
             padding-left: var(--dl-space-space-tripleunit);
@@ -431,18 +416,18 @@ const Sandbox = (props) => {
             z-index: 100;
             text-align: center;
           }
+          .sandbox-iframe {
+            width: 100%;
+            height: 350px;
+            align-self: center;
+            border-color: #4ec113;
+            border-style: inset;
+            border-width: 1px;
+          }
           .sandbox-text01 {
             color: #ffffff;
             max-width: 600px;
             text-align: center;
-          }
-          .sandbox-video {
-            width: 100%;
-            height: 100%;
-          }
-          .sandbox-video1 {
-            width: 320px;
-            height: 180px;
           }
           .sandbox-image {
             left: auto;
@@ -452,6 +437,21 @@ const Sandbox = (props) => {
             display: none;
             position: absolute;
             object-fit: cover;
+          }
+          .sandbox-bg {
+            top: 0px;
+            flex: 0 0 auto;
+            left: 0px;
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 100%;
+            display: flex;
+            opacity: 0.7;
+            position: absolute;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-gray-black);
           }
           .sandbox-container03 {
             flex: 0 0 auto;
