@@ -158,7 +158,7 @@ const FAQ = (props) => {
             padding-right: var(--dl-space-space-doubleunit);
             flex-direction: column;
             background-size: cover;
-            background-image: url('/playground_assets/junglebg-1500w.jpg');
+            background-image: url("/playground_assets/escapehilo-bigisland-hilohawaii-hawaii's%20finest%20escape%20room%20%5B2%5D1-1500w.jpg");
           }
           .f-a-q-container1 {
             width: 100%;

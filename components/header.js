@@ -238,6 +238,7 @@ const Header = (props) => {
           }
           .header-root-class-name3 {
             align-self: center;
+            margin-bottom: var(--dl-space-space-unit);
           }
 
           .header-root-class-name5 {
