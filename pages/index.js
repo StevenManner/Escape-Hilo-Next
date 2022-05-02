@@ -480,8 +480,9 @@ const HawaiisJungleEscapeRoom = (props) => {
           }
           .hawaiis-jungle-escape-room-text {
             color: var(--dl-color-gray-white);
-            z-index: 100;
             text-align: center;
+            padding-top: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-unit);
           }
           .hawaiis-jungle-escape-room-iframe {
             width: 100%;
