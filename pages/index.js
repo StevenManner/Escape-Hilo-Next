@@ -470,8 +470,6 @@ const HawaiisJungleEscapeRoom = (props) => {
             justify-content: center;
           }
           .hawaiis-jungle-escape-room-container02 {
-            width: 100%;
-            height: 100%;
             display: flex;
             z-index: 100;
             flex-wrap: wrap;
@@ -1305,7 +1303,9 @@ const HawaiisJungleEscapeRoom = (props) => {
               padding-right: var(--dl-space-space-doubleunit);
             }
             .hawaiis-jungle-escape-room-text {
-              margin-top: var(--dl-space-space-unit);
+              margin-top: var(--dl-space-space-halfunit);
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .hawaiis-jungle-escape-room-text04 {
               margin-top: var(--dl-space-space-unit);
