@@ -496,6 +496,7 @@ const HawaiisJungleEscapeRoom = (props) => {
           }
           .hawaiis-jungle-escape-room-text {
             color: var(--dl-color-gray-white);
+            margin-top: var(--dl-space-space-tripleunit);
             text-align: center;
             padding-bottom: var(--dl-space-space-unit);
           }
