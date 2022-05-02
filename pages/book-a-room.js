@@ -29,7 +29,7 @@ const BookARoom = (props) => {
           <div className="book-a-room-container1">
             <div className="book-a-room-container2">
               <span className="book-a-room-text text2XL">
-                MAKE A RESERVATION
+                BOOK A TIME WITH ESCAPE HILO
               </span>
               <iframe
                 src="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"

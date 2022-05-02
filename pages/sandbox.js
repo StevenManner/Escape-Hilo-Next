@@ -26,14 +26,7 @@ const Sandbox = (props) => {
           <Header rootClassName="header-root-class-name5"></Header>
           <div className="sandbox-container01">
             <div className="sandbox-container02">
-              <h1 className="sandbox-text">
-                Jungle Mystery
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </h1>
+              <h1 className="sandbox-text">Ju</h1>
               <iframe
                 src="https://www.youtube.com/embed/zWKYufGwSs4?controls=0"
                 className="sandbox-iframe"
@@ -68,7 +61,7 @@ const Sandbox = (props) => {
           <div className="sandbox-container05">
             <img
               alt="image"
-              src="/playground_assets/355-1400w.png"
+              src="/playground_assets/escape%20room%20pricing%20-%20escape%20hilo's%20winners!%203%20-%20kailua-kona%2C%20hilo%20hi.-1400w.png"
               className="sandbox-image02"
             />
           </div>
@@ -198,14 +191,14 @@ const Sandbox = (props) => {
                 <div className="sandbox-container14">
                   <img
                     alt="image"
-                    src="/playground_assets/2-1500h.jpg"
+                    src="/playground_assets/escape%20hilo's%20winners!%20-%20kailua-kona-1500h.jpg"
                     loading="lazy"
                     className="sandbox-image03"
                   />
                 </div>
                 <img
                   alt="stars"
-                  src="/playground_assets/5stars-200h.png"
+                  src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
                   loading="lazy"
                   className="sandbox-image04"
                 />
@@ -255,7 +248,7 @@ const Sandbox = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/5stars-200h.png"
+            src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
             className="sandbox-image07"
           />
         </div>
@@ -275,7 +268,7 @@ const Sandbox = (props) => {
                 </span>
                 <img
                   alt="image"
-                  src="/playground_assets/5stars-200h.png"
+                  src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
                   className="sandbox-image09"
                 />
                 <span className="sandbox-text38 blinkerParagraphs">
@@ -307,7 +300,7 @@ const Sandbox = (props) => {
                 </span>
                 <img
                   alt="image"
-                  src="/playground_assets/5stars-200h.png"
+                  src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
                   className="sandbox-image11"
                 />
                 <span className="sandbox-text41 blinkerParagraphs">
@@ -347,7 +340,7 @@ const Sandbox = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/5stars-200h.png"
+            src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
             className="sandbox-image13"
           />
         </div>

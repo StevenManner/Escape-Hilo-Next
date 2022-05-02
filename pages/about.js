@@ -106,7 +106,7 @@ const About = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/door-1500w.jpg');
+            background-image: url("/playground_assets/escape%20hilo's%20front%20door%20-%20kailua-kona%2C%20hilo%2C%20hi.-1500w.jpg");
             background-repeat: space;
             background-position: center;
           }

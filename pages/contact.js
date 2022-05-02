@@ -15,7 +15,7 @@ const Contact = (props) => {
           </title>
           <meta
             name="description"
-            content="Escape Hilo has over 100+ 5⭐ reviews on Google and over 1000+ satisfied escapees, experience our Jungle Mystery Room today! 60 minutes from Kona, 10 from Hilo!"
+            content="Escape Hilo, located in Hilo, HI has over 100+ 5⭐ reviews on Google and over 1000+ satisfied escapees, experience our Jungle Mystery Escape Room today!"
           />
           <meta property="og:title" content="Contact - Escape Hilo" />
           <meta
@@ -32,7 +32,6 @@ const Contact = (props) => {
           <div className="contact-container1">
             <div className="contact-container2">
               <h3 className="contact-text healine">CONTACT</h3>
-              <form enctype="text/plain" className="contact-form"></form>
             </div>
           </div>
           <img
@@ -93,10 +92,6 @@ const Contact = (props) => {
           .contact-text {
             color: var(--dl-color-secondary-400);
             text-align: center;
-          }
-          .contact-form {
-            width: 100%;
-            height: 100px;
           }
           .contact-image {
             top: auto;

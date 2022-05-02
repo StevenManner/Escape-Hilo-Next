@@ -12,7 +12,7 @@ const AppComponent = (props) => {
           rel="noreferrer noopener"
           className="component-link button"
         >
-          {props.button}
+          {props.BookYourEscapeRoom}
         </a>
       </div>
       <style jsx>
@@ -43,6 +43,12 @@ const AppComponent = (props) => {
             margin-top: var(--dl-space-space-doubleunit);
             margin-bottom: var(--dl-space-space-doubleunit);
           }
+
+          @media (max-width: 479px) {
+            .component-root-class-name3 {
+              margin-top: var(--dl-space-space-unit);
+            }
+          }
         `}
       </style>
     </>
@@ -51,14 +57,14 @@ const AppComponent = (props) => {
 
 AppComponent.defaultProps = {
   rootClassName: '',
-  button: 'Click Here to Book Your Escape!',
+  BookYourEscapeRoom: 'Click Here to Book Your Escape!',
   link_button:
     'https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&u=84441f3f-1c27-44c8-9146-8ef90bd95998&from-ssl=yes&back=https://www.escapehilo.com/',
 }
 
 AppComponent.propTypes = {
   rootClassName: PropTypes.string,
-  button: PropTypes.string,
+  BookYourEscapeRoom: PropTypes.string,
   link_button: PropTypes.string,
 }
 
