@@ -42,7 +42,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                 <span>Jungle Mystery Escape Room!</span>
               </h1>
               <iframe
-                src="https://www.youtube.com/embed/zWKYufGwSs4?controls=0"
+                src="https://www.youtube.com/embed/zWKYufGwSs4?autoplay=1"
                 className="hawaiis-jungle-escape-room-iframe"
               ></iframe>
               <span className="hawaiis-jungle-escape-room-text04">
@@ -470,9 +470,13 @@ const HawaiisJungleEscapeRoom = (props) => {
             justify-content: center;
           }
           .hawaiis-jungle-escape-room-container02 {
+            width: 100%;
+            height: 100%;
             display: flex;
             z-index: 100;
+            flex-wrap: wrap;
             align-items: center;
+            padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-tripleunit);
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
@@ -481,12 +485,13 @@ const HawaiisJungleEscapeRoom = (props) => {
           .hawaiis-jungle-escape-room-text {
             color: var(--dl-color-gray-white);
             text-align: center;
-            padding-top: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-unit);
+            padding-top: var(--dl-space-space-tripleunit);
+            padding-bottom: var(--dl-space-space-tripleunit);
           }
           .hawaiis-jungle-escape-room-iframe {
-            width: 100%;
+            width: 80%;
             height: 400px;
+            z-index: 0;
           }
           .hawaiis-jungle-escape-room-text04 {
             color: #ffffff;
@@ -506,6 +511,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
           }
