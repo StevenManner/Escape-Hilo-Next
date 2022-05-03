@@ -475,7 +475,7 @@ const HawaiisJungleEscapeRoom = (props) => {
           .hawaiis-jungle-escape-room-iframe {
             width: 80%;
             height: 400px;
-            z-index: 0;
+            z-index: -100;
           }
           .hawaiis-jungle-escape-room-text04 {
             color: #ffffff;
