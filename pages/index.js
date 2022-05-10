@@ -65,14 +65,14 @@ const HawaiisJungleEscapeRoom = (props) => {
         <div className="hawaiis-jungle-escape-room-container03">
           <div className="hawaiis-jungle-escape-room-container04">
             <img
-              alt="Front of Escape Hilo's building in Downtown Hilo, about a 60 minute drive from Kaillua-Kona, HI."
+              alt="Recover a lost heirloom before your time expires. You have 60 minutes to answer puzzles, find clues, and solve your way out! Perfect for friends and families!"
               src="/playground_assets/s._hata_building_hilo-1024x755-1500w.jpg"
               className="hawaiis-jungle-escape-room-image01"
             />
           </div>
           <div className="hawaiis-jungle-escape-room-container05">
             <img
-              alt="Rates are "
+              alt="Experience Big Island's Escape Room: Jungle Mystery"
               src="/playground_assets/escape%20room%20pricing%20-%20escape%20hilo's%20winners!%203%20-%20kailua-kona%2C%20hilo%20hi.-1400w.png"
               className="hawaiis-jungle-escape-room-image02"
             />
@@ -224,7 +224,7 @@ const HawaiisJungleEscapeRoom = (props) => {
               <div className="hawaiis-jungle-escape-room-container13">
                 <div className="hawaiis-jungle-escape-room-container14">
                   <img
-                    alt="Escape Hilo winners, a family visiting Hawaii"
+                    alt="Big Island's Jungle Mystery Escape Room | 60 minutes to crack the code"
                     src="/playground_assets/ryan_6-1500h.webp"
                     loading="lazy"
                     className="hawaiis-jungle-escape-room-image03"
