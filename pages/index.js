@@ -1235,6 +1235,9 @@ const HawaiisJungleEscapeRoom = (props) => {
             .hawaiis-jungle-escape-room-container07 {
               width: 100%;
             }
+            .hawaiis-jungle-escape-room-iframe {
+              width: 100%;
+            }
             .hawaiis-jungle-escape-room-work-with-us {
               margin-top: var(--dl-space-space-tripleunit);
               flex-direction: column;
