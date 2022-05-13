@@ -1216,7 +1216,7 @@ const HawaiisJungleEscapeRoom = (props) => {
           }
           @media (max-width: 767px) {
             .hawaiis-jungle-escape-room-hero {
-              height: auto;
+              height: 70vh;
             }
             .hawaiis-jungle-escape-room-container02 {
               height: 100%;
