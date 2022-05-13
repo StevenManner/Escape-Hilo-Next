@@ -1146,6 +1146,9 @@ const HawaiisJungleEscapeRoom = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 991px) {
+            .hawaiis-jungle-escape-room-iframe {
+              width: 100%;
+            }
             .hawaiis-jungle-escape-room-cards-container {
               align-items: center;
               padding-top: var(--dl-space-space-halfunit);
