@@ -1342,6 +1342,7 @@ const HawaiisJungleEscapeRoom = (props) => {
               font-size: 1.5rem;
             }
             .hawaiis-jungle-escape-room-iframe {
+              width: 100%;
               padding-top: 3rem;
               padding-bottom: 3rem;
             }
