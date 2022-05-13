@@ -297,7 +297,7 @@ const Footer = (props) => {
             background-color: var(--dl-color-gray-white);
           }
           .footer-icon {
-            fill: #4267B2;
+            fill: #4267b2;
             width: 25px;
             height: 25px;
           }

@@ -865,7 +865,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             margin-right: auto;
             border-radius: var(--dl-radius-radius-radius50);
             flex-direction: column;
-            background-color: #09A6E9;
+            background-color: #09a6e9;
           }
           .hawaiis-jungle-escape-room-container14 {
             width: 100%;
@@ -1216,7 +1216,11 @@ const HawaiisJungleEscapeRoom = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .hawaiis-jungle-escape-room-hero {
+              height: auto;
+            }
             .hawaiis-jungle-escape-room-container02 {
+              height: 100%;
               z-index: 100;
             }
             .hawaiis-jungle-escape-room-text {
