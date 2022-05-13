@@ -34,16 +34,13 @@ const HawaiisJungleEscapeRoom = (props) => {
         <div className="hawaiis-jungle-escape-room-hero">
           <div className="hawaiis-jungle-escape-room-container01">
             <div className="hawaiis-jungle-escape-room-container02">
-              <h1 className="hawaiis-jungle-escape-room-text">
-                <span>Escape Hilo presents...</span>
-                <br></br>
+              <span className="hawaiis-jungle-escape-room-text">
+                Escape Hilo presents...
+              </span>
+              <h1 className="hawaiis-jungle-escape-room-text01">
                 <span>Jungle Mystery Escape Room!</span>
               </h1>
-              <iframe
-                src="https://www.youtube.com/embed/zWKYufGwSs4?autoplay=1"
-                className="hawaiis-jungle-escape-room-iframe"
-              ></iframe>
-              <span className="hawaiis-jungle-escape-room-text04">
+              <span className="hawaiis-jungle-escape-room-text03">
                 <span>
                   Recover a lost family heirloom before your time expires. You
                   have 60 minutes to solve your way out
@@ -78,7 +75,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             />
           </div>
         </div>
-        <span className="hawaiis-jungle-escape-room-text06">
+        <span className="hawaiis-jungle-escape-room-text05">
           <span>
             Come and experience the popular physical adventure game right here
             in Downtown Hilo at the historic S.Hata Building! Escape Hilo is a
@@ -92,7 +89,7 @@ const HawaiisJungleEscapeRoom = (props) => {
         <label
           id="time"
           htmlFor="time"
-          className="hawaiis-jungle-escape-room-text08 textarea"
+          className="hawaiis-jungle-escape-room-text07 textarea"
         >
           <span>60:00</span>
         </label>
@@ -100,18 +97,22 @@ const HawaiisJungleEscapeRoom = (props) => {
         <div className="hawaiis-jungle-escape-room-section1">
           <div className="hawaiis-jungle-escape-room-container06">
             <div className="hawaiis-jungle-escape-room-container07">
-              <h6 className="hawaiis-jungle-escape-room-text10">
+              <h6 className="hawaiis-jungle-escape-room-text09">
                 <span>Escape hilo presents...</span>
               </h6>
-              <h3 className="hawaiis-jungle-escape-room-text12">
+              <h3 className="hawaiis-jungle-escape-room-text11">
                 YOUR MISSION: Escape Hilo&apos;s Jungle Mystery Escape Room
               </h3>
-              <span className="hawaiis-jungle-escape-room-text13">
-                <span className="hawaiis-jungle-escape-room-text14">
+              <span className="hawaiis-jungle-escape-room-text12">
+                <span className="hawaiis-jungle-escape-room-text13">
                   Your group has 1 hour to escape!
                 </span>
               </span>
             </div>
+            <iframe
+              src="https://www.youtube.com/embed/zWKYufGwSs4"
+              className="hawaiis-jungle-escape-room-iframe"
+            ></iframe>
             <div className="hawaiis-jungle-escape-room-cards-container">
               <div className="hawaiis-jungle-escape-room-card1">
                 <div className="hawaiis-jungle-escape-room-container08">
@@ -122,10 +123,10 @@ const HawaiisJungleEscapeRoom = (props) => {
                     <path d="M992.262 871.396l-242.552-206.294c-25.074-22.566-51.89-32.926-73.552-31.926 57.256-67.068 91.842-154.078 91.842-249.176 0-212.078-171.922-384-384-384-212.076 0-384 171.922-384 384s171.922 384 384 384c95.098 0 182.108-34.586 249.176-91.844-1 21.662 9.36 48.478 31.926 73.552l206.294 242.552c35.322 39.246 93.022 42.554 128.22 7.356s31.892-92.898-7.354-128.22zM384 640c-141.384 0-256-114.616-256-256s114.616-256 256-256 256 114.616 256 256-114.614 256-256 256z"></path>
                   </svg>
                 </div>
-                <h6 className="hawaiis-jungle-escape-room-text15 textXL">
+                <h6 className="hawaiis-jungle-escape-room-text14 textXL">
                   FOLLOW THE CLUES
                 </h6>
-                <span className="hawaiis-jungle-escape-room-text16">
+                <span className="hawaiis-jungle-escape-room-text15">
                   There are clues hidden throughout the game room that help
                   guide your next decision
                 </span>
@@ -139,10 +140,10 @@ const HawaiisJungleEscapeRoom = (props) => {
                     <path d="M704 0c-176.73 0-320 143.268-320 320 0 20.026 1.858 39.616 5.376 58.624l-389.376 389.376v192c0 35.346 28.654 64 64 64h64v-64h128v-128h128v-128h128l83.042-83.042c34.010 12.316 70.696 19.042 108.958 19.042 176.73 0 320-143.268 320-320s-143.27-320-320-320zM799.874 320.126c-53.020 0-96-42.98-96-96s42.98-96 96-96 96 42.98 96 96-42.98 96-96 96z"></path>
                   </svg>
                 </div>
-                <h6 className="hawaiis-jungle-escape-room-text17 textXL">
+                <h6 className="hawaiis-jungle-escape-room-text16 textXL">
                   FIND THE KEYS
                 </h6>
-                <span className="hawaiis-jungle-escape-room-text18">
+                <span className="hawaiis-jungle-escape-room-text17">
                   Keys are used to progress to the next puzzle, can you find
                   them all before time runs out?
                 </span>
@@ -156,10 +157,10 @@ const HawaiisJungleEscapeRoom = (props) => {
                     <path d="M426 726l384-384-60-62-324 324-152-152-60 60zM810 128q36 0 61 25t25 61v596q0 36-25 61t-61 25h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                   </svg>
                 </div>
-                <h6 className="hawaiis-jungle-escape-room-text19 textXL">
+                <h6 className="hawaiis-jungle-escape-room-text18 textXL">
                   SOLVE THE MYSTERY
                 </h6>
-                <span className="hawaiis-jungle-escape-room-text20">
+                <span className="hawaiis-jungle-escape-room-text19">
                   Solve your way through the Jungle Themed Escape Room by using
                   your wits and creativity
                 </span>
@@ -175,10 +176,10 @@ const HawaiisJungleEscapeRoom = (props) => {
                     <path d="M804.571 73.143c0 211.429-101.143 364.571-213.143 438.857 112 74.286 213.143 227.429 213.143 438.857h54.857c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-841.143c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h54.857c0-211.429 101.143-364.571 213.143-438.857-112-74.286-213.143-227.429-213.143-438.857h-54.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h841.143c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-54.857zM499.429 477.714c115.429-43.429 232-196 232-404.571h-585.143c0 208.571 116.571 361.143 232 404.571 14.286 5.143 24 18.857 24 34.286s-9.714 29.143-24 34.286c-49.143 18.286-98.857 57.143-139.429 112h400c-40.571-54.857-90.286-93.714-139.429-112-14.286-5.143-24-18.857-24-34.286s9.714-29.143 24-34.286z"></path>
                   </svg>
                 </div>
-                <h6 className="hawaiis-jungle-escape-room-text21 textXL">
+                <h6 className="hawaiis-jungle-escape-room-text20 textXL">
                   60 MINUTE TIME LIMIT
                 </h6>
-                <span className="hawaiis-jungle-escape-room-text22">
+                <span className="hawaiis-jungle-escape-room-text21">
                   Can you and your group solve all the puzzles before time runs
                   out?
                 </span>
@@ -187,11 +188,11 @@ const HawaiisJungleEscapeRoom = (props) => {
             <AppComponent></AppComponent>
             <div className="hawaiis-jungle-escape-room-work-with-us">
               <div className="hawaiis-jungle-escape-room-container12">
-                <h3 className="hawaiis-jungle-escape-room-text23">
+                <h3 className="hawaiis-jungle-escape-room-text22">
                   Not convinced? Hear from our previous winners!
                 </h3>
-                <span className="hawaiis-jungle-escape-room-text24 blinkerParagraphs">
-                  <span className="hawaiis-jungle-escape-room-text25">
+                <span className="hawaiis-jungle-escape-room-text23 blinkerParagraphs">
+                  <span className="hawaiis-jungle-escape-room-text24">
                     Awesome game, awesome time. This was my first time playing
                     and what I had envisioned it to be; it was exactly that. It
                     was exciting, challenging, and completely well thought out.
@@ -202,18 +203,18 @@ const HawaiisJungleEscapeRoom = (props) => {
                       }}
                     />
                   </span>
-                  <br className="hawaiis-jungle-escape-room-text26"></br>
-                  <span className="hawaiis-jungle-escape-room-text27"></span>
+                  <br className="hawaiis-jungle-escape-room-text25"></br>
+                  <span className="hawaiis-jungle-escape-room-text26"></span>
                   <br className="hawaiis-jungle-escape-room-br"></br>
-                  <span className="hawaiis-jungle-escape-room-text28">
+                  <span className="hawaiis-jungle-escape-room-text27">
                     The experience was amazing. Unlike anything else in Hilo.
                     Definitely would recommend to any locals or anyone visiting
                     the island. - Elias
                   </span>
-                  <br className="hawaiis-jungle-escape-room-text29"></br>
-                  <span className="hawaiis-jungle-escape-room-text30"></span>
-                  <br className="hawaiis-jungle-escape-room-text31"></br>
-                  <span className="hawaiis-jungle-escape-room-text32">
+                  <br className="hawaiis-jungle-escape-room-text28"></br>
+                  <span className="hawaiis-jungle-escape-room-text29"></span>
+                  <br className="hawaiis-jungle-escape-room-text30"></br>
+                  <span className="hawaiis-jungle-escape-room-text31">
                     We have done a couple of Escape Rooms before and this one
                     was really ingenious, and challenging enough to be fun but
                     not too hard. A great way to spend an hour in Hilo! - Jim
@@ -236,7 +237,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                   loading="lazy"
                   className="hawaiis-jungle-escape-room-image04"
                 />
-                <h4 className="hawaiis-jungle-escape-room-text33 healine">
+                <h4 className="hawaiis-jungle-escape-room-text32 healine">
                   <span>
                     100+ Five Star
                     <span
@@ -248,7 +249,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                   <br></br>
                   <span>Reviews on Google!</span>
                 </h4>
-                <span className="hawaiis-jungle-escape-room-text37 blinkerParagraphs">
+                <span className="hawaiis-jungle-escape-room-text36 blinkerParagraphs">
                   <span>
                     With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
@@ -270,7 +271,7 @@ const HawaiisJungleEscapeRoom = (props) => {
           >
             <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
           </svg>
-          <span className="hawaiis-jungle-escape-room-text39 blinkerParagraphs">
+          <span className="hawaiis-jungle-escape-room-text38 blinkerParagraphs">
             <span>
               Escape Hilo provided my sister and I a great experience! Did we
               escape? No. However, we both had a blast running around, solving
@@ -284,7 +285,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             <span>Good luck!</span>
           </span>
           <div className="hawaiis-jungle-escape-room-testimonial">
-            <span className="hawaiis-jungle-escape-room-text42 montserratTitles">
+            <span className="hawaiis-jungle-escape-room-text41 montserratTitles">
               Ramses G.
             </span>
             <img
@@ -299,7 +300,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
             className="hawaiis-jungle-escape-room-image07"
           />
-          <span className="hawaiis-jungle-escape-room-text43">
+          <span className="hawaiis-jungle-escape-room-text42">
             <span>Hilo, Hawaii</span>
           </span>
         </div>
@@ -314,7 +315,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                   loading="lazy"
                   className="hawaiis-jungle-escape-room-image08"
                 />
-                <span className="hawaiis-jungle-escape-room-text45 montserratTitles">
+                <span className="hawaiis-jungle-escape-room-text44 montserratTitles">
                   Julie R.
                 </span>
                 <img
@@ -322,8 +323,8 @@ const HawaiisJungleEscapeRoom = (props) => {
                   src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
                   className="hawaiis-jungle-escape-room-image09"
                 />
-                <span className="hawaiis-jungle-escape-room-text46 blinkerParagraphs">
-                  <span className="hawaiis-jungle-escape-room-text47">
+                <span className="hawaiis-jungle-escape-room-text45 blinkerParagraphs">
+                  <span className="hawaiis-jungle-escape-room-text46">
                     {' '}
                     Our family had an absolute blast!! The escape room was super
                     well done, a perfect mix of challenges &amp; fun. The owner
@@ -337,7 +338,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                     />
                   </span>
                 </span>
-                <span className="hawaiis-jungle-escape-room-text48">
+                <span className="hawaiis-jungle-escape-room-text47">
                   <span>Hilo, Hawaii</span>
                 </span>
               </div>
@@ -349,7 +350,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                   loading="lazy"
                   className="hawaiis-jungle-escape-room-image10"
                 />
-                <span className="hawaiis-jungle-escape-room-text50 montserratTitles">
+                <span className="hawaiis-jungle-escape-room-text49 montserratTitles">
                   Tiffany Plagenza
                 </span>
                 <img
@@ -357,7 +358,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                   src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
                   className="hawaiis-jungle-escape-room-image11"
                 />
-                <span className="hawaiis-jungle-escape-room-text51 blinkerParagraphs">
+                <span className="hawaiis-jungle-escape-room-text50 blinkerParagraphs">
                   <span>
                     We escaped! This was the most fun we have had with a great
                     challenge. We came to Hilo, Hawaii just to visit this escape
@@ -365,7 +366,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                     ago. 5 star experience.
                   </span>
                 </span>
-                <span className="hawaiis-jungle-escape-room-text53">
+                <span className="hawaiis-jungle-escape-room-text52">
                   <span>Hilo, Hawaii</span>
                 </span>
               </div>
@@ -380,7 +381,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             <path d="M438.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714zM950.857 182.857v402.286c0 161.143-131.429 292.571-292.571 292.571h-36.571c-20 0-36.571-16.571-36.571-36.571v-73.143c0-20 16.571-36.571 36.571-36.571h36.571c80.571 0 146.286-65.714 146.286-146.286v-18.286c0-30.286-24.571-54.857-54.857-54.857h-128c-60.571 0-109.714-49.143-109.714-109.714v-219.429c0-60.571 49.143-109.714 109.714-109.714h219.429c60.571 0 109.714 49.143 109.714 109.714z"></path>
           </svg>
           <div className="hawaiis-jungle-escape-room-testimonial1">
-            <span className="hawaiis-jungle-escape-room-text55 blinkerParagraphs">
+            <span className="hawaiis-jungle-escape-room-text54 blinkerParagraphs">
               <span>
                 What a cool place. Every escape room has its own uniqueness.
                 This one did not disappoint. The game master is really cool and
@@ -388,7 +389,7 @@ const HawaiisJungleEscapeRoom = (props) => {
                 will ruin the fun. Definitely recommend.
               </span>
             </span>
-            <span className="hawaiis-jungle-escape-room-text57 montserratTitles">
+            <span className="hawaiis-jungle-escape-room-text56 montserratTitles">
               <span>Brandon Hoffman</span>
             </span>
             <img
@@ -403,7 +404,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             src="/playground_assets/escape%20hilo%20google%20maps%20rated%205%20stars-200h.png"
             className="hawaiis-jungle-escape-room-image13"
           />
-          <span className="hawaiis-jungle-escape-room-text59">
+          <span className="hawaiis-jungle-escape-room-text58">
             <span>Hilo, Hawaii</span>
           </span>
         </div>
@@ -466,18 +467,12 @@ const HawaiisJungleEscapeRoom = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .hawaiis-jungle-escape-room-text {
+          .hawaiis-jungle-escape-room-text01 {
             color: var(--dl-color-gray-white);
-            margin-top: var(--dl-space-space-tripleunit);
             text-align: center;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .hawaiis-jungle-escape-room-iframe {
-            width: 80%;
-            height: 400px;
-            z-index: -100;
-          }
-          .hawaiis-jungle-escape-room-text04 {
+          .hawaiis-jungle-escape-room-text03 {
             color: #ffffff;
             max-width: 600px;
             text-align: center;
@@ -523,7 +518,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             width: 20rem;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text06 {
+          .hawaiis-jungle-escape-room-text05 {
             color: #000000;
             width: 100%;
             font-style: normal;
@@ -534,7 +529,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             padding-right: 6rem;
             padding-bottom: var(--dl-space-space-doubleunit);
           }
-          .hawaiis-jungle-escape-room-text08 {
+          .hawaiis-jungle-escape-room-text07 {
             color: #009201;
             font-size: 2rem;
             font-weight: 700;
@@ -568,14 +563,14 @@ const HawaiisJungleEscapeRoom = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .hawaiis-jungle-escape-room-text10 {
+          .hawaiis-jungle-escape-room-text09 {
             color: #39b300;
             font-size: 0.875em;
             font-style: normal;
             font-weight: 700;
             text-transform: uppercase;
           }
-          .hawaiis-jungle-escape-room-text12 {
+          .hawaiis-jungle-escape-room-text11 {
             color: var(--dl-color-secondary-400);
             font-size: 1.12rem;
             text-align: center;
@@ -585,7 +580,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .hawaiis-jungle-escape-room-text13 {
+          .hawaiis-jungle-escape-room-text12 {
             color: #000000;
             font-size: 1.75rem;
             text-align: center;
@@ -597,11 +592,15 @@ const HawaiisJungleEscapeRoom = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .hawaiis-jungle-escape-room-text14 {
+          .hawaiis-jungle-escape-room-text13 {
             display: inline;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
+          }
+          .hawaiis-jungle-escape-room-iframe {
+            width: 75%;
+            height: 30rem;
           }
           .hawaiis-jungle-escape-room-cards-container {
             display: flex;
@@ -634,14 +633,14 @@ const HawaiisJungleEscapeRoom = (props) => {
           .hawaiis-jungle-escape-room-icon {
             width: 3rem;
           }
-          .hawaiis-jungle-escape-room-text15 {
+          .hawaiis-jungle-escape-room-text14 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .hawaiis-jungle-escape-room-text16 {
+          .hawaiis-jungle-escape-room-text15 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -673,14 +672,14 @@ const HawaiisJungleEscapeRoom = (props) => {
           .hawaiis-jungle-escape-room-icon02 {
             width: 3rem;
           }
-          .hawaiis-jungle-escape-room-text17 {
+          .hawaiis-jungle-escape-room-text16 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .hawaiis-jungle-escape-room-text18 {
+          .hawaiis-jungle-escape-room-text17 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -711,14 +710,14 @@ const HawaiisJungleEscapeRoom = (props) => {
           .hawaiis-jungle-escape-room-icon04 {
             width: 3rem;
           }
-          .hawaiis-jungle-escape-room-text19 {
+          .hawaiis-jungle-escape-room-text18 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .hawaiis-jungle-escape-room-text20 {
+          .hawaiis-jungle-escape-room-text19 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -760,14 +759,14 @@ const HawaiisJungleEscapeRoom = (props) => {
           .hawaiis-jungle-escape-room-icon06 {
             width: 3rem;
           }
-          .hawaiis-jungle-escape-room-text21 {
+          .hawaiis-jungle-escape-room-text20 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .hawaiis-jungle-escape-room-text22 {
+          .hawaiis-jungle-escape-room-text21 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -793,7 +792,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .hawaiis-jungle-escape-room-text23 {
+          .hawaiis-jungle-escape-room-text22 {
             color: #000000;
             font-size: 1.5rem;
             font-family: Montserrat;
@@ -803,22 +802,22 @@ const HawaiisJungleEscapeRoom = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .hawaiis-jungle-escape-room-text24 {
+          .hawaiis-jungle-escape-room-text23 {
             color: #000000;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .hawaiis-jungle-escape-room-text25 {
+          .hawaiis-jungle-escape-room-text24 {
             font-style: normal;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .hawaiis-jungle-escape-room-text26 {
+          .hawaiis-jungle-escape-room-text25 {
             font-style: normal;
             font-weight: 400;
           }
-          .hawaiis-jungle-escape-room-text27 {
+          .hawaiis-jungle-escape-room-text26 {
             font-style: normal;
             font-weight: 400;
           }
@@ -826,11 +825,15 @@ const HawaiisJungleEscapeRoom = (props) => {
             font-style: normal;
             font-weight: 400;
           }
-          .hawaiis-jungle-escape-room-text28 {
+          .hawaiis-jungle-escape-room-text27 {
             font-style: normal;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(241, 245, 249);
+          }
+          .hawaiis-jungle-escape-room-text28 {
+            font-style: normal;
+            font-weight: 400;
           }
           .hawaiis-jungle-escape-room-text29 {
             font-style: normal;
@@ -841,10 +844,6 @@ const HawaiisJungleEscapeRoom = (props) => {
             font-weight: 400;
           }
           .hawaiis-jungle-escape-room-text31 {
-            font-style: normal;
-            font-weight: 400;
-          }
-          .hawaiis-jungle-escape-room-text32 {
             font-style: normal;
             font-weight: 400;
           }
@@ -888,13 +887,13 @@ const HawaiisJungleEscapeRoom = (props) => {
             align-self: center;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text33 {
+          .hawaiis-jungle-escape-room-text32 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .hawaiis-jungle-escape-room-text37 {
+          .hawaiis-jungle-escape-room-text36 {
             color: #f2f5f9ff;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
@@ -927,7 +926,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             width: 2rem;
             margin-bottom: 32px;
           }
-          .hawaiis-jungle-escape-room-text39 {
+          .hawaiis-jungle-escape-room-text38 {
             color: #000000;
             width: 80%;
             text-align: center;
@@ -938,7 +937,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .hawaiis-jungle-escape-room-text42 {
+          .hawaiis-jungle-escape-room-text41 {
             color: #000000;
             text-align: center;
           }
@@ -951,7 +950,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text43 {
+          .hawaiis-jungle-escape-room-text42 {
             color: #000000;
             font-size: 0.8rem;
             text-align: center;
@@ -1008,7 +1007,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             height: 50px;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text45 {
+          .hawaiis-jungle-escape-room-text44 {
             color: #000000;
             text-align: center;
           }
@@ -1016,15 +1015,15 @@ const HawaiisJungleEscapeRoom = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text46 {
+          .hawaiis-jungle-escape-room-text45 {
             color: #000000;
             width: 75%;
             text-align: center;
           }
-          .hawaiis-jungle-escape-room-text47 {
+          .hawaiis-jungle-escape-room-text46 {
             font-weight: 400;
           }
-          .hawaiis-jungle-escape-room-text48 {
+          .hawaiis-jungle-escape-room-text47 {
             color: #000000;
             font-size: 0.8rem;
             text-align: center;
@@ -1056,7 +1055,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             height: 50px;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text50 {
+          .hawaiis-jungle-escape-room-text49 {
             color: #000000;
             text-align: center;
           }
@@ -1064,12 +1063,12 @@ const HawaiisJungleEscapeRoom = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text51 {
+          .hawaiis-jungle-escape-room-text50 {
             color: #000000;
             width: 75%;
             text-align: center;
           }
-          .hawaiis-jungle-escape-room-text53 {
+          .hawaiis-jungle-escape-room-text52 {
             color: #000000;
             font-size: 0.8rem;
             text-align: center;
@@ -1099,12 +1098,12 @@ const HawaiisJungleEscapeRoom = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .hawaiis-jungle-escape-room-text55 {
+          .hawaiis-jungle-escape-room-text54 {
             color: #000000;
             width: 80%;
             text-align: center;
           }
-          .hawaiis-jungle-escape-room-text57 {
+          .hawaiis-jungle-escape-room-text56 {
             color: #000000;
             text-align: center;
           }
@@ -1117,7 +1116,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .hawaiis-jungle-escape-room-text59 {
+          .hawaiis-jungle-escape-room-text58 {
             color: #000000;
             font-size: 0.8rem;
             text-align: center;
@@ -1176,12 +1175,12 @@ const HawaiisJungleEscapeRoom = (props) => {
               width: 20rem;
               height: auto;
             }
-            .hawaiis-jungle-escape-room-text33 {
+            .hawaiis-jungle-escape-room-text32 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .hawaiis-jungle-escape-room-text37 {
+            .hawaiis-jungle-escape-room-text36 {
               width: auto;
               align-self: center;
               text-align: center;
@@ -1223,7 +1222,7 @@ const HawaiisJungleEscapeRoom = (props) => {
               height: 100%;
               z-index: 100;
             }
-            .hawaiis-jungle-escape-room-text {
+            .hawaiis-jungle-escape-room-text01 {
               color: #ffffff;
             }
             .hawaiis-jungle-escape-room-section1 {
@@ -1250,7 +1249,7 @@ const HawaiisJungleEscapeRoom = (props) => {
             .hawaiis-jungle-escape-room-container14 {
               height: 30rem;
             }
-            .hawaiis-jungle-escape-room-text37 {
+            .hawaiis-jungle-escape-room-text36 {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-tripleunit);
             }
@@ -1287,9 +1286,21 @@ const HawaiisJungleEscapeRoom = (props) => {
           @media (max-width: 479px) {
             .hawaiis-jungle-escape-room-container {
               flex-wrap: wrap;
+              justify-content: space-between;
             }
             .hawaiis-jungle-escape-room-hero {
-              height: 90vh;
+              height: auto;
+              flex-wrap: wrap;
+              align-self: stretch;
+              align-items: stretch;
+              justify-content: space-between;
+            }
+            .hawaiis-jungle-escape-room-container01 {
+              height: auto;
+              margin-top: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-fiveunits);
             }
             .hawaiis-jungle-escape-room-container02 {
               z-index: 100;
@@ -1297,11 +1308,13 @@ const HawaiisJungleEscapeRoom = (props) => {
               padding-right: var(--dl-space-space-doubleunit);
             }
             .hawaiis-jungle-escape-room-text {
-              margin-top: var(--dl-space-space-halfunit);
+              margin-top: var(--dl-space-space-fiveunits);
+            }
+            .hawaiis-jungle-escape-room-text01 {
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .hawaiis-jungle-escape-room-text04 {
+            .hawaiis-jungle-escape-room-text03 {
               margin-top: var(--dl-space-space-unit);
             }
             .hawaiis-jungle-escape-room-image {
@@ -1314,36 +1327,40 @@ const HawaiisJungleEscapeRoom = (props) => {
               max-width: 90%;
               min-width: 80%;
             }
-            .hawaiis-jungle-escape-room-text06 {
+            .hawaiis-jungle-escape-room-text05 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .hawaiis-jungle-escape-room-text12 {
+            .hawaiis-jungle-escape-room-text11 {
               color: #000000;
               font-size: 1.5rem;
+            }
+            .hawaiis-jungle-escape-room-iframe {
+              padding-top: 3rem;
+              padding-bottom: 3rem;
             }
             .hawaiis-jungle-escape-room-card1 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .hawaiis-jungle-escape-room-text16 {
+            .hawaiis-jungle-escape-room-text15 {
               text-align: left;
             }
             .hawaiis-jungle-escape-room-card2 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .hawaiis-jungle-escape-room-text18 {
+            .hawaiis-jungle-escape-room-text17 {
               text-align: left;
             }
-            .hawaiis-jungle-escape-room-text20 {
+            .hawaiis-jungle-escape-room-text19 {
               text-align: left;
             }
             .hawaiis-jungle-escape-room-card21 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .hawaiis-jungle-escape-room-text22 {
+            .hawaiis-jungle-escape-room-text21 {
               text-align: left;
             }
-            .hawaiis-jungle-escape-room-text24 {
+            .hawaiis-jungle-escape-room-text23 {
               font-style: italic;
             }
             .hawaiis-jungle-escape-room-testimonial-card {
