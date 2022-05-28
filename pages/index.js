@@ -69,7 +69,6 @@ const HawaiisJungleEscapeRoom = (props) => {
           </div>
           <div className="hawaiis-jungle-escape-room-container05">
             <img
-              alt="Experience Big Island's Escape Room: Jungle Mystery"
               src="/playground_assets/escape%20room%20pricing%20-%20escape%20hilo's%20winners!%203%20-%20kailua-kona%2C%20hilo%20hi.-1400w.png"
               className="hawaiis-jungle-escape-room-image02"
             />
@@ -225,7 +224,7 @@ const HawaiisJungleEscapeRoom = (props) => {
               <div className="hawaiis-jungle-escape-room-container13">
                 <div className="hawaiis-jungle-escape-room-container14">
                   <img
-                    alt="Big Island's Jungle Mystery Escape Room | 60 minutes to crack the code"
+                    alt="Experience Big Island's Escape Room: Jungle Mystery"
                     src="/playground_assets/ryan_6-1500h.webp"
                     loading="lazy"
                     className="hawaiis-jungle-escape-room-image03"
